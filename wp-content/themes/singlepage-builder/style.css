@@ -1,0 +1,132 @@
+/*
+ Theme Name:   Singlepage Builder
+ Theme URI:    http://www.themehunk.com/product/singlepage-builder/
+ Description:  Singlepage Builder is a versatile one page theme for creating beautiful websites. This theme comes with powerful features which will help you in designing a wonderful website for any type of niche (Business, Landing page, E-commerce, Local business, Personal website). It is the most advanced free WordPress theme available on the web with live customizer. This theme comes with fully responsive slider with clean and elegant design. Theme supports drag & drop widget for section content, Woocommerce section to feature your product at home page and use your site as an online store. Contact section with lead generation functionality. These all section is supported by our plugin ThemeHunk customizer.
+ Author:       ThemeHunk Team
+ Author URI:   http://www.themehunk.com/
+ Template:     oneline-lite
+ Version:      1.0.2
+ License:      GNU General Public License v3 or later
+ License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+Tags:one-column, two-columns, grid-layout, right-sidebar, custom-colors, custom-menu, theme-options, sticky-post, translation-ready, footer-widgets, blog  
+ Text Domain:  singlepage-builder
+*/
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+}
+.service-grid .service-list {
+	    background: #fff;
+-webkit-box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.11);
+    box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.11);
+    border-radius: 10px;
+font-size: 14px;
+    line-height: 1.8em;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    padding-top: 30px!important;
+    padding-right: 20px!important;
+    padding-bottom: 40px!important;
+    padding-left: 20px!important;
+}
+figure.team-content, figure.post-content, .image-test img, .woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .home #contact .leadform-show-form.leadform-lite input[type="submit"] {
+-webkit-box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.11);
+    box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.11);
+    border-radius: 10px;
+    line-height: 1.8em;
+    border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+.woocommerce ul.products li.product a, .price-content .plan-select-features a, #latest-post span.read-more a, #ribbon .header-button.left-button{
+-webkit-box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.11);
+    box-shadow: 0px 2px 40px 0px rgba(110,130,208,0.11);
+    border-radius: 10px;
+    line-height: 1.4em;
+    border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+.woocommerce ul.products li.product .onsale {
+    top: 10px;
+    right: 10px;
+}
+figure.team-content img {
+    max-width: 100%;
+    margin: 0px 0;
+    padding: 0 0px 0% 0px;
+}
+figure.team-content figcaption {
+    background: rgba(0, 0, 0, 0.6);
+}
+figure.team-content h3 {
+    background: transparent;
+}
+figure.team-content h3{
+color:#fff;
+}
+figure.team-content h4{
+color:#fff;
+}
+li .team-social-social i{
+color:#fff;
+}
+.caption-container {
+ opacity: 1!important;
+}
+.flex-direction-nav .flex-prev, .flex-direction-nav .flex-next{
+display:none;
+}
+h2.main-heading {
+    font-size: 52px;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin-bottom: 20px!important;
+    color: #2b2d3a;
+}
+.sub-heading {
+    color: rgb(150, 156, 179);
+    font-size: 14px!important;
+    font-style: normal;
+    letter-spacing: 2px!important;
+    line-height: 22px!important;
+}
+#contact .cnt-main-heading{
+    font-size: 52px;
+    font-style: normal;
+    letter-spacing: 0px;
+    margin-bottom: 20px!important;
+  }
+#contact .cnt-sub-heading{
+    color: rgb(150, 156, 179);
+    font-size: 14px!important;
+    font-style: normal;
+    letter-spacing: 2px!important;
+    line-height: 22px!important;
+}
+.button-three .theme-slider-button{
+border-radius:10px;
+}
+.button-three .theme-slider-button:hover{
+border-radius:10px;
+}
+#ribbon .header-button.left-button:hover, .woocommerce ul.products li.product .button:hover{
+letter-spacing:2.5px;
+}
+#latest-post span.read-more a:hover{
+letter-spacing:2.5px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#latest-post span.read-more a, .header-button.left-button, .woocommerce ul.products li.product .button{
+text-transform: uppercase;
+font-weight: 500;
+    line-height: 1.7em !important;
+}
+@media (min-width: 981px){
+.caption-container h2 {
+      font-size: 64px;
+    text-transform: uppercase!important;
+}
+}

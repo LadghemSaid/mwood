@@ -1,0 +1,539 @@
+# Copyright (C) 2019 CodeGearThemes
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Acoustics 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.codegearthemes.com/pages/contact/\n"
+"POT-Creation-Date: 2019-06-30 16:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Last-Translator: CodeGearThemes <info@codegearthemes.com>\n"
+"Language-Team: CodeGearThemes <info@codegearthemes.com>\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: 404.php:24
+msgid "404"
+msgstr ""
+
+#: 404.php:28
+msgid "Error!"
+msgstr ""
+
+#: 404.php:30
+msgid "Sorry! Page not Found"
+msgstr ""
+
+#: 404.php:31
+msgid "Return to Home"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:39
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:47
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:72 template-parts/header/header-default.php:33
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:30
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: app/acoustics-plugin.php:11
+msgid "Everest Forms"
+msgstr ""
+
+#: app/acoustics-plugin.php:18
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/acoustics-functions.php:57 inc/acoustics-functions.php:73
+msgid "Continue reading"
+msgstr ""
+
+#: inc/breadcrumb.php:264
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumb.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#. Name of the template
+#: inc/breadcrumb.php:266
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumb.php:268
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query.
+#: inc/breadcrumb.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumb.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumb.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb.php:788 inc/breadcrumb.php:817 inc/breadcrumb.php:844
+#: inc/breadcrumb.php:871 inc/breadcrumb.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb.php:789 inc/breadcrumb.php:845 inc/breadcrumb.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb.php:790 inc/breadcrumb.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:49
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:66
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/template-tags.php:69 inc/template-tags.php:76
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:73
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:86
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:103 template-parts/content-page.php:34
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/woocommerce.php:285
+msgid "View your shopping cart"
+msgstr ""
+
+#. number of items in the mini cart.
+#: inc/woocommerce.php:289
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce.php:346 inc/core/acoustics-customizer.php:239
+#: inc/core/acoustics-customizer.php:316
+msgid "Select Category"
+msgstr ""
+
+#: inc/woocommerce.php:356
+msgid "Sale"
+msgstr ""
+
+#. Name of the template
+msgid "FullWidth"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content-single.php:50
+#: template-parts/content.php:39
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:16
+msgid "Color Schema"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:17
+msgid "Color schema settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:23
+msgid "Header Color"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:26
+msgid "Body Color"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:33
+msgid "Social Profiles"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:34
+msgid "Social settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:40
+msgid "Social Links"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:65
+msgid "Header Settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:66
+msgid "Header section & settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:77
+msgid "Home Sections"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:78
+msgid "Home / Landing page settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:84
+msgid "Hero Section"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:94
+msgid "Caption Title"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:108
+msgid "Caption Details"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:123 inc/core/acoustics-customizer.php:200
+msgid "Button Link"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:132
+msgid "Featured Section"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:146 inc/core/acoustics-customizer.php:224
+#: inc/core/acoustics-customizer.php:262 inc/core/acoustics-customizer.php:301
+#: inc/core/acoustics-customizer.php:339 inc/core/acoustics-customizer.php:382
+msgid "Enable Section"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:162 inc/core/acoustics-customizer.php:399
+msgid "Upload image"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:175 inc/core/acoustics-customizer.php:413
+msgid "Title"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:187 inc/core/acoustics-customizer.php:426
+msgid "Content"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:211
+#: template-parts/sections/section-newarrival.php:16
+msgid "New Arrivals"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:240 inc/core/acoustics-customizer.php:317
+msgid "Display product from the selected product category as new arrival."
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:248
+msgid "Featured Category"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:278 inc/core/acoustics-customizer.php:356
+msgid "Category"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:279 inc/core/acoustics-customizer.php:357
+msgid "Display product category."
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:288
+#: template-parts/sections/section-bestseller.php:16
+msgid "Best Sellers"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:325
+msgid "Category Grid"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:368
+msgid "Proposition"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:435
+msgid "Landing Page"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:442
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:443
+msgid "Footer section & settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:449
+msgid "Copyright Setting"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:461
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:470
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:471
+msgid "Archive, post & page layout settings"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:478 inc/core/acoustics-customizer.php:494
+msgid "Archive Sidebar"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:505 inc/core/acoustics-customizer.php:521
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/core/acoustics-customizer.php:532 inc/core/acoustics-customizer.php:548
+msgid "Post Sidebar"
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:15 inc/widgets/acoustics-widgets.php:26
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:24
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:35
+msgid "Footer Column I "
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:37 inc/widgets/acoustics-widgets.php:47
+#: inc/widgets/acoustics-widgets.php:57 inc/widgets/acoustics-widgets.php:67
+#: inc/widgets/acoustics-widgets.php:77
+msgid "Footer widget that appears on the sub-footer."
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:45
+msgid "Footer Column II "
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:55
+msgid "Footer Column III"
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:65
+msgid "Footer Column IV"
+msgstr ""
+
+#: inc/widgets/acoustics-widgets.php:75
+msgid "Footer Column V"
+msgstr ""
+
+#: template-parts/footer/footer-copyright.php:10
+#: template-parts/footer/footer-copyright.php:16
+msgid "Free WordPress Theme"
+msgstr ""
+
+#. Name of the theme
+#: template-parts/footer/footer-copyright.php:11
+#: template-parts/footer/footer-copyright.php:17
+msgid "Acoustics"
+msgstr ""
+
+#: template-parts/footer/footer-copyright.php:13
+#: template-parts/footer/footer-copyright.php:19
+msgid " by CodeGearThemes"
+msgstr ""
+
+#: template-parts/footer/footer-copyright.php:20
+msgid "Powered by WordPress"
+msgstr ""
+
+#: template-parts/sections/section-bestseller.php:58
+#: template-parts/sections/section-newarrival.php:58
+msgid "No Category Selected"
+msgstr ""
+
+#: template-parts/sections/section-collection-grid.php:12
+msgid "Shop By Category"
+msgstr ""
+
+#: template-parts/sections/section-featured-images.php:33
+#: template-parts/sections/section-hero.php:26
+msgid "Shop Now"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:46
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:81
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:89
+msgid "No products in the cart."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Acoustics is an modern eCommerce WordPress theme with pixel perfect design "
+"and extensive functionality to create your own professional and unique "
+"online store."
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.codegearthemes.com/products/acoustics"
+msgstr ""
+
+#. Author of the theme
+msgid "CodeGearThemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.codegearthemes.com"
+msgstr ""
