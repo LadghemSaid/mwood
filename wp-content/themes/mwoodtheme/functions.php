@@ -11,15 +11,6 @@ if ( ! isset( $content_width ) ) {
     $content_width = 980; /* pixels */
 }
 
-$storefront = (object) array(
-    'version'    => $storefront_version,
-
-    /**
-     * Initialize all the things.
-     */
-    'main'       => require 'inc/class-storefront.php',
-    'customizer' => require 'inc/customizer/class-storefront-customizer.php',
-);
 
 require 'inc/storefront-functions.php';
 require 'inc/storefront-template-hooks.php';
