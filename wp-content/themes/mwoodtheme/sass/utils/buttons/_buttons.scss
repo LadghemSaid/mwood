@@ -1,0 +1,185 @@
+/* BUTTONS */
+
+.castorBtn {
+  &-primary {
+    display: block;
+    cursor: pointer;
+    flex: 0 0 auto;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: $primary;
+    color: $bright;
+    font-weight: $black;
+    padding: 15px 40px;
+    font-size: $small;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0);
+    @extend %animateAll;
+
+    &:hover {
+      transform: scale(1.05);
+      color: $bright;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3)
+    }
+
+    &:focus {
+      color: $bright;
+    }
+
+    &--black {
+      background-color: $secondary;
+    }
+  }
+
+  &-secondary {
+    display: block;
+    cursor: pointer;
+    flex: 0 0 auto;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: $blue-dark;
+    color: $bright;
+    font-weight: $black;
+    padding: 15px 40px;
+    font-size: $small;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0);
+    @extend %animateAll;
+
+
+    &:hover {
+      transform: scale(1.05);
+      color: $bright;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3)
+    }
+  }
+
+  &-whiteVoid {
+    display: block;
+    cursor: pointer;
+    flex: 0 1 auto;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid $bright;
+    background-color: transparent;
+    color: $bright;
+    font-weight: $black;
+    padding: 15px 40px;
+    font-size: $small;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0);
+    @extend %animateAll;
+
+    &:hover {
+      transform: scale(1.05);
+      color: $bright;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3)
+    }
+  }
+
+  &-absoluteCenter {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    text-align: center;
+
+    &:hover {
+      transform: translateX(-50%) scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      position: relative;
+      transform: none;
+      left: unset;
+      width: max-content;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.offsetBtn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  &-full {
+    button {
+      width: 100%;
+      border-radius: 0 0 5px 5px;
+    }
+
+    .castorBtn-primary {
+      &:hover {
+        transform: none;
+      }
+    }
+
+
+  }
+
+  &.error {
+    button{
+      background: repeating-linear-gradient(
+                      -45deg,
+                      $secondary-bright,
+                      $secondary-bright 15px,
+                      $secondary-brighter 15px,
+                      $secondary-brighter 30px
+      );
+      pointer-events: none;
+      cursor: no-drop;
+      opacity: 0.5;
+    }
+  }
+}
+
+
+.closeBtn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: $secondary-bright;
+    top: 20px;
+    left: 20px;
+    transform: rotate(45deg) translate(-50%, -50%);
+    opacity: 0.3;
+    @extend %animateAll;
+
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: $secondary-bright;
+    top: 9px;
+    left: 10px;
+    transform-origin: center;
+    transform: rotate(-45deg);
+    opacity: 0.3;
+    @extend %animateAll;
+
+  }
+
+  &:hover {
+    &:before, &:after {
+      opacity: 1;
+    }
+  }
+}

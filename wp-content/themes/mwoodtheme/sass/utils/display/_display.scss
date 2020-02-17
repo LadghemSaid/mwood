@@ -1,0 +1,29 @@
+.hidden {
+  display: none !important;
+
+  &-xs {
+    @media (max-width: 575px) {
+      display: none !important;
+    }
+  }
+  &-sm {
+    @media (max-width: 767px) and (min-width: 576px) {
+      display: none !important;
+    }
+  }
+  &-md {
+    @media (max-width: 991px) and (min-width: 768px) {
+      display: none !important;
+    }
+  }
+  &-lg {
+    @media (max-width: 1199px) and (min-width: 992px) {
+      display: none !important;
+    }
+  }
+  &-xl {
+    @media (min-width: 1200px) {
+      display: none !important;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/*
+LINE-HEIGHT
+lh-1..lh-30 = line-height:3
+
+*/
+
+$lh-slug: lh !default;
+
+@for $i from 1 through 30 {
+  .#{$lh-slug}-#{$i} {
+    line-height: $i/10 !important;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        line-height: $i/10 !important
+      }
+    }
+    @media (max-width: 768px) {
+      line-height: unset
+    }
+  }
+}

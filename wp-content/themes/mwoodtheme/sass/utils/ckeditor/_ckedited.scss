@@ -1,0 +1,43 @@
+/* CK EDITOR STYLES */
+.ckEdited {
+  font-size: $small;
+
+  strong {
+    font-weight: $black !important;
+  }
+
+  i {
+    font-style: italic !important;
+
+    &[class^=icon-] {
+      font-style: normal !important;
+    }
+  }
+
+  u, ins {
+    text-decoration: underline !important;
+  }
+
+  ul {
+    list-style: inside !important;
+    line-height: 1.5;
+    font-weight: $light;
+    font-size: $small;
+
+    li {
+      & > ul {
+        padding-left: 20px;
+        list-style: inside circle !important;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  a:not([class^=castorBtn-]) {
+    text-decoration: underline !important;
+  }
+}

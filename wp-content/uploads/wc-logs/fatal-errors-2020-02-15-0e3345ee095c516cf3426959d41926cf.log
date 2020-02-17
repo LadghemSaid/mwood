@@ -1,0 +1,318 @@
+2020-02-15T16:01:09+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\storefront-functions.php:28) dans E:\wamp64\www\mwood\wp-content\themes\storefront\inc\storefront-functions.php à la ligne 36
+
+2020-02-15T16:02:01+00:00 CRITICAL Can't use function return value in write context dans E:\wamp64\www\mwood\wp-content\themes\storefront\functions.php à la ligne 50
+
+2020-02-15T16:57:09+00:00 CRITICAL Cannot redeclare storefront_do_shortcode() (previously declared in E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\storefront-functions.php:28) dans E:\wamp64\www\mwood\wp-content\themes\storefront\inc\storefront-functions.php à la ligne 36
+
+2020-02-15T16:57:33+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_is_woocommerce_activated() in E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\jetpack\class-storefront-jetpack.php:29
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\jetpack\class-storefront-jetpack.php(116): Storefront_Jetpack->__construct()
+#1 E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php(29): require('E:\\wamp64\\www\\m...')
+#2 E:\wamp64\www\mwood\wp-settings.php(497): include('E:\\wamp64\\www\\m...')
+#3 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#4 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#5 E:\wamp64\www\mwood\wp-blog-header.php(13): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\index.php(17): require('E:\\wamp64\\www\\m...')
+#7 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\jetpack\class-storefront-jetpack.php à la ligne 29
+
+2020-02-15T16:58:22+00:00 CRITICAL Cannot redeclare storefront_get_content_background_color() (previously declared in E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\storefront-functions.php:37) dans E:\wamp64\www\mwood\wp-content\themes\storefront\inc\storefront-functions.php à la ligne 65
+
+2020-02-15T16:58:48+00:00 CRITICAL Cannot redeclare storefront_is_product_archive() (previously declared in E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\woocommerce\storefront-woocommerce-functions.php:13) dans E:\wamp64\www\mwood\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-functions.php à la ligne 19
+
+2020-02-15T16:59:37+00:00 CRITICAL Cannot redeclare storefront_get_previous_product() (previously declared in E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\woocommerce\storefront-woocommerce-functions.php:19) dans E:\wamp64\www\mwood\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-functions.php à la ligne 34
+
+2020-02-15T20:46:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:46:56+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:47:02+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:47:05+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:47:29+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:47:31+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:47:34+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:47:39+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:47:41+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:56:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T20:58:54+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php:1456
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): gpls_woo_rfq_CART->woo_custom_cart_button_text('Ajouter au pani...', false)
+#1 E:\wamp64\www\mwood\wp-includes\plugin.php(206): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(470): WC_Product_Simple->add_to_cart_text()
+#4 E:\wamp64\www\mwood\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(443): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart(Object(WC_Product_Simple))
+#5 E:\wamp64\www\ dans E:\wamp64\www\mwood\wp-content\plugins\woo-rfq-for-woocommerce\includes\classes\cart\gpls_woo_rfq_cart.php à la ligne 1456
+
+2020-02-15T21:13:02+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:14:04+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:15:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:16:51+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:17:53+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:18:59+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:20:14+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:21:27+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:22:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:24:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:26:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:27:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:28:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:29:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-15T21:31:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(122): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+

@@ -18,24 +18,52 @@
  */
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
-/** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'wp-mwood' );
 
-/** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'root' );
 
-/** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', 'Azerty123321!' );
+if ($_SERVER["HTTP_HOST"] === 'localhost') {
+    $db_name = 'wp-mwood';
+    $password = '';
+    $user_name = 'root';
+} else if ($_SERVER["HTTP_HOST"] === '34.77.181.91') {
+    $db_name = 'wp-mwood';
+    $password = 'Azerty123321!';
+    $user_name = 'root';
+}
 
-/** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', '127.0.0.1' );
-
-/** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
 
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
   */
+define('DB_COLLATE', '');
+
+define( 'WPMS_ON', true );
+define( 'WPMS_SMTP_PASS', 'Azortresor' );
+
+/** Adresse de l’hébergement MySQL. */
+define( 'DB_HOST', 'localhost' );
+
+/** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
+define( 'DB_CHARSET', 'utf8mb4' );
+
+
+// ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
+define('DB_NAME', $db_name);
+
+/** MySQL database username */
+define('DB_USER', $user_name);
+
+/** MySQL database password */
+define('DB_PASSWORD', $password);
+
+/** Adresse de l’hébergement MySQL. */
+define( 'DB_HOST', 'localhost' );
+
+/** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** Type de collation de la base de données.
+ * N’y touchez que si vous savez ce que vous faites.
+ */
 define('DB_COLLATE', '');
 
 /**#@+
@@ -49,6 +77,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+
 define( 'AUTH_KEY',         'ks0G6ATF9K1~i:D3tX[E]r)%/ABXEFRrRdp@%#rZ?w||tIk%`tE&I),P3Cs4V03:' );
 define( 'SECURE_AUTH_KEY',  'u97ZKOLf##=fO {3VIpRAGu3b;S%DY|qv`<j7we~]L!CW{0fq(.0)_A#Nn{C,l~}' );
 define( 'LOGGED_IN_KEY',    'L#@SaZC}[:7lu4R3tYeUM`:^R#$tIMbT2wmF^qd|T}J<~g]ahS8ziuS&g+L}>? *' );
@@ -92,3 +121,5 @@ if ( !defined('ABSPATH') )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
+//define( 'WP_HOME', 'http://localhost/symfony/mwood/' );
+//define( 'WP_SITEURL', 'http://localhost/symfony/mwood/' );

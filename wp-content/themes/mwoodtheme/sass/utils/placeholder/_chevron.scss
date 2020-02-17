@@ -1,0 +1,29 @@
+%chevron1px {
+  position: absolute;
+  content:'';
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid $secondary-bright;
+  border-right: 1px solid $secondary-bright;
+  transform: rotate(45deg);
+}
+
+%chevron2px {
+  position: absolute;
+  content:'';
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid $secondary-bright;
+  border-right: 2px solid $secondary-bright;
+  transform: rotate(45deg);
+}
+
+%chevron2pxPrev {
+  position: absolute;
+  content:'';
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid $secondary-bright;
+  border-right: 2px solid $secondary-bright;
+  transform: rotate(-135deg);
+}

@@ -1,0 +1,96 @@
+/* FONTS */
+
+//  FONT SIZES
+
+$tiny: 1.2rem;
+$small: 1.4rem;
+$mediumS: 1.6rem;
+$large: 2rem;
+$veryLarge: 2.4rem;
+
+// FONT SIZE MOBILE
+
+$Mtiny: 1.2rem;
+$Msmall: 1.4rem;
+$MmediumS: 1.6rem;
+$Mlarge: 2rem;
+$MveryLarge: 2.5rem;
+
+// FONT STYLE
+
+$light: 300;
+$regular: 400;
+$mediumW: 500;
+$blackW: 900;
+
+// COLOR VARIABLES
+$colors: (
+        primary:(
+                primary:#93070a,
+                light:#c4090d,
+                dark:#620507,
+        ),
+        secondary: (
+                primary:#668e3c,
+                light:#80b24b,
+                dark:#4c6a2d,
+        ),
+        camo-green: (
+                primary:#563f23,
+                light:#7a5a32,
+                dark:#322414,
+        ),
+        squash: (
+                primary:#eba506,
+                light:#faba2a,
+                dark:#b98205,
+        ),
+        light-mustard: (
+                primary:#f3c96a,
+                light:#f7da99,
+                dark:#efb83b,
+        ),
+        deep-orange: (
+                primary:#e54800,
+                light:#ff6119,
+                dark:#b23800,
+        ),
+        pale-grey: (
+                primary:#f6f7fb,
+                dark:#d3d8eb,
+        ),
+        grey-2: (
+                primary:#e6e6e6,
+                dark:#cccccc,
+        ),
+        brown-grey: (
+                primary:#8f8f8f,
+                light:#a8a8a8,
+                dark:#757575,
+        ),
+        brownish-grey: (
+                primary:#787878,
+                light:#919191,
+                dark:#5e5e5e,
+        ),
+        greyish-brown: (
+                primary:#3d3d3d,
+                light:#565656,
+                dark:#232323,
+        ),
+        green-STATUS: (
+                primary:#79cc26,
+                light:#92dd48,
+                dark:#5fa11e,
+        ),
+        red-STATUS: (
+                primary:#f04242,
+                light:#f47171,
+                dark:#ec1313,
+        ),
+        moss-green:(
+                primary:#668e3c,
+        )
+);
+$white: #ffffff;
+$black: #000000;

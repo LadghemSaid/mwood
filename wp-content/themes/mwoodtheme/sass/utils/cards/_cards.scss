@@ -1,0 +1,49 @@
+.card {
+  background-color: $white;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px -5px rgba(229, 235, 255, 0.9);
+  width: 100%;
+
+  .form-row {
+    &:first-of-type {
+      margin-top: 20px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+
+  .--halfRight {
+    border-radius: 5px 0px 0px 5px;
+    border-right: 1px solid map_get(map_get($colors, 'pale-grey'), 'primary');
+    border-bottom: 1px solid map_get(map_get($colors, 'pale-grey'), 'primary');
+  }
+
+  .--halfLeft {
+    border-radius: 0px 5px 5px 0px;
+    border-bottom: 1px solid map_get(map_get($colors, 'pale-grey'), 'primary');
+  }
+
+  &-row {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid map_get(map_get($colors, 'pale-grey'), 'primary');
+  }
+
+  &-rowHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-rowBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

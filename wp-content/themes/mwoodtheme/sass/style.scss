@@ -1,0 +1,62 @@
+/*
+Theme Name: mwoodtheme
+Description: Theme enfant de StoreFront
+Author: MwoodTheme
+Author URI: s-ladghem.ga
+Template: Storefront
+Version: 0.1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,900,900i&display=swap');
+
+@import 'utils/reset';
+@import 'utils/breakpoints';
+@import 'utils/variables';
+@import 'utils/main';
+@import 'utils/text/textalign';
+@import 'utils/text/textdecoration';
+@import 'utils/text/textlineheight';
+@import 'utils/text/textsize';
+@import 'utils/text/textweight';
+@import 'utils/text/textcolor';
+@import 'utils/text/texttransform';
+@import 'utils/positions-display/margins';
+@import 'utils/positions-display/hidden';
+@import 'utils/positions-display/width';
+@import 'utils/positions-display/opacity';
+@import 'utils/positions-display/absolute';
+@import 'utils/positions-display/flex';
+@import 'utils/positions-display/grid';
+@import 'utils/list/list';
+
+@import 'utils/placeholder/animate';
+@import 'utils/placeholder/box-shadows';
+@import 'utils/colors/bg';
+@import 'utils/loaders/loaders';
+@import 'utils/display/display';
+@import 'utils/cards/cards';
+
+// Manage app recurring containers
+@import 'utils/containers/containers';
+
+
+
+
+body {
+}
+
+.woocommerce-active .site-header .site-branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.wc-block-grid__product{
+  display: flex;
+  flex-direction: column;
+  .wp-block-button{
+    display: flex;
+    margin-top: auto;
+  }
+}

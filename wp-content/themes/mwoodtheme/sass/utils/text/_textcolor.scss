@@ -1,0 +1,94 @@
+/*
+COLOR
+$colors: (
+        primary:(
+            primary:#93070a,
+            light:#93070a,
+            dark:#93070a,
+        ),
+        secondary: (
+            primary:#668e3c,
+            light:#668e3c,
+            dark:#668e3c,
+        ),
+        camo-green: (
+            primary:#563f23,
+            light:#563f23,
+            dark:#563f23,
+        ),
+        squash: (
+            primary:#eba506,
+            light:#eba506,
+            dark:#eba506,
+        ),
+        light-mustard: (
+            primary:#f3c96a,
+            light:#f3c96a,
+            dark:#f3c96a,
+        ),
+        deep-orange: (
+            primary:#e54800,
+            light:#e54800,
+            dark:#e54800,
+        ),
+        pale-grey: (
+            primary:#f6f7fb,
+            light:#f6f7fb,
+            dark:#f6f7fb,
+
+        ),
+        grey-2: (
+            primary:#e6e6e6,
+            light:#e6e6e6,
+            dark:#e6e6e6,
+
+        ),
+        brown-grey: (
+            primary:#8f8f8f,
+            light:#8f8f8f,
+            dark:#8f8f8f,
+
+        ),
+        brownish-grey: (
+            primary:#787878,
+            light:#787878,
+            dark:#787878,
+
+        ),
+        greyish-brown: (
+            primary:#3d3d3d,
+            light:#3d3d3d,
+            dark:#3d3d3d,
+
+        ),
+        green-STATUS: (
+            primary:#79cc26,
+            light:#79cc26,
+            dark:#79cc26,
+
+        ),
+        red-STATUS: (
+            primary:#f04242,
+            light:#f04242,
+            dark:#f04242,
+
+        )
+
+);
+ */
+
+@each $category, $array in $colors {
+  @each $colors, $value in $array{
+    .fc-#{$category}-#{$colors}{
+      color: $value!important;
+    }
+  }
+
+}
+.fc-white{
+  color:$white;
+}
+
+.fc-black{
+  color:$black;
+}

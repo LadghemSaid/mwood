@@ -1,0 +1,35 @@
+/*
+DISPLAY
+hidden-(lg/md/sm/xs/all) = display:none
+
+ */
+
+.hidden {
+  &-lg {
+    @media (min-width: 1200px) {
+      display: none !important;
+    }
+  }
+
+  &-md {
+    @media (min-width: 1024px) and (max-width: 1200px) {
+      display: none !important;
+    }
+  }
+
+  &-sm {
+    @media (min-width: 768px) and (max-width: 1024px) {
+      display: none !important;
+    }
+  }
+
+  &-xs {
+    @media (max-width: 768px) {
+      display: none !important ;
+    }
+  }
+  &-all{
+    display: none !important;
+  }
+}
+
