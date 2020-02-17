@@ -1,0 +1,21 @@
+/*
+
+FONT-WEIGHT
+weight-(light/regular/medium/black)
+
+ */
+
+.weight {
+  &-light {
+    font-weight: $light;
+  }
+  &-regular {
+    font-weight: $regular;
+  }
+  &-medium {
+    font-weight: $mediumW;
+  }
+  &-black {
+    font-weight: $blackW;
+  }
+}

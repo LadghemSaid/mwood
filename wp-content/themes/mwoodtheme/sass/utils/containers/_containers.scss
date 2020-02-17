@@ -1,0 +1,51 @@
+.viewContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: calc(100% - 64px);
+  width: 100%;
+  z-index: 1;
+
+  &.vertical {
+    flex-direction: column;
+  }
+
+  .content {
+    flex: 1 1 auto;
+    background-color: map-get(map-get($colors, 'pale-grey'), 'primary');
+    height: 100%;
+    width: 100%;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: auto;
+
+    &--withTractor {
+      background-image: url(/img/tractor-bg.svg);
+      background-size: auto;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+    }
+
+    > div:last-child {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+#app,
+.mainContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  z-index: 1;
+  overflow-x: hidden;
+  width: 100%;
+}

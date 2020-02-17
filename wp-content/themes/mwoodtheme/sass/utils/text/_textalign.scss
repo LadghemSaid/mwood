@@ -1,0 +1,67 @@
+/*
+
+TEXT-ALIGN
+text-center = text-align:center
+text-justify = text-align:justify
+text-left = text-align:left
+text-right = text-align:right
+
+
+ */
+.text {
+  &-center {
+    text-align: center;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        text-align: center !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      text-align: unset;
+    }
+  }
+
+  &-justify {
+    text-align: justify;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        text-align: justify !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      text-align: unset;
+    }
+  }
+
+  &-left {
+    text-align: left;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        text-align: left !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      text-align: unset;
+    }
+  }
+
+  &-right {
+    text-align: right;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        text-align: right !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      text-align: unset;
+    }
+  }
+}

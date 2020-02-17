@@ -1,0 +1,19 @@
+/*
+BACKGOURND-COLOR
+ */
+
+.bg-paleGrey{
+  background-color:  map_get(map_get($colors, 'pale-grey'), "primary");
+}
+.bg-primary{
+  background-color:  map_get(map_get($colors, 'primary'), "primary");
+}
+.bg-secondary{
+  background-color:  map_get(map_get($colors, 'secondary'), "primary");
+}
+
+
+
+.bg-white{
+  background-color:$white;
+}

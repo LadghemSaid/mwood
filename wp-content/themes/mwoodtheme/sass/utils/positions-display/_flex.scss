@@ -1,0 +1,238 @@
+/*
+
+DISPLAY
+flex = display:flex
+
+JUSTIFY-CONTENT
+flex-justifyCenter = justify-content:center
+flex-justifyStart = justify-content:flex-start
+flex-justifyEnd = justify-content:flex-end
+flex-justifyAround = justify-content:space-around
+flex-justifyBetween = justify-content:space-between
+
+ALIGN-ITEMS
+flex-alignCenter = align-items:center
+flex-alignStart = align-items:flex-start
+flex-alignEnd = align-items:flex-end
+
+ALIGN-SELF
+flex-selfCenter = align-self:center
+flex-selfStart = align-self:flex-start
+flex-selfEnd = align-self:flex-end
+
+FLEX-DIRECTION
+flex-directionColumn = flex-direction:column
+flex-directionRow = flex-direction::row
+
+ORDER
+o-1...o-10 = order:1
+
+ */
+
+.flex {
+  display: flex;
+
+  &-justifyCenter {
+    justify-content: center !important ;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        justify-content: center !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      justify-content: unset;
+    }
+  }
+  &-justifyStart {
+    justify-content: flex-start !important ;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        justify-content: flex-start !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      justify-content: unset;
+    }
+  }
+  &-justifyEnd {
+    justify-content: flex-end !important ;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        justify-content: flex-end !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      justify-content: unset;
+    }
+  }
+  &-justifyAround {
+    justify-content: space-around !important ;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        justify-content: space-around !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      justify-content: unset;
+    }
+  }
+  &-justifyBetween {
+    justify-content: space-between !important ;
+
+    &Mobile {
+      @media (max-width: 768px) {
+        justify-content: space-between !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      justify-content: unset;
+    }
+  }
+
+  &-align {
+    &Center {
+      align-items: center !important;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          align-items: center !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        align-items: unset;
+      }
+    }
+    &Start {
+      align-items: flex-start !important;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          align-items: flex-start !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        align-items: unset;
+      }
+    }
+    &End {
+      align-items: flex-end !important;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          align-items: flex-end !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        align-items: unset;
+      }
+    }
+  }
+
+  &-self {
+    &Center {
+      align-self: center;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          align-self: center !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        align-self: unset;
+      }
+    }
+    &Start {
+      align-self: flex-start;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          align-self: flex-start !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        align-self: unset;
+      }
+    }
+    &End {
+      align-self: flex-end;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          align-self: flex-end !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        align-self: unset;
+      }
+    }
+  }
+
+  &-direction {
+    &Column {
+      display: flex !important;
+      flex-direction: column;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          display: flex !important;
+          flex-direction: column !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: unset;
+      }
+    }
+    &Row {
+      display: flex !important;
+      flex-direction: row;
+
+      &Mobile {
+        @media (max-width: 768px) {
+          display: flex !important;
+          flex-direction: row !important;
+        }
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: unset;
+      }
+    }
+  }
+}
+
+/* FLEX ORDER */
+
+$order-slug: o !default;
+
+@for $i from 0 through 10 {
+  .#{$order-slug}-#{$i} {
+    order: $i;
+
+    @media (max-width: 768px) {
+      order: unset;
+    }
+  }
+  .#{$order-slug}-#{$i}Mobile {
+    order: unset;
+
+    @media (max-width: 768px) {
+      order: $i;
+    }
+  }
+}

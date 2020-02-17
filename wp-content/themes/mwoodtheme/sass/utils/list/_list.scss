@@ -1,0 +1,38 @@
+.durability-list {
+
+    font-size: $small;
+    font-weight: $light;
+    margin-top: 15px;
+    li {
+      margin-bottom: 10px;
+    }
+
+}
+
+.border {
+  border: 1px solid;
+
+  &-right {
+    border-right: 1px solid;
+
+  }
+
+  &-left {
+    border-left: 1px solid;
+
+  }
+
+  &-top {
+    border-top: 1px solid;
+
+  }
+
+  &-bottom {
+    border-bottom: 1px solid;
+
+  }
+
+  &-paleGrey {
+    border-color: map_get(map_get($colors, 'pale-grey'), "primary");
+  }
+}

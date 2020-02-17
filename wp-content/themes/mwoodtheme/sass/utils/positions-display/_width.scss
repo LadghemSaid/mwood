@@ -1,0 +1,26 @@
+/*
+
+WIDTH
+w-1...w-10 = width:100%
+
+ */
+
+$class-slug: w !default;
+
+@for $i from 1 through 10 {
+  .#{$class-slug}-#{$i}0 {
+    width: 10% * $i ;
+
+    @media (max-width: 768px) {
+      width: 100% ;
+    }
+
+    &Mobile {
+      @media (max-width: 768px) {
+        width: 10% * $i ;
+      }
+    }
+  }
+
+}
+
