@@ -18400,3 +18400,28 @@ Stack trace:
 
 2020-02-17T20:49:17+00:00 CRITICAL Class 'Storefront_Customizer' not found dans E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\woocommerce\class-storefront-woocommerce-customizer.php à la ligne 18
 
+2020-02-17T20:53:28+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(112): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-cron.php(44): require_once('E:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-02-17T20:53:53+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 E:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 E:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 E:\wamp64\www\mwood\wp-config.php(112): require_once('E:\\wamp64\\www\\m...')
+#6 E:\wamp64\www\mwood\wp-load.php(37): require_once('E:\\wamp64\\www\\m...')
+#7 E:\wamp64\www\mwood\wp-blog-header.php(13): require_once('E:\\wamp64\\www\\m...')
+#8 E:\wamp64\www\mwood\index.php dans E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
