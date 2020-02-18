@@ -2,199 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a92360d-fdda-4bf2-8a36-2e142cdead2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/class-tm-epo-admin-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/class-tm-epo-admin-csv.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/class-tm-epo-admin-global-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/class-tm-epo-admin-global-list-table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/class-tm-epo-admin-settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/html-tm-epo-admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/html-tm-epo-fields-edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/html-tm-epo-fields.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/html-tm-epo-order-item-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/html-tm-epo-order-item.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/html-tm-epo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/html-tm-global-epo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/admin/views/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/admin/tm-epo-admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/admin/tm-epo-admin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/admin/tm-global-epo-admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/admin/tm-global-epo-admin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/epo.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/owl.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/tm-epo-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/tm-epo-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/tm-epo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/tm-epo.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/tm-spectrum.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/css/tm-spectrum.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/images/about-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/images/ajax-loader@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/images/download_button.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/images/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/images/linefix5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/images/p5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/admin/tm-epo-admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/admin/tm-epo-admin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/admin/tm-global-epo-admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/admin/tm-global-epo-admin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/epo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-epo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-epo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-scripts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/tm-timepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/assets/js/wp-core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/jquery.fileupload/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/jquery.fileupload/js/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/jquery.fileupload/js/jquery.fileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/jquery.fileupload/js/jquery.iframe-transport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/json/JSON.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/json/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/external/json/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-tm-extra-product-options.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-api-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-builder-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-check-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-helper-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-html-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-settings-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-licenser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-wpml-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/assets/js/dynamic-pricing-discounts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/assets/js/easy-bookings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/assets/js/tm-epo-q-translate-x-clogic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/assets/js/wootours.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/class-tm-epo-compatibility-base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-bookings-and-appointment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-easy-bookings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-elasticpress.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-q-translate-x.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-quick-view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-store-exporter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-theseoframework.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woocommerce-add-to-cart-ajax-for-variable-products.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woocommerce-currency-switcher.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woocommerce-dynamic-pricing-and-discounts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woocommerce-germanized-pro.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woodeposits.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woothemes-bookings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woothemes-composite-products.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woothemes-measurement-calculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-woothemes-subscriptions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-wootours.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/compatibility/classes/class-tm-epo-compatibility-wpml.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-checkbox.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-color.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-date.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-radio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-range.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-select.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-textarea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-textfield.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-time.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-upload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields-variations.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/class-tm-epo-fields.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/fields/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/tc-epo-autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/tc-epo-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/tc-post-types.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/tc-shortcodes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/tc-wc-compatibility-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/tc-wc-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/tc-widget.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/include/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-de_DE.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-de_DE.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-el.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-el.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-fr_FR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-fr_FR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-ja.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-ja.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-pt_BR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options-pt_BR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/languages/woocommerce-tm-extra-product-options.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/_price.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/_quantity_end.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/_quantity_start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/cart-item-data.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/legacy/2.6/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/legacy/2.6/flatsome/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/legacy/2.6/flatsome/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/legacy/2.6/salient/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/legacy/2.6/salient/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/cart/legacy/3.2/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/checkout/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/checkout/legacy/2.6/review-order.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/checkout/legacy/3.2/review-order.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/checkout/review-order.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tc-js-templates.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-element-end.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-element-start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-end.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-section-end.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-section-start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-checkbox.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-color.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-date.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-divider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-element-price.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-element-quantity-end.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-element-quantity-start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-end.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-field-end.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-field-start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-radio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-range.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-select.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-start.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-textarea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-textfield.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-time.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-totals.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-upload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-variations.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/tm-woo-extra-product-options.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-tm-extra-product-options/wpml-config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/class-storefront.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-15-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-16-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-17-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-18-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/test-log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/wc-image-regeneration-2020-02-14-aafae287dfdc978d8439991345a8f3c3.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,12 +52,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="2568" />
-    <option name="height" value="1416" />
   </component>
   <component name="ProjectId" id="1XyWzqdM2mj6dxtrOkoBF4XTY5A" />
   <component name="PropertiesComponent">
@@ -283,7 +96,8 @@
       <updated>1581723036291</updated>
       <workItem from="1581723039655" duration="3003000" />
       <workItem from="1581758538313" duration="21302000" />
-      <workItem from="1582019081581" duration="153000" />
+      <workItem from="1582019081581" duration="4076000" />
+      <workItem from="1582052198152" duration="736000" />
     </task>
     <servers />
   </component>
@@ -295,7 +109,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
