@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a92360d-fdda-4bf2-8a36-2e142cdead2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-15-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-16-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-17-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/fatal-errors-2020-02-18-0e3345ee095c516cf3426959d41926cf.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/test-log.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/wc-image-regeneration-2020-02-14-aafae287dfdc978d8439991345a8f3c3.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +86,7 @@
       <workItem from="1581723039655" duration="3003000" />
       <workItem from="1581758538313" duration="21302000" />
       <workItem from="1582019081581" duration="4076000" />
-      <workItem from="1582052198152" duration="736000" />
+      <workItem from="1582052198152" duration="908000" />
     </task>
     <servers />
   </component>
