@@ -1,0 +1,27 @@
+2020-02-18T09:44:07+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.;C:\php\pear') dans C:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php à la ligne 33
+
+2020-02-18T09:44:18+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.;C:\php\pear') dans C:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php à la ligne 33
+
+2020-02-18T09:45:17+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.;C:\php\pear') dans C:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php à la ligne 25
+
+2020-02-18T09:45:30+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.;C:\php\pear') dans C:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php à la ligne 23
+
+2020-02-18T09:45:53+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce.php' (include_path='.;C:\php\pear') dans C:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php à la ligne 23
+
+2020-02-18T09:47:08+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce-customizer.php' (include_path='.;C:\php\pear') dans C:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php à la ligne 24
+
+2020-02-18T09:47:13+00:00 CRITICAL require(): Failed opening required 'inc/woocommerce/class-storefront-woocommerce-adjacent-products.php' (include_path='.;C:\php\pear') dans C:\wamp64\www\mwood\wp-content\themes\mwoodtheme\functions.php à la ligne 25
+
+2020-02-18T09:47:22+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in C:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 C:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 C:\wamp64\www\mwood\wp-includes\class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 C:\wamp64\www\mwood\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp64\www\mwood\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\mwood\wp-settings.php(545): do_action('wp_loaded')
+#5 C:\wamp64\www\mwood\wp-config.php(116): require_once('C:\\wamp64\\www\\m...')
+#6 C:\wamp64\www\mwood\wp-load.php(37): require_once('C:\\wamp64\\www\\m...')
+#7 C:\wamp64\www\mwood\wp-cron.php(44): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+  thrown dans C:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\includes\class.yith-ywraq-order-request.php à la ligne 1921
+
