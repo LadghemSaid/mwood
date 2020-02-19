@@ -7,7 +7,6 @@ Template: Storefront
 Version: 0.1.0
 */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,900,900i&display=swap');
-
 @import 'utils/reset';
 @import 'utils/breakpoints';
 @import 'utils/variables';
@@ -27,36 +26,64 @@ Version: 0.1.0
 @import 'utils/positions-display/flex';
 @import 'utils/positions-display/grid';
 @import 'utils/list/list';
-
 @import 'utils/placeholder/animate';
 @import 'utils/placeholder/box-shadows';
 @import 'utils/colors/bg';
 @import 'utils/loaders/loaders';
 @import 'utils/display/display';
 @import 'utils/cards/cards';
-
 // Manage app recurring containers
 @import 'utils/containers/containers';
 
-
-
-
-body {
-}
 
 .woocommerce-active .site-header .site-branding {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: auto;
+  margin: 0;
+  color: white!important;
 }
 
-.wc-block-grid__product{
+.wc-block-grid__product {
   display: flex;
   flex-direction: column;
-  .wp-block-button{
+
+  .wp-block-button {
     display: flex;
     margin-top: auto;
   }
+}
+
+.site-header {
+  background-image: url(https://images.unsplash.com/photo-1463082459669-fd1ca1692fea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  height: 100vh;
+  position: relative;
+  p,a,h1,h2{
+    color:white!important;
+  }
+  .sub-menu{
+      background: rgb(2,0,36) !important;
+    background: linear-gradient(180deg, rgba(2,0,36,0.7) 0%, rgba(0,212,255,0) 100%) !important;
+  }
+}
+.overlay_black{
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.main-navigation{
+  width: auto!important;
+  margin: 0!important;
+  margin-left: auto!important;
+}
+.site-search{
+  margin: 0;
+  align-self: center;
 }

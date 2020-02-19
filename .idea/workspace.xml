@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0a92360d-fdda-4bf2-8a36-2e142cdead2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-hooks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,30 +19,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>storefront_header</find>
-      <find>storefront_homepage_content_styles</find>
-      <find>header</find>
-      <find>brand</find>
-      <find>function storefront_header</find>
-      <find>class=&quot;menu-toggle&quot;</find>
-      <find>navigation</find>
-      <find>container</find>
-      <find>site-search</find>
-      <find>storefront_is_woocommerce_activated</find>
-      <find>maste</find>
-      <find>wc-block-grid__product</find>
-      <find>site-header</find>
-      <find>storefront_secondary_navigation</find>
-      <find>storefront_primary_navigation</find>
-      <find>Send the request</find>
-    </findStrings>
-    <dirStrings>
-      <dir>E:\wamp64\www\mwood\wp-content\themes\storefront</dir>
-      <dir>E:\wamp64\www\mwood\wp-content\themes\mwoodtheme</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +67,7 @@
       <workItem from="1581723039655" duration="3003000" />
       <workItem from="1581758538313" duration="21302000" />
       <workItem from="1582019081581" duration="4076000" />
-      <workItem from="1582052198152" duration="1428000" />
+      <workItem from="1582052198152" duration="9634000" />
     </task>
     <servers />
   </component>

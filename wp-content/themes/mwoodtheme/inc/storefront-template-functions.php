@@ -189,7 +189,6 @@ if ( ! function_exists( 'storefront_site_branding' ) ) {
 		?>
 		<div class="site-branding">
 			<?php storefront_site_title_or_logo(); ?>
-            <p>hello</p>
 		</div>
 		<?php
 	}
@@ -694,7 +693,7 @@ if ( ! function_exists( 'storefront_header_container' ) ) {
 	 * The header container
 	 */
 	function storefront_header_container() {
-		echo '<div class="col-full flex flex-justifyCenter flex-alignCenter">';
+		echo '<div class="col-full flex flex-justifyStart flex-alignStart">';
 	}
 }
 
