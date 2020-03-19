@@ -1,31 +1,29 @@
 /* BASE SETTINGS */
 /* line 3, ../sass/utils/main.scss */
 :root {
-  font-family: 'Roboto', sans-serif !important;
   box-sizing: border-box !important;
   font-size: 62.5%;
 }
 
-/* line 9, ../sass/utils/main.scss */
+/* line 8, ../sass/utils/main.scss */
 * {
   line-height: 1.2 !important;
 }
 
-/* line 13, ../sass/utils/main.scss */
+/* line 12, ../sass/utils/main.scss */
 html, body {
-  font-family: 'Roboto', sans-serif !important;
   height: 100%;
   font-size: 1.6rem;
 }
 
-/* line 20, ../sass/utils/main.scss */
+/* line 17, ../sass/utils/main.scss */
 a {
   color: unset;
-  text-decoration: none;
+  text-decoration: none !important;
 }
-/* line 24, ../sass/utils/main.scss */
+/* line 21, ../sass/utils/main.scss */
 a:hover, a:focus, a:active {
-  text-decoration: unset;
+  text-decoration: none;
   font-weight: unset;
 }
 

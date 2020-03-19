@@ -1,7 +1,6 @@
 /* BASE SETTINGS */
 
 :root {
-    font-family: 'Roboto', sans-serif !important;
     box-sizing: border-box !important;
     font-size: 62.5%;
 }
@@ -11,18 +10,16 @@
 }
 
 html, body {
-    font-family: 'Roboto', sans-serif !important;
     height: 100%;
     font-size: 1.6rem;
-
 }
 
 a {
     color: unset;
-    text-decoration: none;
+    text-decoration: none !important;
 
     &:hover, &:focus, &:active {
-        text-decoration: unset;
+        text-decoration: none;
         font-weight: unset;
     }
 }
