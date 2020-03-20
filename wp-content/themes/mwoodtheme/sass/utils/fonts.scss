@@ -4,6 +4,24 @@ h1, h2, h3, h4, h4 {
     font-family: 'BioRhyme', serif;
 }
 
-*:not(.fas) {
-    font-family: 'Cabin', sans-serif !important;
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+    font-size: 2rem;
+}
+
+p, a, span {
+    font-family: 'Cabin', sans-serif;
 }
