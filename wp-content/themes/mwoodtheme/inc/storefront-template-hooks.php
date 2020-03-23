@@ -34,6 +34,15 @@ add_action( 'storefront_header', 'storefront_header_container_close', 41 );
 add_action( 'storefront_header', 'storefront_primary_navigation_wrapper', 42 );
 add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 68 );
 
+add_action( 'storefront_header', 'storefront_header_container_fixed', 70 );
+//add_action( 'storefront_header', 'storefront_skip_links', 5 );
+add_action( 'storefront_header', 'storefront_site_branding_fixed', 80 );
+//add_action( 'storefront_header', 'storefront_secondary_navigation', 30 );
+add_action( 'storefront_header', 'storefront_primary_navigation_fixed', 90 );
+add_action( 'storefront_header', 'storefront_header_container_close_fixed', 100 );
+add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_fixed', 110 );
+add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close_fixed', 120 );
+
 /**
  * Footer
  *

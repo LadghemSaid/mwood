@@ -4,6 +4,14 @@
  *
  * @package storefront
  */
+if ( ! function_exists( 'storefront_header_container_fixed' ) ) {
+    /**
+     * The header container
+     */
+    function storefront_header_container_fixed() {
+        echo '<div id="header-fixed" class="col-full flex flex-justifyStart flex-alignStart header-fixed">';
+    }
+}
 
 if ( ! function_exists( 'storefront_display_comments' ) ) {
 	/**
@@ -675,6 +683,7 @@ if ( ! function_exists( 'storefront_primary_navigation_wrapper' ) ) {
 	 * The primary navigation wrapper
 	 */
 	function storefront_primary_navigation_wrapper() {
+
 		echo '<div class="storefront-primary-navigation"><div class="col-full">';
 	}
 }
@@ -705,3 +714,92 @@ if ( ! function_exists( 'storefront_header_container_close' ) ) {
 		echo '</div>';
 	}
 }
+
+
+
+
+if ( ! function_exists( 'storefront_primary_navigation_wrapper_fixed' ) ) {
+    /**
+     * The primary navigation wrapper
+     */
+    function storefront_primary_navigation_wrapper_fixed() {
+
+        echo '<div class="storefront-primary-navigation"><div class="col-full">';
+    }
+}
+
+if ( ! function_exists( 'storefront_primary_navigation_wrapper_close_fixed' ) ) {
+    /**
+     * The primary navigation wrapper close
+     */
+    function storefront_primary_navigation_wrapper_close_fixed() {
+        echo '</div></div>';
+    }
+}
+
+if ( ! function_exists( 'storefront_header_container_fixed' ) ) {
+    /**
+     * The header container
+     */
+    function storefront_header_container_fixed() {
+        echo '<div class="col-full flex flex-justifyStart flex-alignStart">';
+    }
+}
+
+if ( ! function_exists( 'storefront_header_container_close_fixed' ) ) {
+    /**
+     * The header container close
+     */
+    function storefront_header_container_close_fixed() {
+        echo '</div>';
+    }
+}
+if ( ! function_exists( 'storefront_site_branding_fixed' ) ) {
+    /**
+     * Site branding wrapper and display
+     *
+     * @since  1.0.0
+     * @return void
+     */
+    function storefront_site_branding_fixed() {
+        ?>
+        <div class="site-branding">
+            <?php storefront_site_title_or_logo(); ?>
+        </div>
+        <?php
+    }
+}
+if ( ! function_exists( 'storefront_primary_navigation_fixed' ) ) {
+    /**
+     * Display Primary Navigation
+     *
+     * @since  1.0.0
+     * @return void
+     */
+    function storefront_primary_navigation_fixed() {
+        ?>
+        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_html_e( 'Primary Navigation', 'storefront' ); ?>">
+            <button class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"><span><?php echo esc_attr( apply_filters( 'storefront_menu_toggle_text', __( 'Menu', 'storefront' ) ) ); ?></span></button>
+            <?php
+            wp_nav_menu(
+                array(
+                    'menu'              => "main",
+                    'theme_location'  => 'primary',
+                    'container_class' => 'primary-navigation',
+                )
+            );
+
+            wp_nav_menu(
+                array(
+                    'menu'              => "main",
+
+                    'theme_location'  => 'handheld',
+                    'container_class' => 'handheld-navigation',
+                )
+            );
+            ?>
+        </nav><!-- #site-navigation -->
+        <?php
+    }
+}
+

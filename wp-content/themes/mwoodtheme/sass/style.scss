@@ -45,7 +45,7 @@ Version: 0.1.0
   align-items: center;
   width: auto;
   margin: 0;
-  color: white!important;
+  color: white !important;
 }
 
 .wc-block-grid__product {
@@ -58,17 +58,80 @@ Version: 0.1.0
   }
 }
 
+.overlay_black {
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-navigation {
+  width: auto !important;
+  margin: 0 !important;
+  margin-left: auto !important;
+}
+
+.site-search {
+  margin: 0;
+  align-self: center;
+}
+
+.fixed_header {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  z-index: 1000;
+}
+
+.wrapper-cart-fixed {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  .site-header-cart.menu.--fixed {
+    position: fixed;
+    margin-left: -200px;
+    max-width: 230px;
+    z-index: 10;
+    top: -0px;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.3s ease-in-out;
+
+
+    &.--visible {
+      opacity: 1;
+      transform: unset;
+      transition: all 0.3s ease-in-out;
+
+    }
+  }
+
+}
+
+
 .site-header {
   background-image: url(https://images.unsplash.com/photo-1463082459669-fd1ca1692fea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
   height: 100vh;
   position: relative;
-  p,a,h1,h2{
-    color:white!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p, a, h1, h2 {
+    color: white !important;
   }
+
   .sub-menu {
     background: rgba(0, 0, 0, 0.5) !important;
   }
 }
+
 .site-header-cart .widget_shopping_cart {
   background: rgba(0, 0, 0, 0.5) !important;
 
@@ -105,12 +168,13 @@ Version: 0.1.0
     color: white;
   }
 
-  
+
 }
 
 .site-header .product_list_widget li .quantity {
   color: rgb(233, 233, 233);
 }
+
 .overlay_black {
   position: absolute;
   background-color: black;
@@ -121,11 +185,13 @@ Version: 0.1.0
   right: 0;
   z-index: -1;
 }
+
 .main-navigation {
-  width: auto!important;
-  margin: 0!important;
-  margin-left: auto!important;
+  width: auto !important;
+  margin: 0 !important;
+  margin-left: auto !important;
 }
+
 .site-search {
   margin: 0;
   align-self: center;
@@ -135,12 +201,14 @@ Version: 0.1.0
 .storefront-breadcrumb {
   background-color: #E5E5E5;
   color: #070707;
+
   a {
     color: #070707;
   }
+
   span.breadcrumb-separator::after {
-      opacity: 1;
-      color: #070707;
+    opacity: 1;
+    color: #070707;
   }
 }
 
@@ -154,4 +222,29 @@ footer {
       width: 25px;
     }
   }
+}
+.header-fixed{
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 1;
+  background-color: #00000052;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 0.3s ease-in-out;
+
+
+  &.--visible {
+    opacity: 1;
+    transform: unset;
+    transition: all 0.3s ease-in-out;
+
+  }
+  a,span{
+
+  }
+
+
 }
