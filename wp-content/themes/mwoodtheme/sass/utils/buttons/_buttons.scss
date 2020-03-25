@@ -193,3 +193,9 @@
   background-color: #535353;
   color: #f9f9f9;
 }
+
+.btn-white .wp-block-button__link {
+  background-color: transparent !important;
+  border: solid 1px #F9F9F9 !important;
+  border-radius: 5px !important;
+}
