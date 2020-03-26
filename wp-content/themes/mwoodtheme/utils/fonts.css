@@ -1,32 +1,54 @@
-@import url("https://fonts.googleapis.com/css?family=BioRhyme:300,400,700|Cabin:400,400i,500,500i,600,600i,700,700i&display=swap");
-/* line 3, ../sass/utils/fonts.scss */
-h1, h2, h3, h4, h4 {
-  font-family: 'BioRhyme', serif;
-}
+/*
+Error: Invalid CSS after "    color: ": expected expression (e.g. 1px, bold), was "#;"
+        on line 26 of /Applications/MAMP/htdocs/mwood/wp-content/themes/mwoodtheme/sass/utils/fonts.scss
 
-/* line 7, ../sass/utils/fonts.scss */
-h1 {
-  font-size: 4rem;
-}
+21: .woocommerce-products-header__title.page-title {
+22:     margin-bottom: 4rem;
+23: }
+24: 
+25: .woocommerce-Price-amount.amount {
+26:     color: #;
+27: }
+28: 
+29: ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+30:     font-size: 2rem;
+31: }
 
-/* line 11, ../sass/utils/fonts.scss */
-h2 {
-  font-size: 3.5rem;
-  margin-bottom: 3.5rem;
-}
-
-/* line 16, ../sass/utils/fonts.scss */
-h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-/* line 21, ../sass/utils/fonts.scss */
-ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
-  font-size: 2rem;
-}
-
-/* line 25, ../sass/utils/fonts.scss */
-p, a, span {
-  font-family: 'Cabin', sans-serif;
-}
+Backtrace:
+/Applications/MAMP/htdocs/mwood/wp-content/themes/mwoodtheme/sass/utils/fonts.scss:26
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/script/lexer.rb:229:in `expected!'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/script/parser.rb:710:in `assert_expr'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/script/parser.rb:75:in `parse'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1063:in `sass_script'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:909:in `value!'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:778:in `block in try_declaration'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1183:in `rethrow'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:791:in `try_declaration'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    color: \": expected expression (e.g. 1px, bold), was \"#;\"\A         on line 26 of /Applications/MAMP/htdocs/mwood/wp-content/themes/mwoodtheme/sass/utils/fonts.scss\A \A 21: .woocommerce-products-header__title.page-title {\A 22:     margin-bottom: 4rem;\A 23: }\A 24: \A 25: .woocommerce-Price-amount.amount {\A 26:     color: #;\A 27: }\A 28: \A 29: ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {\A 30:     font-size: 2rem;\A 31: }"; }
