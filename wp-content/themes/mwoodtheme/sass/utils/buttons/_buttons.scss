@@ -184,6 +184,27 @@
 //   }
 // }
 
+input {
+  border-radius: 5px !important;
+}
+
+textarea {
+  border-radius: 5px !important;
+}
+
+.button {
+  border-radius: 5px !important;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+  border-radius: 5px !important;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover {
+  border-radius: 5px !important;
+  background-color: #224146 !important;
+}
+
 .woocommerce .add-request-quote-button.button {
   background-color: #333333;
   color: #f9f9f9;
@@ -198,4 +219,51 @@
   background-color: transparent !important;
   border: solid 1px #F9F9F9 !important;
   border-radius: 5px !important;
+}
+
+.btn-white .wp-block-button__link:hover {
+  background-color: #F9F9F9 !important;
+  border: solid 1px #F9F9F9 !important;
+  border-radius: 5px !important;
+  color: #070707 !important;
+}
+
+button.single_add_to_cart_button.button.alt {
+  border-radius: 5px !important;
+  background-color: #26525A;
+  color: #f9f9f9;
+}
+
+button.single_add_to_cart_button.button.alt:hover {
+  border-radius: 5px !important;
+  background-color: #224146;
+  color: #f9f9f9;
+}
+
+:focus {
+  outline: none !important;
+}
+
+input#woocommerce-product-search-field-0 {
+  border-radius: 5px;
+}
+
+input#woocommerce-product-search-field-0::placeholder {
+  color: #666666;
+}
+
+.site-search .widget_product_search form::before {
+  color: #666666;
+}
+
+input[type='search'] {
+  color: #666666;
+}
+
+textarea#comment {
+  margin-top: 1rem;
+}
+
+.comment-form-rating label {
+  margin-bottom: 1rem;
 }

@@ -133,6 +133,17 @@ a {
     margin-bottom: 30px;
 }
 
+// ------ COLOR ------
+
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+    background-color: #969696 !important;
+}
+
+// ------ WOOCOMMERCE ------
+.comment-form-comment {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
 /*
 DOCUMENTATION
 

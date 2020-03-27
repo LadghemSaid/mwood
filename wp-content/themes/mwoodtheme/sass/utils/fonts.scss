@@ -22,14 +22,22 @@ h3 {
     margin-bottom: 4rem;
 }
 
-.woocommerce-Price-amount.amount {
-    color: #;
+.wc-block-grid__products .wc-block-grid__product .price .woocommerce-Price-amount.amount {
+    color: #26525A;
+}
+
+.price .woocommerce-Price-amount.amount {
+    color: #26525A;
 }
 
 ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
     font-size: 2rem;
 }
 
-p, a, span {
+p, a, span, body, button, input, textarea {
     font-family: 'Cabin', sans-serif;
+}
+
+.widget .widget-title, .widget .widgettitle {
+    border-bottom: none !important;
 }

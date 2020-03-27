@@ -162,6 +162,17 @@ a:hover, a:focus, a:active {
   margin-bottom: 30px;
 }
 
+/* line 138, ../sass/utils/main.scss */
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+  background-color: #969696 !important;
+}
+
+/* line 143, ../sass/utils/main.scss */
+.comment-form-comment {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
 /*
 DOCUMENTATION
 
