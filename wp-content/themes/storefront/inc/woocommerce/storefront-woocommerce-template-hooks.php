@@ -15,6 +15,7 @@
  * @see  storefront_on_sale_products()
  * @see  storefront_best_selling_products()
  */
+
 add_action( 'homepage', 'storefront_product_categories', 20 );
 add_action( 'homepage', 'storefront_recent_products', 30 );
 add_action( 'homepage', 'storefront_featured_products', 40 );
@@ -30,6 +31,7 @@ add_action( 'homepage', 'storefront_best_selling_products', 70 );
  * @see  woocommerce_breadcrumb()
  * @see  storefront_shop_messages()
  */
+
 remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20 );
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10 );
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10 );
