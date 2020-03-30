@@ -22,11 +22,31 @@ h3 {
 }
 
 /* line 21, ../sass/utils/fonts.scss */
+.woocommerce-products-header__title.page-title {
+  margin-bottom: 4rem;
+}
+
+/* line 25, ../sass/utils/fonts.scss */
+.wc-block-grid__products .wc-block-grid__product .price .woocommerce-Price-amount.amount {
+  color: #26525A;
+}
+
+/* line 29, ../sass/utils/fonts.scss */
+.price .woocommerce-Price-amount.amount {
+  color: #26525A;
+}
+
+/* line 33, ../sass/utils/fonts.scss */
 ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
   font-size: 2rem;
 }
 
-/* line 25, ../sass/utils/fonts.scss */
-p, a, span {
+/* line 37, ../sass/utils/fonts.scss */
+p, a, span, body, button, input, textarea {
   font-family: 'Cabin', sans-serif;
+}
+
+/* line 41, ../sass/utils/fonts.scss */
+.widget .widget-title, .widget .widgettitle {
+  border-bottom: none !important;
 }

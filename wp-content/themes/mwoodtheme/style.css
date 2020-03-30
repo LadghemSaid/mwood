@@ -104,6 +104,152 @@ a:hover, a:focus, a:active {
   font-weight: unset;
 }
 
+/* line 28, sass/utils/main.scss */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+/* line 32, sass/utils/main.scss */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 36, sass/utils/main.scss */
+.mt-1 {
+  margin-top: 1rem;
+}
+
+/* line 40, sass/utils/main.scss */
+.mt-1_5 {
+  margin-top: 1.5rem;
+}
+
+/* line 44, sass/utils/main.scss */
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/* line 48, sass/utils/main.scss */
+.mt-2_5 {
+  margin-top: 2.5rem;
+}
+
+/* line 52, sass/utils/main.scss */
+.mt-3 {
+  margin-top: 3rem;
+}
+
+/* line 56, sass/utils/main.scss */
+.mt-3_5 {
+  margin-top: 3.5rem;
+}
+
+/* line 60, sass/utils/main.scss */
+.mt-6 {
+  margin-top: 6rem;
+}
+
+/* line 64, sass/utils/main.scss */
+.mt-5 {
+  margin-top: 5px;
+}
+
+/* line 68, sass/utils/main.scss */
+.mt-10 {
+  margin-top: 10px;
+}
+
+/* line 72, sass/utils/main.scss */
+.mt-15 {
+  margin-top: 15px;
+}
+
+/* line 76, sass/utils/main.scss */
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* line 80, sass/utils/main.scss */
+.mt-25 {
+  margin-top: 25px;
+}
+
+/* line 84, sass/utils/main.scss */
+.mt-30 {
+  margin-top: 30px;
+}
+
+/* line 88, sass/utils/main.scss */
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+/* line 92, sass/utils/main.scss */
+.mb-1_5 {
+  margin-bottom: 1.5rem;
+}
+
+/* line 96, sass/utils/main.scss */
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+/* line 100, sass/utils/main.scss */
+.mb-2_5 {
+  margin-bottom: 2.5rem;
+}
+
+/* line 104, sass/utils/main.scss */
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+/* line 108, sass/utils/main.scss */
+.mb-3_5 {
+  margin-bottom: 3.5rem;
+}
+
+/* line 112, sass/utils/main.scss */
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+/* line 116, sass/utils/main.scss */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+/* line 120, sass/utils/main.scss */
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+/* line 124, sass/utils/main.scss */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* line 128, sass/utils/main.scss */
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+/* line 132, sass/utils/main.scss */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* line 138, sass/utils/main.scss */
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+  background-color: #969696 !important;
+}
+
+/* line 143, sass/utils/main.scss */
+.comment-form-comment {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
 /*
 DOCUMENTATION
 
@@ -5977,15 +6123,105 @@ BACKGOURND-COLOR
 
 /* BUTTONS */
 /* line 187, sass/utils/buttons/_buttons.scss */
+input {
+  border-radius: 5px !important;
+}
+
+/* line 191, sass/utils/buttons/_buttons.scss */
+textarea {
+  border-radius: 5px !important;
+}
+
+/* line 195, sass/utils/buttons/_buttons.scss */
+.button {
+  border-radius: 5px !important;
+}
+
+/* line 199, sass/utils/buttons/_buttons.scss */
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+  border-radius: 5px !important;
+}
+
+/* line 203, sass/utils/buttons/_buttons.scss */
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover {
+  border-radius: 5px !important;
+  background-color: #224146 !important;
+}
+
+/* line 208, sass/utils/buttons/_buttons.scss */
 .woocommerce .add-request-quote-button.button {
   background-color: #333333;
   color: #f9f9f9;
 }
 
-/* line 192, sass/utils/buttons/_buttons.scss */
+/* line 213, sass/utils/buttons/_buttons.scss */
 .woocommerce .add-request-quote-button.button:hover {
   background-color: #535353;
   color: #f9f9f9;
+}
+
+/* line 218, sass/utils/buttons/_buttons.scss */
+.btn-white .wp-block-button__link {
+  background-color: transparent !important;
+  border: solid 1px #F9F9F9 !important;
+  border-radius: 5px !important;
+}
+
+/* line 224, sass/utils/buttons/_buttons.scss */
+.btn-white .wp-block-button__link:hover {
+  background-color: #F9F9F9 !important;
+  border: solid 1px #F9F9F9 !important;
+  border-radius: 5px !important;
+  color: #070707 !important;
+}
+
+/* line 231, sass/utils/buttons/_buttons.scss */
+button.single_add_to_cart_button.button.alt {
+  border-radius: 5px !important;
+  background-color: #26525A;
+  color: #f9f9f9;
+}
+
+/* line 237, sass/utils/buttons/_buttons.scss */
+button.single_add_to_cart_button.button.alt:hover {
+  border-radius: 5px !important;
+  background-color: #224146;
+  color: #f9f9f9;
+}
+
+/* line 243, sass/utils/buttons/_buttons.scss */
+:focus {
+  outline: none !important;
+}
+
+/* line 247, sass/utils/buttons/_buttons.scss */
+input#woocommerce-product-search-field-0 {
+  border-radius: 5px;
+}
+
+/* line 251, sass/utils/buttons/_buttons.scss */
+input#woocommerce-product-search-field-0::placeholder {
+  color: #666666;
+}
+
+/* line 255, sass/utils/buttons/_buttons.scss */
+.site-search .widget_product_search form::before {
+  color: #666666;
+}
+
+/* line 259, sass/utils/buttons/_buttons.scss */
+input[type='search'] {
+  color: #666666;
+}
+
+/* line 263, sass/utils/buttons/_buttons.scss */
+textarea#comment {
+  margin-top: 1rem;
+}
+
+/* line 267, sass/utils/buttons/_buttons.scss */
+.comment-form-rating label {
+  margin-bottom: 1rem;
 }
 
 /* line 1, sass/utils/containers/_containers.scss */
@@ -6065,13 +6301,33 @@ h3 {
 }
 
 /* line 21, sass/utils/fonts.scss */
+.woocommerce-products-header__title.page-title {
+  margin-bottom: 4rem;
+}
+
+/* line 25, sass/utils/fonts.scss */
+.wc-block-grid__products .wc-block-grid__product .price .woocommerce-Price-amount.amount {
+  color: #26525A;
+}
+
+/* line 29, sass/utils/fonts.scss */
+.price .woocommerce-Price-amount.amount {
+  color: #26525A;
+}
+
+/* line 33, sass/utils/fonts.scss */
 ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
   font-size: 2rem;
 }
 
-/* line 25, sass/utils/fonts.scss */
-p, a, span {
+/* line 37, sass/utils/fonts.scss */
+p, a, span, body, button, input, textarea {
   font-family: 'Cabin', sans-serif;
+}
+
+/* line 41, sass/utils/fonts.scss */
+.widget .widget-title, .widget .widgettitle {
+  border-bottom: none !important;
 }
 
 /* line 41, sass/style.scss */
@@ -6263,8 +6519,17 @@ footer .footer-widgets .footer-widget-2 p {
 footer .footer-widgets .footer-widget-2 p i.fas {
   width: 25px;
 }
-
 /* line 226, sass/style.scss */
+footer .footer-widgets {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+/* line 230, sass/style.scss */
+.site-footer {
+  padding: 0 !important;
+}
+
+/* line 233, sass/style.scss */
 .header-fixed {
   position: fixed;
   max-width: 100%;
@@ -6277,7 +6542,7 @@ footer .footer-widgets .footer-widget-2 p i.fas {
   transform: translateY(-50px);
   transition: all 0.3s ease-in-out;
 }
-/* line 239, sass/style.scss */
+/* line 246, sass/style.scss */
 .header-fixed.--visible {
   opacity: 1;
   transform: unset;

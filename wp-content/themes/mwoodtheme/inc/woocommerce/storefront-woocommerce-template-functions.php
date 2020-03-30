@@ -17,6 +17,7 @@ if ( ! function_exists( 'storefront_before_content' ) ) {
 		?>
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
+
 		<?php
 	}
 }

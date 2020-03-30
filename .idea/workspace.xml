@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a92360d-fdda-4bf2-8a36-2e142cdead2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/js/custome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/templates/archive-product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/.sass-cache/476386f153eec9bc4ea3fbb0abaa092250d64fa4/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/.sass-cache/476386f153eec9bc4ea3fbb0abaa092250d64fa4/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/.sass-cache/9aec3f190f13f2b7b96f28076c9db5496a01df7e/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/.sass-cache/9aec3f190f13f2b7b96f28076c9db5496a01df7e/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/storefront-template-hooks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/archive-product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-hooks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-hooks.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +23,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XyWzqdM2mj6dxtrOkoBF4XTY5A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/mwoodtheme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme" />
-      <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\sass" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\woocommerce\templates" />
+      <recent name="E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\languages" />
       <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wamp64\www\mwood\wp-content\plugins\yith-woocommerce-request-a-quote-premium-master\languages" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc\woocommerce" />
+      <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme" />
+      <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\sass" />
       <recent name="E:\wamp64\www\mwood\wp-content\themes\mwoodtheme\inc" />
     </key>
   </component>
@@ -61,6 +62,8 @@
       <workItem from="1581758538313" duration="21302000" />
       <workItem from="1582019081581" duration="4076000" />
       <workItem from="1582052198152" duration="9634000" />
+      <workItem from="1585042053949" duration="2139000" />
+      <workItem from="1585572870190" duration="3502000" />
     </task>
     <servers />
   </component>
@@ -81,13 +84,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1010" y="404" key="FileChooserDialogImpl" timestamp="1584785237854">
+    <state x="1010" y="404" key="FileChooserDialogImpl" timestamp="1585576207378">
       <screen x="0" y="0" width="2560" height="1408" />
     </state>
-    <state x="1010" y="404" key="FileChooserDialogImpl/0.0.2560.1408/2560.0.1920.1080@0.0.2560.1408" timestamp="1584785237854" />
-    <state x="910" y="379" width="739" height="650" key="find.popup" timestamp="1584785244037">
+    <state x="1010" y="404" key="FileChooserDialogImpl/0.0.2560.1408/2560.0.1920.1080@0.0.2560.1408" timestamp="1585576207378" />
+    <state x="910" y="379" width="1135" height="650" key="find.popup" timestamp="1585576621696">
       <screen x="0" y="0" width="2560" height="1408" />
     </state>
-    <state x="910" y="379" width="739" height="650" key="find.popup/0.0.2560.1408/2560.0.1920.1080@0.0.2560.1408" timestamp="1584785244037" />
+    <state x="910" y="379" width="1135" height="650" key="find.popup/0.0.2560.1408/2560.0.1920.1080@0.0.2560.1408" timestamp="1585576621696" />
+    <state x="856" y="325" key="run.anything.popup" timestamp="1585576756016">
+      <screen x="0" y="0" width="2560" height="1408" />
+    </state>
+    <state x="856" y="325" key="run.anything.popup/0.0.2560.1408/2560.0.1920.1080@0.0.2560.1408" timestamp="1585576756016" />
+    <state x="859" y="312" width="840" height="1034" key="search.everywhere.popup" timestamp="1585576429040">
+      <screen x="0" y="0" width="2560" height="1408" />
+    </state>
+    <state x="859" y="312" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1408/2560.0.1920.1080@0.0.2560.1408" timestamp="1585576429040" />
   </component>
 </project>
