@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a92360d-fdda-4bf2-8a36-2e142cdead2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/templates/archive-product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/archive-product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mwoodtheme/inc/woocommerce/storefront-woocommerce-template-hooks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-hooks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/content-homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/content-homepage.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
