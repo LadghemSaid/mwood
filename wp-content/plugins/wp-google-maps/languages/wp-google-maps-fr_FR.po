@@ -1,18 +1,18 @@
-#
+# 
 # antoine <antoine.levillain@gmail.com>, 2015.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: wpgm_fr\n"
 "POT-Creation-Date: 2020-02-11 10:18+0000\n"
-"PO-Revision-Date: 2020-02-11 10:18+0000\n"
-"Last-Translator: antoine <antoine.levillain@gmail.com>\n"
-"Language-Team: French <>\n"
+"PO-Revision-Date: 2020-05-13 08:03+0000\n"
+"Last-Translator: admin <said.ladghem@gmail.com>\n"
+"Language-Team: Français\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
@@ -20,10 +20,11 @@ msgstr ""
 "X-Poedit-SearchPath-1: ../../wp-google-maps-pro\n"
 "X-Poedit-SearchPath-2: ../../wp-google-maps-gold\n"
 "X-Poedit-SearchPath-3: ../../wp-google-maps-ugm\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
 
 #: ../../wp-google-maps-gold/html/live-tracking-settings-panel.html.php:4
 #, fuzzy
-#| msgid "General Settings"
 msgid "Live Tracking Settings"
 msgstr "Configuration générale"
 
@@ -40,7 +41,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/live-tracking-settings-panel.html.php:23
 #, fuzzy
-#| msgid "Enable pagination"
 msgid "Enable Broadcasting"
 msgstr "Activer la pagination"
 
@@ -191,13 +191,11 @@ msgstr "Nom"
 
 #: ../../wp-google-maps-gold/html/live-tracking-settings-panel.html.php:69
 #, fuzzy
-#| msgid "Polylines"
 msgid "Draw Polylines"
 msgstr "Polylines"
 
 #: ../../wp-google-maps-gold/html/live-tracking-settings-panel.html.php:74
 #, fuzzy
-#| msgid "Line Color"
 msgid "Line Color and Weight"
 msgstr "Couleur de la ligne"
 
@@ -221,7 +219,6 @@ msgstr ""
 #: ../../wp-google-maps-gold/html/marker-rating-settings.html.php:5
 #: ../../wp-google-maps-gold/includes/class.marker-rating.php:207
 #, fuzzy
-#| msgid "Marker Listing"
 msgid "Marker Ratings"
 msgstr "Liste des marqueurs"
 
@@ -247,7 +244,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-rating-settings.html.php:41
 #, fuzzy
-#| msgid "Carousel settings"
 msgid "Example range settings:"
 msgstr "Configuration Carousel"
 
@@ -273,7 +269,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-rating-settings.html.php:84
 #, fuzzy
-#| msgid "Save Style Settings"
 msgid "Example step settings:"
 msgstr "Enregistrer la configuration du style"
 
@@ -362,7 +357,6 @@ msgstr ""
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:2
 #: ../../wp-google-maps-gold/legacy-core.php:2179
 #, fuzzy
-#| msgid "Visitor Marker Input Settings"
 msgid "Near-Vicinity Marker Control Settings"
 msgstr "Marqueurs des visiteurs configuration d'entrée"
 
@@ -387,7 +381,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:50
 #, fuzzy
-#| msgid "Kilometers"
 msgid "Meters"
 msgstr "Kilomètres"
 
@@ -401,7 +394,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:88
 #, fuzzy
-#| msgid "Category Marker"
 msgid "Placeholder Marker"
 msgstr "Catégorie de marqueur"
 
@@ -440,13 +432,11 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:127
 #, fuzzy
-#| msgid "Animation"
 msgid "Animate Separation"
 msgstr "Animation"
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:148
 #, fuzzy
-#| msgid "Animation"
 msgid "Animation Duration"
 msgstr "Animation"
 
@@ -457,13 +447,11 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:169
 #, fuzzy
-#| msgid "Animation"
 msgid "Animation Easing"
 msgstr "Animation"
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:174
 #, fuzzy
-#| msgid "Line color"
 msgid "Linear"
 msgstr "Couleur de ligne"
 
@@ -473,7 +461,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:176
 #, fuzzy
-#| msgid "Line Opacity"
 msgid "Sine Out"
 msgstr "Opacité de la ligne"
 
@@ -580,13 +567,11 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:202
 #, fuzzy
-#| msgid "Bounce"
 msgid "Bounce In"
 msgstr "Rebond"
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:203
 #, fuzzy
-#| msgid "Bounce"
 msgid "Bounce Out"
 msgstr "Rebond"
 
@@ -596,7 +581,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:212
 #, fuzzy
-#| msgid "Animation"
 msgid "Stagger Animation"
 msgstr "Animation"
 
@@ -612,14 +596,12 @@ msgstr ""
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:295
 #: ../../wp-google-maps-gold/legacy-core.php:2203
 #, fuzzy
-#| msgid "On Hover Line Color"
 msgid "Near-Vicinity Line Color"
 msgstr "Couleur de la ligne au survol"
 
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:308
 #: ../../wp-google-maps-gold/legacy-core.php:2210
 #, fuzzy
-#| msgid "Line Opacity"
 msgid "Near-Vicinity Line Opacity"
 msgstr "Opacité de la ligne"
 
@@ -631,7 +613,6 @@ msgstr ""
 #: ../../wp-google-maps-gold/html/marker-separator-settings.html.php:325
 #: ../../wp-google-maps-gold/legacy-core.php:2217
 #, fuzzy
-#| msgid "Line Thickness"
 msgid "Near-Vicinity Line Thinkness"
 msgstr "Epaisseur de la ligne"
 
@@ -667,7 +648,6 @@ msgstr "Débutant avec WP Google Maps?"
 
 #: ../../wp-google-maps-gold/includes/class.marker-separator-settings.php:107
 #, fuzzy
-#| msgid "Marker Description"
 msgid "Marker Separation"
 msgstr "Description du marqueur"
 
@@ -730,9 +710,9 @@ msgid ""
 "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
 "\" onclick=\"document.location.reload(); return false;\">Try again</a>"
 msgstr ""
-"Une erreur HTTP inattendue s'est produite lors de la demande d'API. </p> "
-"<p><a href=\"?\" onclick=\"document.location.reload(); return false;"
-"\">Essayez à nouveau </a>"
+"Une erreur HTTP inattendue s'est produite lors de la demande d'API. </p> <p>"
+"<a href=\"?\" onclick=\"document.location.reload(); return false;\">Essayez "
+"à nouveau </a>"
 
 #: ../../wp-google-maps-gold/legacy-core.php:1580
 #: ../../wp-google-maps-pro/legacy-core.php:5080
@@ -831,7 +811,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/legacy-core.php:2427
 #, fuzzy
-#| msgid "Marker Listing Settings"
 msgid "Marker Clustering - Advanced Settings"
 msgstr "Configuration de la liste des marqueurs"
 
@@ -841,13 +820,11 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/legacy-core.php:2433
 #, fuzzy
-#| msgid "Enable Advanced Styling"
 msgid "Enable Advanced Options"
 msgstr "Activer les styles avancées"
 
 #: ../../wp-google-maps-gold/legacy-core.php:2444
 #, fuzzy
-#| msgid "show options"
 msgid "Options"
 msgstr "afficher les options"
 
@@ -962,7 +939,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/modules/wp-google-maps-kml-importer.php:56
 #, fuzzy
-#| msgid "Assigned to "
 msgid "Assigned Map"
 msgstr "Assigné à "
 
@@ -972,7 +948,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/modules/wp-google-maps-kml-importer.php:71
 #, fuzzy
-#| msgid "Linked maps"
 msgid "new map"
 msgstr "Cartes liées"
 
@@ -982,7 +957,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/modules/wp-google-maps-kml-importer.php:85
 #, fuzzy
-#| msgid "Assigned to "
 msgid "Assigned Category"
 msgstr "Assigné à "
 
@@ -1015,7 +989,6 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/modules/wp-google-maps-kml-importer.php:108
 #, fuzzy
-#| msgid "Save Category"
 msgid "new category"
 msgstr "Enregistrer la catégorie"
 
@@ -1038,14 +1011,12 @@ msgstr ""
 
 #: ../../wp-google-maps-gold/modules/wp-google-maps-kml-importer.php:226
 #, fuzzy
-#| msgid "Your CSV file has been successfully imported"
 msgid ""
 "Your KML file has been successfully imported. View your markers on your "
 msgstr "Votre fichier CSV a correctement été importé"
 
 #: ../../wp-google-maps-gold/modules/wp-google-maps-kml-importer.php:226
 #, fuzzy
-#| msgid "here"
 msgid "map here"
 msgstr "ici"
 
@@ -1068,28 +1039,26 @@ msgstr ""
 #: ../../wp-google-maps-gold/wp-google-maps-gold.php:378 ../legacy-core.php:27
 #: ../wpGoogleMaps.php:1281
 msgid ""
-"<strong>WP Google Maps:</strong> This plugin requires the WordPress REST "
-"API, which does not appear to be present on this installation. Please update "
+"<strong>WP Google Maps:</strong> This plugin requires the WordPress REST API,"
+" which does not appear to be present on this installation. Please update "
 "WordPress to version 4.7 or above."
 msgstr ""
 
 #: ../../wp-google-maps-pro/docs/js/scripts/docstrap.lib.js:1
 msgid "<iframe frameborder='0' width='0' height='0'/>"
-msgstr ""
+msgstr "<iframe frameborder='0' width='0' height='0'/>"
 
 #: ../../wp-google-maps-pro/docs/js/scripts/docstrap.lib.js:3
 #, fuzzy
-#| msgid "Description"
 msgid "<script>"
 msgstr "Description"
 
 #: ../../wp-google-maps-pro/docs/js/scripts/docstrap.lib.js:3
 msgid "<div>"
-msgstr ""
+msgstr "<div>"
 
 #: ../../wp-google-maps-pro/html/add-map-dialog.html.php:3
 #, fuzzy
-#| msgid "Add Marker"
 msgid "Add Map"
 msgstr "Ajouter un marqueur"
 
@@ -1155,7 +1124,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:2
 #, fuzzy
-#| msgid "Directions"
 msgid "Directions:"
 msgstr "Itinéraires"
 
@@ -1169,13 +1137,11 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:12
 #, fuzzy
-#| msgid "Enable Directions?"
 msgid "Enable Directions"
 msgstr "Activer les itinéraires ?"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:30
 #, fuzzy
-#| msgid "Directions Box Width"
 msgid "Directions Box Style"
 msgstr "Largeur pop-up d'itinéraire"
 
@@ -1234,7 +1200,7 @@ msgstr "Largeur pop-up d'itinéraire"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:107
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:112
 msgid "px"
@@ -1246,19 +1212,16 @@ msgstr "Adresse de destination par défaut"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:131
 #, fuzzy
-#| msgid "Default 'To' address"
 msgid "Default 'From' address"
 msgstr "Adresse de destination par défaut"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:140
 #, fuzzy
-#| msgid "Directions"
 msgid "Directions behaviour"
 msgstr "Itinéraires"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:153
 #, fuzzy
-#| msgid "Directions Box Width"
 msgid "Display directions on the page"
 msgstr "Largeur pop-up d'itinéraire"
 
@@ -1272,7 +1235,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:178
 #, fuzzy
-#| msgid "Satellite"
 msgid "Intelligent"
 msgstr "Satellite"
 
@@ -1302,19 +1264,16 @@ msgstr "Largeur pop-up d'itinéraire"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:230
 #, fuzzy
-#| msgid "Directions"
 msgid "Directions route color"
 msgstr "Itinéraires"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:244
 #, fuzzy
-#| msgid "Directions Box Width"
 msgid "Directions route weight"
 msgstr "Largeur pop-up d'itinéraire"
 
 #: ../../wp-google-maps-pro/html/directions-box-settings.html.php:261
 #, fuzzy
-#| msgid "Directions Box Width"
 msgid "Directions route opacity"
 msgstr "Largeur pop-up d'itinéraire"
 
@@ -1338,7 +1297,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/directions-box.html.php:65
 #, fuzzy
-#| msgid "Add a Polygon"
 msgid "Add Waypoint"
 msgstr "Ajouter un polygone"
 
@@ -1356,7 +1314,6 @@ msgstr "A pied"
 
 #: ../../wp-google-maps-pro/html/directions-box.html.php:91
 #, fuzzy
-#| msgid "Transit Layer"
 msgid "Transit"
 msgstr "Couche Transport en commun"
 
@@ -1402,7 +1359,6 @@ msgstr "Annuler l'itinéraire"
 
 #: ../../wp-google-maps-pro/html/google-maps-api-settings.html.php:3
 #, fuzzy
-#| msgid "Use Google Maps API"
 msgid "Use Google Maps API:"
 msgstr "Utiliser l'API Google Maps"
 
@@ -1420,7 +1376,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/google-maps-api-settings.html.php:27
 #, fuzzy
-#| msgid "Use Google Maps API"
 msgid "Load Google Maps API:"
 msgstr "Utiliser l'API Google Maps"
 
@@ -1456,7 +1411,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/google-maps-api-settings.html.php:61
 #, fuzzy
-#| msgid "Use Google Maps API"
 msgid "Always include Google Maps API on pages:"
 msgstr "Utiliser l'API Google Maps"
 
@@ -1470,7 +1424,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/google-maps-api-settings.html.php:69
 #, fuzzy
-#| msgid "Use Google Maps API"
 msgid "Always exclude Google Maps API on pages:"
 msgstr "Utiliser l'API Google Maps"
 
@@ -1489,7 +1442,6 @@ msgstr ""
 #: ../../wp-google-maps-pro/html/import-export/import-source-panel.html.php:18
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:621
 #, fuzzy
-#| msgid "Pic URL"
 msgid "URL"
 msgstr "URL de l'image"
 
@@ -1532,14 +1484,12 @@ msgstr "Forum d'aide"
 #: ../../wp-google-maps-pro/html/import-export/import-export.html.php:52
 #: ../../wp-google-maps-pro/html/import-export/import-source-panel.html.php:50
 #, fuzzy
-#| msgid "Select"
 msgid "Select File"
 msgstr "Sélectionner"
 
 #: ../../wp-google-maps-pro/html/import-export/import-export.html.php:57
 #: ../../wp-google-maps-pro/html/import-export/import-source-panel.html.php:55
 #, fuzzy
-#| msgid "Upload File"
 msgid "Max upload size"
 msgstr "Envoyer les fichiers"
 
@@ -1608,7 +1558,6 @@ msgstr "Modifier"
 
 #: ../../wp-google-maps-pro/html/import-export/import-export.html.php:170
 #, fuzzy
-#| msgid "View"
 msgid "View Log"
 msgstr "Voir"
 
@@ -1664,7 +1613,6 @@ msgstr "ID"
 #: ../../wp-google-maps-pro/includes/import-export/class.import-kml.php:148
 #: ../includes/tables/class.admin-marker-datatable.php:25
 #, fuzzy
-#| msgid "Select"
 msgid "Select All"
 msgstr "Sélectionner"
 
@@ -1676,7 +1624,6 @@ msgstr "Sélectionner"
 #: ../../wp-google-maps-pro/includes/import-export/class.import-json.php:229
 #: ../../wp-google-maps-pro/includes/import-export/class.import-kml.php:148
 #, fuzzy
-#| msgid "Select"
 msgid "Select None"
 msgstr "Sélectionner"
 
@@ -1692,7 +1639,6 @@ msgstr "Catégories"
 #: ../../wp-google-maps-pro/includes/import-export/class.import-json.php:182
 #: ../../wp-google-maps-pro/legacy-core.php:8881
 #, fuzzy
-#| msgid "Custom Marker"
 msgid "Custom Fields"
 msgstr "Marqueur personnalisé"
 
@@ -1783,7 +1729,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/html/map-edit-page/pro-marker-panel.html.php:5
 #, fuzzy
-#| msgid "Add a marker"
 msgid "Add a Marker"
 msgstr "Ajouter un marqueur"
 
@@ -1924,7 +1869,6 @@ msgstr "Envoyer une image"
 #: ../../wp-google-maps-pro/html/marker-icon-picker.html.php:13
 #: ../../wp-google-maps-pro/legacy-core.php:1602
 #, fuzzy
-#| msgid "Marker Category"
 msgid "Marker Library"
 msgstr "Catégorie"
 
@@ -1951,14 +1895,13 @@ msgstr "Radius"
 
 #: ../../wp-google-maps-pro/includes/3rd-party-integration/class.acf.php:89
 #, fuzzy
-#| msgid "Advanced Options"
 msgid "Advanced Custom Fields"
 msgstr "Options avancées"
 
 #: ../../wp-google-maps-pro/includes/3rd-party-integration/class.acf.php:94
 #: ../../wp-google-maps-pro/includes/3rd-party-integration/class.toolset-woocommerce.php:227
 msgid "(Not available)"
-msgstr ""
+msgstr "(Non disponible)"
 
 #: ../../wp-google-maps-pro/includes/3rd-party-integration/class.acf.php:108
 #, php-format
@@ -1990,7 +1933,6 @@ msgstr "Tout"
 
 #: ../../wp-google-maps-pro/includes/class.category-tree-wordpress.php:12
 #, fuzzy
-#| msgid "Categories"
 msgid "All Categories"
 msgstr "Catégories"
 
@@ -2033,7 +1975,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/custom-fields/page.custom-fields.php:234
 #, fuzzy
-#| msgid "WP Google Maps Error log"
 msgid "WP Google Maps - Custom Fields"
 msgstr "WP Google Maps Error log"
 
@@ -2043,7 +1984,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/custom-fields/page.custom-fields.php:263
 #, fuzzy
-#| msgid "Filter by"
 msgid "Filter Type"
 msgstr "Filtrer par"
 
@@ -2055,13 +1995,11 @@ msgstr "Bulles d'information"
 
 #: ../../wp-google-maps-pro/includes/custom-fields/page.custom-fields.php:273
 #, fuzzy
-#| msgid "Marker Listing"
 msgid "Marker Listings"
 msgstr "Liste des marqueurs"
 
 #: ../../wp-google-maps-pro/includes/custom-fields/page.custom-fields.php:278
 #, fuzzy
-#| msgid "Action"
 msgid "Actions"
 msgstr "Action"
 
@@ -2089,7 +2027,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/custom-fields/page.custom-fields.php:377
 #, fuzzy
-#| msgid "Adding"
 msgid "Add"
 msgstr "Insertion"
 
@@ -2107,7 +2044,7 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/import-export/class.import-csv.php:144
 msgid " on row(s) "
-msgstr ""
+msgstr "sur ligne(s)"
 
 #: ../../wp-google-maps-pro/includes/import-export/class.import-csv.php:167
 #: ../../wp-google-maps-pro/includes/import-export/class.import-gpx.php:29
@@ -2143,13 +2080,11 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/import-export/class.import-csv.php:419
 #, fuzzy
-#| msgid "Polygon Data"
 msgid "Polygon data found."
 msgstr "Données du polygone"
 
 #: ../../wp-google-maps-pro/includes/import-export/class.import-csv.php:422
 #, fuzzy
-#| msgid "Polyline Data"
 msgid "Polyline data found."
 msgstr "Donnée spolyline"
 
@@ -2211,7 +2146,6 @@ msgstr ""
 #: ../../wp-google-maps-pro/includes/import-export/class.import-json.php:238
 #: ../../wp-google-maps-pro/includes/import-export/class.import-kml.php:157
 #, fuzzy
-#| msgid "Advanced Options"
 msgid "Scheduling Options"
 msgstr "Options avancées"
 
@@ -2349,7 +2283,6 @@ msgstr ""
 #: ../../wp-google-maps-pro/includes/import-export/class.import-kml.php:584
 #: ../../wp-google-maps-pro/includes/import-export/class.import-kml.php:645
 #, fuzzy
-#| msgid "Add a New Polyline"
 msgid "New Imported Polyline"
 msgstr "Ajouter une polyline"
 
@@ -2413,7 +2346,6 @@ msgstr ""
 #: ../../wp-google-maps-pro/includes/import-export/class.import-kml.php:522
 #: ../../wp-google-maps-pro/includes/import-export/class.import-kml.php:548
 #, fuzzy
-#| msgid "Delete Marker"
 msgid "New Imported Marker"
 msgstr "Supprimer le marqueur"
 
@@ -2449,7 +2381,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/import-export/class.import-json.php:684
 #, fuzzy
-#| msgid "Add New Category"
 msgid "New Imported Category"
 msgstr "Ajouter une catégorie"
 
@@ -2497,10 +2428,10 @@ msgstr ""
 #: ../../wp-google-maps-pro/includes/import-export/class.import.php:380
 #, php-format
 msgid ""
-"HTTP referrer restrictions on your API key forbid geocoding from this "
-"server. This can happen when your server is behind a proxy, or does not set "
-"the HTTP referrer header correctly. We recommend temporarily de-restricting "
-"your key, or generating a second key with an IP restriction to switch to "
+"HTTP referrer restrictions on your API key forbid geocoding from this server."
+" This can happen when your server is behind a proxy, or does not set the "
+"HTTP referrer header correctly. We recommend temporarily de-restricting your "
+"key, or generating a second key with an IP restriction to switch to "
 "temporarily. We detected this servers IP as %s."
 msgstr ""
 
@@ -2553,13 +2484,11 @@ msgstr ""
 #: ../../wp-google-maps-pro/includes/import-export/page.import-export.php:422
 #: ../../wp-google-maps-pro/includes/import-export/page.import-export.php:529
 #, fuzzy
-#| msgid "CSV import failed"
 msgid "Unable to import file."
 msgstr "L'importation CSV a échoué"
 
 #: ../../wp-google-maps-pro/includes/import-export/page.import-export.php:443
 #, fuzzy
-#| msgid "Last"
 msgid "Last Run"
 msgstr "Dernier"
 
@@ -2598,7 +2527,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/import-export/page.import-export.php:939
 #, fuzzy
-#| msgid "Are you sure you want to delete this marker:"
 msgid "Are you sure you wish to delete this file?"
 msgstr "Etes-vous sûr de vouloir supprimer ce marqueur:"
 
@@ -2616,7 +2544,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/includes/import-export/page.import-export.php:944
 #, fuzzy
-#| msgid "Are you sure you want to delete the map"
 msgid "Are you sure you wish to delete this scheduled import?"
 msgstr "Etes-vous sûr de vouloir supprimer la carte"
 
@@ -2730,7 +2657,6 @@ msgstr "Lien"
 #: ../../wp-google-maps-pro/includes/marker-listings/class.carousel.php:146
 #: ../../wp-google-maps-pro/includes/marker-listings/class.grid.php:82
 #, fuzzy
-#| msgid "More details"
 msgid "More Details"
 msgstr "Plus de détails"
 
@@ -2739,7 +2665,6 @@ msgstr "Plus de détails"
 #: ../../wp-google-maps-pro/legacy-core.php:7455 ../legacy-core.php:1946
 #: ../legacy-core.php:3700
 #, fuzzy
-#| msgid "1mi"
 msgid "mi"
 msgstr "1mi"
 
@@ -2748,21 +2673,18 @@ msgstr "1mi"
 #: ../../wp-google-maps-pro/legacy-core.php:7455 ../legacy-core.php:1946
 #: ../legacy-core.php:3700
 #, fuzzy
-#| msgid "1km"
 msgid "km"
 msgstr "1km"
 
 #: ../../wp-google-maps-pro/includes/marker-listings/class.marker-listing.php:418
 #: ../includes/class.strings.php:65
 #, fuzzy
-#| msgid "My location"
 msgid "from your location"
 msgstr "Ma localisation"
 
 #: ../../wp-google-maps-pro/includes/marker-listings/class.marker-listing.php:422
 #: ../includes/class.strings.php:66
 #, fuzzy
-#| msgid "Show User's Location?"
 msgid "from searched location"
 msgstr "Voir la position de l'utilisateur ?"
 
@@ -2834,7 +2756,6 @@ msgstr "Catégorie de marqueur"
 #: ../../wp-google-maps-pro/includes/page.categories.php:137
 #: ../../wp-google-maps-pro/includes/page.categories.php:307
 #, fuzzy
-#| msgid "Category Name"
 msgid "Category Image:"
 msgstr "Nom de la catégorie"
 
@@ -2855,7 +2776,6 @@ msgstr "Ce marqueur est compatible Retina"
 
 #: ../../wp-google-maps-pro/includes/page.categories.php:167
 #, fuzzy
-#| msgid "Marker Category"
 msgid "Parent Category"
 msgstr "Catégorie"
 
@@ -2888,7 +2808,6 @@ msgstr "Ajouter une catégorie"
 
 #: ../../wp-google-maps-pro/includes/page.categories.php:340
 #, fuzzy
-#| msgid "Marker Category"
 msgid "Parent Category:"
 msgstr "Catégorie"
 
@@ -3139,7 +3058,6 @@ msgstr "Configuration de la carte"
 #: ../js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
 #: ../js/v8/wp-google-maps.combined.js:7068 ../js/v8/wp-google-maps.min.js:1
 #, fuzzy
-#| msgid "Maps"
 msgid "Map"
 msgstr "Cartes"
 
@@ -3168,7 +3086,6 @@ msgstr ""
 #: ../../wp-google-maps-pro/js/v8/wp-google-maps-pro.combined.js:17262
 #: ../../wp-google-maps-pro/js/v8/wp-google-maps-pro.min.js:1
 #, fuzzy
-#| msgid "Your Markers"
 msgid "Focused Marker"
 msgstr "Vos marqueurs"
 
@@ -3188,7 +3105,6 @@ msgstr ""
 #: ../../wp-google-maps-pro/js/v8/wp-google-maps-pro.combined.js:17292
 #: ../../wp-google-maps-pro/js/v8/wp-google-maps-pro.min.js:1
 #, fuzzy
-#| msgid "Save Category"
 msgid "Initial Category"
 msgstr "Enregistrer la catégorie"
 
@@ -3235,7 +3151,6 @@ msgstr ""
 #: ../js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
 #: ../js/v8/wp-google-maps.combined.js:7068 ../js/v8/wp-google-maps.min.js:1
 #, fuzzy
-#| msgid "WP Google Maps"
 msgid "Google"
 msgstr "WP Google Maps"
 
@@ -3270,7 +3185,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:291 ../legacy-core.php:5514
 #, fuzzy
-#| msgid "Delete this marker"
 msgid "Delete this circle"
 msgstr "Supprimer ce marqueur"
 
@@ -3296,8 +3210,8 @@ msgstr "Inclus dans l'Add-on Pro"
 
 #: ../../wp-google-maps-pro/legacy-core.php:751
 msgid ""
-"Please <a href='update-core.php'>update your WP Google Maps GOLD version</"
-"a>. Your current Gold version is not compatible with the current Pro version."
+"Please <a href='update-core.php'>update your WP Google Maps GOLD version</a>."
+" Your current Gold version is not compatible with the current Pro version."
 msgstr ""
 "Veuillez <a href='update-core.php'>mettre à jour votre version GOLD de WP "
 "Google Maps</a>. Votre version Gold n'est pas compatible avec la version Pro "
@@ -3424,15 +3338,11 @@ msgstr "Niveau de zoom"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1353 ../legacy-core.php:3489
 #, fuzzy, php-format
-#| msgid "Set to 100%% for a responsive map"
 msgid "Set to 100% for a responsive map"
 msgstr "Réglez à 100%% pour une carte responsive"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1363 ../legacy-core.php:3499
 #, fuzzy, php-format
-#| msgid ""
-#| "We recommend that you leave your height in PX. Depending on your theme, "
-#| "using %% for the height may break your map."
 msgid ""
 "We recommend that you leave your height in PX. Depending on your theme, "
 "using % for the height may break your map."
@@ -3453,7 +3363,6 @@ msgstr "Activer la localisation de magasin ?"
 #: ../../wp-google-maps-pro/legacy-core.php:1420 ../legacy-core.php:3600
 #: ../legacy-core.php:3627
 #, fuzzy
-#| msgid "Store Locator"
 msgid "Store Locator Style"
 msgstr "Localisation de Points de Vente"
 
@@ -3474,13 +3383,11 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:1435
 #, fuzzy
-#| msgid "Search"
 msgid "Search Area"
 msgstr "Rechercher"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1445
 #, fuzzy
-#| msgid "Radius"
 msgid "Radial"
 msgstr "Radius"
 
@@ -3498,13 +3405,11 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:1472 ../legacy-core.php:3641
 #, fuzzy
-#| msgid "Radius"
 msgid "Radius Style"
 msgstr "Radius"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1497 ../legacy-core.php:3694
 #, fuzzy
-#| msgid "Default"
 msgid "Default radius"
 msgstr "Défaut"
 
@@ -3576,7 +3481,6 @@ msgstr "Envoyer une image"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1605
 #, fuzzy
-#| msgid "Marker Listing"
 msgid "Marker animation"
 msgstr "Liste des marqueurs"
 
@@ -3590,7 +3494,6 @@ msgstr "Requète"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1634 ../legacy-core.php:3724
 #, fuzzy
-#| msgid "Default 'To' address"
 msgid "Default address"
 msgstr "Adresse de destination par défaut"
 
@@ -3641,7 +3544,6 @@ msgstr "Documentation sur la localisation d'un magasin"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1708
 #, fuzzy
-#| msgid "Advanced Settings"
 msgid "Advanced Settings:"
 msgstr "Configurations avancées"
 
@@ -3720,7 +3622,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:1838
 #, fuzzy
-#| msgid "Show distance in"
 msgid "Show distance from location?"
 msgstr "Indiquer les distances en"
 
@@ -3774,7 +3675,6 @@ msgstr "Couche Transport en commun"
 
 #: ../../wp-google-maps-pro/legacy-core.php:1984
 #, fuzzy
-#| msgid "Enable Cloud Layer?"
 msgid "Enable Polygon Labels"
 msgstr "Activer la couche nuage ?"
 
@@ -3808,13 +3708,11 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:2012
 #, fuzzy
-#| msgid "General options"
 msgid "Integration"
 msgstr "Options générales"
 
 #: ../../wp-google-maps-pro/legacy-core.php:2023
 #, fuzzy
-#| msgid "Save Marker Location"
 msgid "Enable Marker Ratings"
 msgstr "Enregistrer la localisation du marqueur"
 
@@ -3873,7 +3771,6 @@ msgstr "Trier les marqueurs par"
 
 #: ../../wp-google-maps-pro/legacy-core.php:2272
 #, fuzzy
-#| msgid "Category Marker"
 msgid "Category Priority"
 msgstr "Catégorie de marqueur"
 
@@ -3904,7 +3801,7 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:2296
 msgid "(still in beta)"
-msgstr ""
+msgstr "(encore en test)"
 
 #: ../../wp-google-maps-pro/legacy-core.php:2317 ../legacy-core.php:3934
 msgid "Placement: "
@@ -4020,7 +3917,6 @@ msgstr "Ajouter un marqueur"
 #: ../includes/compat/backwards_compat_v6.php:67 ../legacy-core.php:4296
 #: ../legacy-core.php:4298
 #, fuzzy
-#| msgid "Add a marker"
 msgid "Add a Circle"
 msgstr "Ajouter un marqueur"
 
@@ -4039,9 +3935,6 @@ msgstr "Vos marqueurs"
 
 #: ../../wp-google-maps-pro/legacy-core.php:2457 ../legacy-core.php:4378
 #, fuzzy
-#| msgid ""
-#| "WP Google Maps encourages you to make use of the amazing icons created by "
-#| "Nicolas Mollet's Maps Icons Collection"
 msgid "WP Google Maps encourages you to make use of the amazing icons at "
 msgstr ""
 "WP Google Maps vous encourage à utiliser les superbes icônes créée par "
@@ -4103,7 +3996,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:3923
 #, fuzzy
-#| msgid "An unknown error occurred"
 msgid "Unknown error"
 msgstr "Une erreur inconnue s'est produite"
 
@@ -4209,12 +4101,12 @@ msgstr "Google API Key (Requis)"
 #, fuzzy
 msgid ""
 "You will need a Google Maps Geocode API key for this to work. See <a "
-"href='https://developers.google.com/maps/documentation/geocoding/"
-"#Limits'>Geocoding Documentation</a>"
+"href='https://developers.google.com/maps/documentation/geocoding/#Limits'>"
+"Geocoding Documentation</a>"
 msgstr ""
 "Vous avez besoin d'une clé \"Google Maps Geocode API key\" pour faire ceci. "
-"Plus d'infos https://developers.google.com/maps/documentation/geocoding/"
-"#Limits"
+"Plus d'infos https://developers.google."
+"com/maps/documentation/geocoding/#Limits"
 
 #: ../../wp-google-maps-pro/legacy-core.php:4789
 msgid "There is a 0.12second delay between each request"
@@ -4413,7 +4305,6 @@ msgstr "Cacher la colonne Icône"
 
 #: ../../wp-google-maps-pro/legacy-core.php:5185
 #, fuzzy
-#| msgid "Hide the Icon column"
 msgid "Hide the Link column"
 msgstr "Cacher la colonne Icône"
 
@@ -4605,8 +4496,8 @@ msgstr "Utiliser l'API Google Maps"
 #: ../includes/legacy/settings-page.php:495
 msgid ""
 "This API key can be obtained from the <a href='https://console.developers."
-"google.com' target='_BLANK'>Google Developers Console</a>. Our <a "
-"href='http://www.wpgmaps.com/documentation/creating-a-google-maps-api-key/' "
+"google.com' target='_BLANK'>Google Developers Console</a>. Our <a href='http:"
+"//www.wpgmaps.com/documentation/creating-a-google-maps-api-key/' "
 "target='_BLANK'>documentation</a> provides a full guide on how to obtain "
 "this. "
 msgstr ""
@@ -4617,8 +4508,8 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:5328
 msgid ""
-"This API key can be obtained from the <a href='https://openrouteservice.org/"
-"dev/#/login' target='_BLANK'>OpenRouteService Developers Console</a>."
+"This API key can be obtained from the <a href='https://openrouteservice."
+"org/dev/#/login' target='_BLANK'>OpenRouteService Developers Console</a>."
 msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:5334
@@ -4696,7 +4587,6 @@ msgstr "URL des données XML du marqueur"
 #: ../../wp-google-maps-pro/legacy-core.php:5394
 #: ../html/settings-page.html.php:491 ../includes/legacy/settings-page.php:565
 #, fuzzy
-#| msgid "Custom CSS"
 msgid "Custom Scripts"
 msgstr "CSS Personnalisé"
 
@@ -4710,7 +4600,6 @@ msgstr "CSS Personnalisé"
 #: ../../wp-google-maps-pro/legacy-core.php:5405
 #: ../html/settings-page.html.php:502 ../includes/legacy/settings-page.php:574
 #, fuzzy
-#| msgid "Custom CSS"
 msgid "Custom JS"
 msgstr "CSS Personnalisé"
 
@@ -4745,7 +4634,6 @@ msgstr "Configurations générales des cartes"
 #: ../../wp-google-maps-pro/legacy-core.php:5587
 #: ../html/settings-page.html.php:54 ../includes/legacy/settings-page.php:193
 #, fuzzy
-#| msgid "Disable Pan Controls"
 msgid "Disable Full Screen Control"
 msgstr "Désactiver les controles de Pan"
 
@@ -4817,7 +4705,6 @@ msgstr "Clic"
 
 #: ../../wp-google-maps-pro/legacy-core.php:5705
 #, fuzzy
-#| msgid "Allow category selection"
 msgid "Category Selection Logic"
 msgstr "Autoriser la sélection de catégorie"
 
@@ -4843,7 +4730,6 @@ msgstr "Filter par catégorie s'affichant comme"
 
 #: ../../wp-google-maps-pro/legacy-core.php:5721
 #, fuzzy
-#| msgid "Order markers by"
 msgid "Order category filter items by"
 msgstr "Trier les marqueurs par"
 
@@ -4853,7 +4739,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:5740
 #, fuzzy
-#| msgid "Save Category"
 msgid "Enable Category Count"
 msgstr "Enregistrer la catégorie"
 
@@ -4932,6 +4817,8 @@ msgstr "Largeur de l'image par défaut"
 #: ../../wp-google-maps-pro/legacy-core.php:5955
 msgid "(can be left blank - max width will be limited to max infowindow width)"
 msgstr ""
+"(peut être laissé vide - la taille maximum sera limité à la taille maximum "
+"de la fenêtre)"
 
 #: ../../wp-google-maps-pro/legacy-core.php:5958
 msgid "Default Image Height"
@@ -4942,6 +4829,8 @@ msgid ""
 "(can be left blank - leaving both the width and height blank will revert to "
 "full size images being used)"
 msgstr ""
+"(peut être laissé vide - laisser la hauteur et la largeur vides résultera en "
+"l'utilisation des images à leur taille maximum)"
 
 #: ../../wp-google-maps-pro/legacy-core.php:5962
 msgid "Max InfoWindow Width"
@@ -4975,14 +4864,12 @@ msgstr "Texte du lien"
 #: ../../wp-google-maps-pro/legacy-core.php:5982
 #: ../html/settings-page.html.php:363 ../includes/legacy/settings-page.php:387
 #, fuzzy
-#| msgid "InfoWindows"
 msgid "Disable InfoWindows"
 msgstr "Bulles d'information"
 
 #: ../../wp-google-maps-pro/legacy-core.php:6014
 #: ../html/settings-page.html.php:387 ../includes/legacy/settings-page.php:470
 #, fuzzy
-#| msgid "Store Locator"
 msgid "Store Locator Radii"
 msgstr "Localisation de Points de Vente"
 
@@ -5089,7 +4976,6 @@ msgstr "Faites glisser le sommet pour le déplacer"
 #: ../../wp-google-maps-pro/legacy-core.php:7273
 #: ../base/includes/wp-google-maps-polygons.php:165
 #, fuzzy
-#| msgid "Save Polygon"
 msgid "Show Polygon"
 msgstr "Enregistrer le polygone"
 
@@ -5157,7 +5043,6 @@ msgstr ""
 
 #: ../../wp-google-maps-pro/legacy-core.php:8670
 #, fuzzy
-#| msgid "ignore if you want to use the default marker"
 msgid "ignore if you want to use the normal marker"
 msgstr "ignorer si vous voulez utiliser le marqueur par défaut"
 
@@ -5172,8 +5057,8 @@ msgstr ""
 #: ../../wp-google-maps-pro/wp-google-maps-pro.php:1889
 #: ../wpGoogleMaps.php:1249
 msgid ""
-"<strong>WP Google Maps:</strong> This plugin does not support PHP version "
-"5.2 or below. Please use your cPanel or contact your host to switch version."
+"<strong>WP Google Maps:</strong> This plugin does not support PHP version 5."
+"2 or below. Please use your cPanel or contact your host to switch version."
 msgstr ""
 
 #: ../../wp-google-maps-pro/wp-google-maps-pro.php:1905
@@ -5224,7 +5109,6 @@ msgstr "Utilisateurs enregistrés"
 
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:340
 #, fuzzy
-#| msgid "Allow users to upload images?"
 msgid "Allow users to add a description?"
 msgstr "Autoriser les utilisateurs à télécharger des images ?"
 
@@ -5238,7 +5122,6 @@ msgstr "Autoriser les utilisateurs à télécharger des images ?"
 
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:367
 #, fuzzy
-#| msgid "Allow users to upload images?"
 msgid "Allow users to add a link to markers?"
 msgstr "Autoriser les utilisateurs à télécharger des images ?"
 
@@ -5290,7 +5173,6 @@ msgstr "Description du marqueur"
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:417
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:620
 #, fuzzy
-#| msgid "Marker Listing"
 msgid "Marker Link"
 msgstr "Liste des marqueurs"
 
@@ -5347,7 +5229,6 @@ msgstr ""
 
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:951
 #, fuzzy, php-format
-#| msgid "Marker Title"
 msgid "Marker title: %s"
 msgstr "Titre du marqueur"
 
@@ -5358,13 +5239,11 @@ msgstr "Adresse"
 
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:953
 #, fuzzy, php-format
-#| msgid "Marker Description"
 msgid "Marker description: %s"
 msgstr "Description du marqueur"
 
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:954
 #, fuzzy, php-format
-#| msgid "Marker Category"
 msgid "Marker category: %s"
 msgstr "Catégorie"
 
@@ -5381,7 +5260,6 @@ msgstr ""
 
 #: ../../wp-google-maps-ugm/wp-google-maps-ugm.php:992
 #, fuzzy
-#| msgid "Thank you. Your marker is awaiting approval."
 msgid "Your marker is pending approval."
 msgstr "Merci. Votre marqueur attend la validation."
 
@@ -5643,7 +5521,6 @@ msgstr ""
 
 #: ../base/includes/full-screen-module.php:38
 #, fuzzy
-#| msgid "Enable Directions?"
 msgid "Enable Full Screen Option"
 msgstr "Activer les itinéraires ?"
 
@@ -5657,9 +5534,6 @@ msgstr ""
 
 #: ../base/includes/welcome.php:21
 #, fuzzy
-#| msgid ""
-#| "Amazing maps. Simple interface. Powerful functionality. World Class "
-#| "Support."
 msgid ""
 "Build amazing maps through a simple interface and powerful functionality "
 "along with world class support."
@@ -5683,8 +5557,8 @@ msgstr "Créer une catégorie de marqueur"
 
 #: ../base/includes/welcome.php:53
 msgid ""
-"Select from various <a href='http://wpgmaps.com/map-themes/' "
-"target='_BLANK'>map themes</a>, or make your own."
+"Select from various <a href='http://wpgmaps.com/map-themes/' target='_BLANK'>"
+"map themes</a>, or make your own."
 msgstr ""
 
 #: ../base/includes/welcome.php:59
@@ -5729,7 +5603,6 @@ msgstr "Epaisseur de la ligne"
 
 #: ../base/includes/wp-google-maps-polylines.php:168
 #, fuzzy
-#| msgid "Save Polyline"
 msgid "Show Polyline"
 msgstr "Enregistrer la polyline"
 
@@ -5755,7 +5628,6 @@ msgstr ""
 
 #: ../html/gdpr-compliance-settings.html.php:25
 #, fuzzy
-#| msgid "General options"
 msgid "General Complicance"
 msgstr "Options générales"
 
@@ -5788,7 +5660,6 @@ msgstr ""
 
 #: ../html/gdpr-compliance-settings.html.php:63
 #, fuzzy
-#| msgid "Category Name"
 msgid "Company Name"
 msgstr "Nom de la catégorie"
 
@@ -5837,19 +5708,19 @@ msgid ""
 "respective libraries for details on how they use data and the process to "
 "exercise your rights under the GDPR regulations.\n"
 "\n"
-"WP Google Maps uses jQuery DataTables to display sortable, searchable "
-"tables, such as that seen in the Advanced Marker Listing and on the Map Edit "
-"Page. jQuery DataTables in certain circumstances uses a cookie to save and "
-"later recall the \"state\" of a given table - that is, the search term, sort "
+"WP Google Maps uses jQuery DataTables to display sortable, searchable tables,"
+" such as that seen in the Advanced Marker Listing and on the Map Edit Page. "
+"jQuery DataTables in certain circumstances uses a cookie to save and later "
+"recall the \"state\" of a given table - that is, the search term, sort "
 "column and order and current page. This data is help in local storage and "
 "retained until this is cleared manually. No libraries used by WP Google Maps "
 "transmit this information.\n"
 "\n"
 "Please <a href=\"https://developers.google.com/maps/terms\">see here</a> and "
 "<a href=\"https://maps.google.com/help/terms_maps.html\">here</a> for "
-"Google's terms. Please also see <a href=\"https://policies.google.com/"
-"privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send the "
-"API provider any personally identifying information, or information that "
+"Google's terms. Please also see <a href=\"https://policies.google."
+"com/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send "
+"the API provider any personally identifying information, or information that "
 "could uniquely identify your device.\n"
 "\n"
 "Where this notice is displayed in place of a map, agreeing to this notice "
@@ -5906,14 +5777,12 @@ msgstr ""
 #: ../html/settings-page.html.php:46
 #: ../includes/class.maps-engine-dialog.php:72
 #, fuzzy
-#| msgid "Enable Layers"
 msgid "OpenLayers"
 msgstr "Activer les couches"
 
 #: ../html/settings-page.html.php:47
 #: ../includes/class.maps-engine-dialog.php:119
 #, fuzzy
-#| msgid "WP Google Maps"
 msgid "Google Maps"
 msgstr "WP Google Maps"
 
@@ -5972,7 +5841,6 @@ msgstr ""
 
 #: ../html/settings-page.html.php:221 ../html/tile-server-fieldset.html.php:74
 #, fuzzy
-#| msgid "Transit Layer"
 msgid "Transport Map"
 msgstr "Couche Transport en commun"
 
@@ -6030,7 +5898,6 @@ msgstr ""
 
 #: ../html/settings-page.html.php:333
 #, fuzzy
-#| msgid "Edit"
 msgid "Editor"
 msgstr "Modifier"
 
@@ -6068,8 +5935,8 @@ msgstr "Google API Key (Requis)"
 #: ../html/settings-page.html.php:409
 msgid ""
 "This API key can be obtained from the <a href='https://console.developers."
-"google.com' target='_BLANK'>Google Developers Console</a>. Our <a "
-"href='http://www.wpgmaps.com/documentation/creating-a-google-maps-api-key/' "
+"google.com' target='_BLANK'>Google Developers Console</a>. Our <a href='http:"
+"//www.wpgmaps.com/documentation/creating-a-google-maps-api-key/' "
 "target='_BLANK'>documentation</a> provides a full guide on how to obtain "
 "this."
 msgstr ""
@@ -6080,7 +5947,6 @@ msgstr "Localisation Données Marqueur"
 
 #: ../html/settings-page.html.php:507
 #, fuzzy
-#| msgid "Other settings"
 msgid "Other Caching"
 msgstr "Autres configurations"
 
@@ -6094,7 +5960,6 @@ msgstr ""
 
 #: ../html/settings-page.html.php:518
 #, fuzzy
-#| msgid "Map Settings"
 msgid "Miscellaneous Settings"
 msgstr "Configuration de la carte"
 
@@ -6107,7 +5972,6 @@ msgstr ""
 
 #: ../html/theme-panel.html.php:5
 #, fuzzy
-#| msgid "Theme selection"
 msgid "Theme Presets"
 msgstr "Sélection thème"
 
@@ -6117,7 +5981,6 @@ msgstr "Sélection thème"
 #: ../html/theme-panel.html.php:159 ../html/theme-panel.html.php:181
 #: ../html/theme-panel.html.php:203 ../html/theme-panel.html.php:225
 #, fuzzy
-#| msgid "Select"
 msgid "Select Preset"
 msgstr "Sélectionner"
 
@@ -6144,7 +6007,6 @@ msgstr ""
 
 #: ../html/theme-panel.html.php:168
 #, fuzzy
-#| msgid "Monotone"
 msgid "Monochrome"
 msgstr "Monochrome"
 
@@ -6199,7 +6061,6 @@ msgstr ""
 
 #: ../html/theme-panel.html.php:310
 #, fuzzy
-#| msgid "Height"
 msgid "Weight"
 msgstr "Hauteur"
 
@@ -6214,7 +6075,6 @@ msgstr "Localisation Données Marqueur"
 
 #: ../html/theme-panel.html.php:340
 #, fuzzy
-#| msgid "Line Thickness"
 msgid "Lightness"
 msgstr "Epaisseur de la ligne"
 
@@ -6250,9 +6110,9 @@ msgstr ""
 #: ../includes/class.gdpr-compliance.php:38
 msgid ""
 "<p>\n"
-"\tI agree for my personal data to be processed by <span name="
-"\"wpgmza_gdpr_company_name\"></span>, for the purpose(s) of <span name="
-"\"wpgmza_gdpr_retention_purpose\"></span>.\n"
+"\tI agree for my personal data to be processed by <span "
+"name=\"wpgmza_gdpr_company_name\"></span>, for the purpose(s) of <span "
+"name=\"wpgmza_gdpr_retention_purpose\"></span>.\n"
 "</p>\n"
 "\n"
 "<p>\t\n"
@@ -6281,9 +6141,9 @@ msgid ""
 "<p>\n"
 "\tPlease <a href=\"https://developers.google.com/maps/terms\">see here</a> "
 "and <a href=\"https://maps.google.com/help/terms_maps.html\">here</a> for "
-"Google's terms. Please also see <a href=\"https://policies.google.com/"
-"privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send the "
-"API provider any personally identifying information, or information that "
+"Google's terms. Please also see <a href=\"https://policies.google."
+"com/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send "
+"the API provider any personally identifying information, or information that "
 "could uniquely identify your device.\n"
 "</p>\n"
 "<p>\n"
@@ -6291,6 +6151,52 @@ msgid ""
 "will store a cookie recording your agreement so you are not prompted again.\n"
 "</p>"
 msgstr ""
+"<p>\n"
+"J'accepte que mes données personnelles soient utilisées par <span "
+"name=\"wpgmza_gdpr_company_name\"></span>,  dans le but de <span "
+"name=\"wpgmza_gdpr_retention_purpose\"></span>.\n"
+"</p>\n"
+"\n"
+"<p>\t\n"
+"J'accepte que mes données personnelles fournies par l'API de map, soient "
+"utilisées par l'API fournisseur, dans le but de géocoder (convertir les "
+"adresses en coordonnées), inversant le géocode et la génération de "
+"directions.\n"
+"</p>\n"
+"<p>\n"
+"Certains composants visuels de WP Google Maps utilisent une tièrce librairie "
+"qui est  chargée par-dessus le réseau. Désormais, les librairies sont Maps, "
+"Open Street Map, jQuery DataTables and FontAwesome. Au chargement des "
+"ressources par-dessus le réseau, le server tiers recevra votre adresse IP et "
+"la chaîne de l'agent de l'utilisateur parmi d'autres détails. Référez vous, "
+"s'il vous plaît à la politique de confidentialité des librairies respectives "
+"pour des détails, comme ceux sur l'utilisation des données et le processus "
+"pour exercer vos droits sous la RGPD.\n"
+"</p>\n"
+"<p>\n"
+"WP Google Maps utilise les bases de données de jQuery pour afficher des "
+"tables recherchables, comme ça a été vu dans l'Advanced Marker Listing et "
+"sur l'éditeur de page de Map. Les bases de données de jQuery utilisent dans "
+"certaines circonstances un cookie pour garder et plus tard rappeler "
+"l'\"état\" d'une table donnée, c'est à dire, le terme recherché, la colonne "
+"triée, et la page actuelle. Ces données sont gardés dans un stockage local "
+"et conservées jusqu'à ce qu'elles soient effacées manuellement. Aucune "
+"librairie utilisées par WP Google Maps transmet cette information.\n"
+"</p>\n"
+"<p>\n"
+"S'il vous plaît <a href=\"https://developers.google.com/maps/terms\">allez "
+"ici</a> et <a href=\"https://maps.google.com/help/terms_maps.html\">là</a> "
+"pour les termes de Google. S'il vous plaît, allez aussi<a href=\"https:"
+"//policies.google.com/privacy?hl=en-GB&amp;gl=uk\">voir les politiques de "
+"confidentialités de Google.</a>. Nous n'envoyons pas les données "
+"d'identifications personnelles au fournisseur d'API, ni même les "
+"informations qui pourraient identifier uniquement votre appareil.\n"
+"</p>\n"
+"<p>\n"
+"Lorsque cette notice est affichée à la place d'une carte, accepter cette "
+"notice ajoutera un cookie qui enregistrera votre accord pour ne plus avoir à "
+"accepter de nouveau.\n"
+"</p>"
 
 #: ../includes/class.gdpr-compliance.php:148
 msgid ""
@@ -6305,7 +6211,6 @@ msgstr ""
 
 #: ../includes/class.map.php:213
 #, fuzzy
-#| msgid "WP Google Maps"
 msgid "WP Google Maps:"
 msgstr "WP Google Maps"
 
@@ -6323,7 +6228,6 @@ msgstr ""
 
 #: ../includes/class.maps-engine-dialog.php:80
 #, fuzzy
-#| msgid "Google API Key (Required)"
 msgid "No API keys required"
 msgstr "Google API Key (Requis)"
 
@@ -6341,19 +6245,16 @@ msgstr ""
 
 #: ../includes/class.maps-engine-dialog.php:133
 #, fuzzy
-#| msgid "Google API Key (Required)"
 msgid "API Key required"
 msgstr "Google API Key (Requis)"
 
 #: ../includes/class.maps-engine-dialog.php:141
 #, fuzzy
-#| msgid "Use Google Maps API"
 msgid "Use Google Maps"
 msgstr "Utiliser l'API Google Maps"
 
 #: ../includes/class.maps-engine-dialog.php:159
 #, fuzzy
-#| msgid "Select"
 msgid "Select Engine"
 msgstr "Sélectionner"
 
@@ -6387,7 +6288,6 @@ msgstr ""
 
 #: ../includes/class.rest-api.php:547 ../includes/class.rest-api.php:561
 #, fuzzy, php-format
-#| msgid "Approve this marker"
 msgid "Removed %s markers"
 msgstr "Validez ce marqueur"
 
@@ -6408,6 +6308,21 @@ msgid ""
 "\t\t\t\t\t\t\t</p>\n"
 "\t\t\t\t\t\t\t"
 msgstr ""
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>WP Google Maps:</strong> Erreur lors de la "
+"construction du script, le fichier pourrait être vide. \n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Développeurs :</strong> Vérifiez que vous avez les "
+"droits d'écriture et que toutes les dépendances sont résolues, s'il vous "
+"plaît.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Utilisateurs :</strong> Désactivez le \"mode "
+"développeur\" dans Maps &rarr; Paramètres &rarr; Avancé, s'il vous plaît.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t"
 
 #: ../includes/class.strings.php:21
 msgid ""
@@ -6444,7 +6359,6 @@ msgstr ""
 
 #: ../includes/class.strings.php:31
 #, fuzzy
-#| msgid "Hide the Address"
 msgid "Failed to get address"
 msgstr "Cacher l'Adresse"
 
@@ -6455,13 +6369,11 @@ msgstr ""
 
 #: ../includes/class.strings.php:34
 #, fuzzy
-#| msgid "My location"
 msgid "My Location"
 msgstr "Ma localisation"
 
 #: ../includes/class.strings.php:42
 #, fuzzy
-#| msgid "Hide the address field"
 msgid "No address specified"
 msgstr "Cacher le champ d'adresse"
 
@@ -6471,7 +6383,6 @@ msgstr "Enregistrer le marqueur"
 
 #: ../includes/class.strings.php:45
 #, fuzzy
-#| msgid "Please explain"
 msgid "Please Wait..."
 msgstr "Explicitez"
 
@@ -6510,25 +6421,21 @@ msgstr ""
 
 #: ../includes/class.strings.php:59
 #, fuzzy
-#| msgid "Are you sure you want to delete the map"
 msgid "Are you sure you want to overwrite the existing theme data?"
 msgstr "Etes-vous sûr de vouloir supprimer la carte"
 
 #: ../includes/class.strings.php:61
 #, fuzzy
-#| msgid "Upload File"
 msgid "Upload Complete"
 msgstr "Envoyer les fichiers"
 
 #: ../includes/class.strings.php:62
 #, fuzzy
-#| msgid "Upload File"
 msgid "Uploading file"
 msgstr "Envoyer les fichiers"
 
 #: ../includes/class.strings.php:63
 #, fuzzy
-#| msgid "WP Google Maps Error log"
 msgid "WP Google Maps - Bulk JPEG Upload"
 msgstr "WP Google Maps Error log"
 
@@ -6562,7 +6469,6 @@ msgstr ""
 
 #: ../includes/class.strings.php:81
 #, fuzzy
-#| msgid "Enable Directions?"
 msgid "Re-Enable Interactions"
 msgstr "Activer les itinéraires ?"
 
@@ -6576,7 +6482,6 @@ msgstr ""
 
 #: ../includes/class.strings.php:85
 #, fuzzy
-#| msgid "Geocode was not successful for the following reason"
 msgid "Geocode was not successful for the following reason: "
 msgstr "Geocode n'a pas fonctionné pour la raison suivante"
 
@@ -6610,14 +6515,12 @@ msgstr ""
 
 #: ../includes/tables/class.admin-marker-datatable.php:26
 #, fuzzy
-#| msgid "Delete"
 msgid "Bulk Delete"
 msgstr "Supprimer"
 
 #: ../includes/tables/class.admin-marker-datatable.php:33
 #: ../legacy-core.php:4750
 #, fuzzy
-#| msgid "Markers"
 msgid "Mark"
 msgstr "Marqueurs"
 
@@ -6648,7 +6551,6 @@ msgstr ""
 
 #: ../legacy-core.php:528
 #, fuzzy
-#| msgid "Pro Version"
 msgid "Get Pro Version"
 msgstr "Version Pro"
 
@@ -6749,9 +6651,16 @@ msgid ""
 "consider <a href=\"%1$s\" target=\"_blank\" class=\"button-border button-"
 "border__green\">reviewing WP Google Maps</a>. It would mean the world to us! "
 "If you are experiencing issues with the plugin, please <a href=\"%2$s\" "
-"target=\"_blank\"  class=\"button-border button-border__green\">contact us</"
-"a> and we will help you as soon as humanly possible!</p>"
+"target=\"_blank\"  class=\"button-border button-border__green\">contact "
+"us</a> and we will help you as soon as humanly possible!</p>"
 msgstr ""
+"<h3>On a besoin de votre amour !</h3><p>Si vous appréciez notre plugin, "
+"pensez s'il vous plaît à <a href=\"%1$s\" target=\"_blank\" class=\"button-"
+"border button-border__green\">mettre un avis sur WP Google Maps</a>. Ca "
+"signifierait beaucoup pour nous ! Si vous rencontrez des problèmes avec le "
+"plugin, s'il vous plaît <a href=\"%2$s\" target=\"_blank\"  class=\"button-"
+"border button-border__green\">contactez nous</a> et nous vous aiderons aussi "
+"vite que nous pourrons!</p>"
 
 #: ../legacy-core.php:2958
 msgid "We will not nag you again, promise!"
@@ -6844,11 +6753,10 @@ msgid ""
 "page=w3tc_cdn#advanced'>CDN settings page</a> of W3 Total Cache"
 msgstr ""
 "Nous avons remarqué que vous utilisez le W3 Total Cache et que vous avez "
-"activé un CDN.<br /><br />Pour que vos marqueurs s'affichent sur votre "
-"carte, vous devez ajouter '<strong><em>{uploads_dir}/wp-google-maps*</"
-"strong></em>' à '<strong>rejected files</strong>' listé dans la page de <a "
-"href='admin.php?page=w3tc_cdn#advanced'>configuration du CDN</a> de W3 Total "
-"Cache"
+"activé un CDN.<br /><br />Pour que vos marqueurs s'affichent sur votre carte,"
+" vous devez ajouter '<strong><em>{uploads_dir}/wp-google-maps*</strong></em>"
+"' à '<strong>rejected files</strong>' listé dans la page de <a href='admin."
+"php?page=w3tc_cdn#advanced'>configuration du CDN</a> de W3 Total Cache"
 
 #: ../legacy-core.php:3427
 msgid "Create your Map"
@@ -6897,11 +6805,6 @@ msgstr ""
 
 #: ../legacy-core.php:3835
 #, fuzzy, php-format
-#| msgid ""
-#| "Get the rest of these advanced features with the Pro version for only <a "
-#| "href=\"http://www.wpgmaps.com/purchase-professional-version/?"
-#| "utm_source=plugin&utm_medium=link&utm_campaign=advanced\">$39.99 once "
-#| "off</a>. Support and updates included forever."
 msgid ""
 "Get the rest of these advanced features with the Pro version for only <a "
 "href=\"%s\" target=\"_BLANK\">$39.99 once off</a>. Support and updates "
@@ -6966,7 +6869,6 @@ msgstr ""
 
 #: ../legacy-core.php:4006
 #, fuzzy
-#| msgid "Create custom routes or outlines using polylines"
 msgid "Create custom markers with detailed info windows"
 msgstr ""
 "Créez des itinéraires personnalisés ou des surlignages en utilisant des "
@@ -6974,9 +6876,6 @@ msgstr ""
 
 #: ../legacy-core.php:4007
 #, fuzzy
-#| msgid ""
-#| "Add custom icons, titles, descriptions, pictures and links to your "
-#| "markers with the"
 msgid ""
 "Add titles, descriptions, HTML, images, animations and custom icons to your "
 "markers."
@@ -7001,7 +6900,6 @@ msgstr ""
 
 #: ../legacy-core.php:4042
 #, fuzzy
-#| msgid "Add detailed information to your markers!"
 msgid "Add categories to your markers"
 msgstr "Ajouter des informations détaillées à vos marqueurs !"
 
@@ -7013,7 +6911,6 @@ msgstr ""
 
 #: ../legacy-core.php:4051
 #, fuzzy
-#| msgid "Advanced Options"
 msgid "Advanced options"
 msgstr "Options avancées"
 
@@ -7059,14 +6956,13 @@ msgstr "Forum d'aide"
 
 #: ../legacy-core.php:4088
 msgid ""
-"We pride ourselves on providing quick and amazing support. <a target=\"_BLANK"
-"\" href=\"http://wordpress.org/support/view/plugin-reviews/wp-google-maps?"
-"filter=5\">Read what some of our users think of our support</a>."
+"We pride ourselves on providing quick and amazing support. <a "
+"target=\"_BLANK\" href=\"http://wordpress.org/support/view/plugin-reviews/wp-"
+"google-maps?filter=5\">Read what some of our users think of our support</a>."
 msgstr ""
 
 #: ../legacy-core.php:4096
 #, fuzzy
-#| msgid "Pro Upgrade"
 msgid "Easy Upgrade"
 msgstr "Upgrade Pro"
 
@@ -7092,21 +6988,20 @@ msgstr ""
 
 #: ../legacy-core.php:4114
 #, fuzzy
-#| msgid "Pro Upgrade"
 msgid "Upgrade Now"
 msgstr "Upgrade Pro"
 
 #: ../legacy-core.php:4118
 msgid ""
-"Have a sales question? Contact Nick on <a href=\\\"mailto:nick@wpgmaps.com\\"
-"\">nick@wpgmaps.com</a> or use our <a href=\\\"http://www.wpgmaps.com/"
-"contact-us/\\\" target=\\\"_BLANK\\\">contact form</a>."
+"Have a sales question? Contact Nick on <a href=\\\"mailto:nick@wpgmaps."
+"com\\\">nick@wpgmaps.com</a> or use our <a href=\\\"http://www.wpgmaps."
+"com/contact-us/\\\" target=\\\"_BLANK\\\">contact form</a>."
 msgstr ""
 
 #: ../legacy-core.php:4119
 msgid ""
-"Need help? <a href=\\\"https://www.wpgmaps.com/forums/\\\" target=\\\"_BLANK"
-"\\\">Ask a question on our support forum</a>."
+"Need help? <a href=\\\"https://www.wpgmaps.com/forums/\\\" "
+"target=\\\"_BLANK\\\">Ask a question on our support forum</a>."
 msgstr ""
 
 #: ../legacy-core.php:4145 ../legacy-core.php:4211
@@ -7217,13 +7112,12 @@ msgstr "Autoriser les utilisateurs à créer des itinéraires vers vos marqueurs
 #: ../legacy-core.php:4372
 msgid ""
 "Thank you for using <a href='https://www.wpgmaps.com'>WP Google Maps</a>! "
-"Please <a href='https://wordpress.org/support/plugin/wp-google-maps/"
-"reviews/'>rate us on WordPress.org</a>"
+"Please <a href='https://wordpress.org/support/plugin/wp-google-"
+"maps/reviews/'>rate us on WordPress.org</a>"
 msgstr ""
 
 #: ../legacy-core.php:4374
 #, fuzzy
-#| msgid "WP Google Maps Error log"
 msgid "WP Google Maps is a product of <img src='"
 msgstr "WP Google Maps Error log"
 
@@ -7335,7 +7229,7 @@ msgstr ""
 
 #: ../legacy-core.php:5344
 msgid "*ALL* Google Maps now require an API key to function."
-msgstr ""
+msgstr "*TOUT* Google Maps requiert désormais une clé API pour fonctionner. "
 
 #: ../legacy-core.php:5346
 msgid "Before creating a map please follow these steps:"
@@ -7381,7 +7275,6 @@ msgstr ""
 
 #: ../legacy-core.php:5640
 #, fuzzy
-#| msgid "Add Marker"
 msgid "Add circle"
 msgstr "Ajouter un marqueur"
 
@@ -7392,19 +7285,16 @@ msgstr ""
 
 #: ../legacy-core.php:5692
 #, fuzzy
-#| msgid "Click on the map to insert a vertex."
 msgid "Click on the map to insert a circle."
 msgstr "Cliquez sur la carte pour insérer un sommet."
 
 #: ../legacy-core.php:5693 ../legacy-core.php:5816
 #, fuzzy
-#| msgid "Click on a vertex to remove it."
 msgid "Click or drag the circle to move it."
 msgstr "Cliquez sur un sommet pour le supprimer."
 
 #: ../legacy-core.php:5698 ../legacy-core.php:5821
 #, fuzzy
-#| msgid "Save Marker"
 msgid "Save Circle"
 msgstr "Enregistrer le marqueur"
 
@@ -7422,19 +7312,16 @@ msgstr ""
 
 #: ../legacy-core.php:5931
 #, fuzzy
-#| msgid "Click on the map to insert a vertex."
 msgid "Click on the map to insert a rectangle."
 msgstr "Cliquez sur la carte pour insérer un sommet."
 
 #: ../legacy-core.php:5932 ../legacy-core.php:6039
 #, fuzzy
-#| msgid "Click on a vertex to remove it."
 msgid "Click or drag the rectangle to move it."
 msgstr "Cliquez sur un sommet pour le supprimer."
 
 #: ../legacy-core.php:5937 ../legacy-core.php:6044
 #, fuzzy
-#| msgid "Save Settings"
 msgid "Save rectangle"
 msgstr "Enregistrer la configuration"
 
@@ -7448,7 +7335,6 @@ msgstr ""
 
 #: ../legacy-core.php:6022
 #, fuzzy
-#| msgid "Show distance in"
 msgid "Show Rectangle"
 msgstr "Indiquer les distances en"
 
@@ -7456,13 +7342,12 @@ msgstr "Indiquer les distances en"
 #, php-format
 msgid ""
 "Please ensure you <a href=\"%s\">enter a Google Maps API key</a> to continue "
-"using Google Maps. Alternatively, swap over to Open Layers by clicking <a id="
-"\"wpgm-swap-to-open-layers\" href=\"%s\">here</a>."
+"using Google Maps. Alternatively, swap over to Open Layers by clicking <a "
+"id=\"wpgm-swap-to-open-layers\" href=\"%s\">here</a>."
 msgstr ""
 
 #: ../lib/codecabin/deactivate-feedback-form.php:36
 #, fuzzy
-#| msgid "Feedback"
 msgid "Quick Feedback"
 msgstr "Votre avis"
 
@@ -7496,7 +7381,6 @@ msgstr ""
 
 #: ../lib/codecabin/deactivate-feedback-form.php:47
 #, fuzzy
-#| msgid "Please note"
 msgid "Please wait"
 msgstr "Notez"
 
@@ -7537,283 +7421,3 @@ msgid ""
 "missing files, or incompatible software. Please re-install the plugin. We "
 "recommend you use PHP 5.6 or above. Technical details are as follows: "
 msgstr ""
-
-#, fuzzy
-#~ msgid "Enable Location Tracking"
-#~ msgstr "Activer la localisation de magasin ?"
-
-#, fuzzy
-#~ msgid "Route Opacity"
-#~ msgstr "Opacité de la ligne"
-
-#, fuzzy
-#~ msgid "Route Thickness"
-#~ msgstr "Epaisseur de la ligne"
-
-#, fuzzy
-#~ msgid "Select a theme for your map"
-#~ msgstr "Supprimer la carte"
-
-#, fuzzy
-#~ msgid "Paste your custom theme data here:"
-#~ msgstr "Collez les données JSON ici"
-
-#, fuzzy
-#~ msgid "Preview"
-#~ msgstr "Précédent"
-
-#, fuzzy
-#~ msgid ""
-#~ "Get great map markers <a href='http://www.wpgmaps.com/marker-icons/' "
-#~ "target='_BLANK' title='Great Google Map Markers'>here</a>"
-#~ msgstr ""
-#~ "Obtenez des magnifiques marqueurs  <a href='http://mapicons.nicolasmollet."
-#~ "com/' target='_BLANK' title='Great Google Map Markers'>ici</a>"
-
-#~ msgid "Format: http://www.domain.com"
-#~ msgstr "Format: http://www.domain.com"
-
-#~ msgid "and to credit him when doing so."
-#~ msgstr "et à lui attribuer en le faisant."
-
-#~ msgid "Show _MENU_ entries"
-#~ msgstr "Affichage des entrées _MENU_"
-
-#~ msgid "Nothing found - sorry"
-#~ msgstr "Aucun résultat - désolé"
-
-#~ msgid "Showing _START_ to _END_ of _TOTAL_ records"
-#~ msgstr "Affichage des enregistrements _START_ to _END_ of _TOTAL_"
-
-#~ msgid "Showing 0 to 0 of 0 records"
-#~ msgstr "Affichage des enregistrements 0 à 0 de 0 enregistrements au total"
-
-#~ msgid "(filtered from _MAX_ total records)"
-#~ msgstr "(filtré sur _MAX_ total enregistrements)"
-
-#~ msgid "First"
-#~ msgstr "Premier"
-
-#~ msgid "Next"
-#~ msgstr "Prochain"
-
-#~ msgid "Previous"
-#~ msgstr "Précédent"
-
-#~ msgid ""
-#~ "Please ensure you have <strong>both</strong> the <strong>Basic</strong> "
-#~ "and <strong>Pro</strong> versions of WP Google Maps installed and "
-#~ "activated at the same time in order for the plugin to function correctly."
-#~ msgstr ""
-#~ "Veuillez vous assurer que vous avez les versions <strong> de base </ "
-#~ "strong> et <strong> Pro </ strong> de WP Google Maps installées et "
-#~ "activées en même temps pour que le plugin fonctionne correctement ."
-
-#, fuzzy
-#~ msgid "Download Marker Data"
-#~ msgstr ""
-#~ "Télécharger toutes les informations des marqueurs dans un fichier CSV"
-
-#, fuzzy
-#~ msgid "Download Polygon Data"
-#~ msgstr "Données du polygone"
-
-#, fuzzy
-#~ msgid "Support desk"
-#~ msgstr "Forum d'aide"
-
-#~ msgid "Error Log"
-#~ msgstr "Log Erreurs"
-
-#~ msgid ""
-#~ "Having issues? Perhaps something below can give you a clue as to what's "
-#~ "wrong. Alternatively, email this through to nick@wpgmaps.com for help!"
-#~ msgstr ""
-#~ "Vous rencontrez des problèmes ? Peut-être quelque chose ci-dessous peut "
-#~ "vous donner une idée de ce qui ne va pas. Sinon, envoyez un email à "
-#~ "nick@wpgmaps.com pour obtenir de l'aide!"
-
-#~ msgid "Resize Images with Timthumb"
-#~ msgstr "Redimensionner les images avec Timthumb"
-
-#, fuzzy
-#~ msgid "Google Maps API Key (optional)"
-#~ msgstr "Google API Key (Requis)"
-
-#~ msgid "Image Thumbnails"
-#~ msgstr "Génération des vignettes"
-
-#~ msgid "Do not use TimThumb"
-#~ msgstr "Ne pas utiliser TimThumb"
-
-#~ msgid "5mi"
-#~ msgstr "5mi"
-
-#~ msgid "10mi"
-#~ msgstr "10mi"
-
-#~ msgid "25mi"
-#~ msgstr "25mi"
-
-#~ msgid "50mi"
-#~ msgstr "50mi"
-
-#~ msgid "75mi"
-#~ msgstr "75mi"
-
-#~ msgid "100mi"
-#~ msgstr "100mi"
-
-#~ msgid "150mi"
-#~ msgstr "150mi"
-
-#~ msgid "200mi"
-#~ msgstr "200mi"
-
-#~ msgid "300mi"
-#~ msgstr "300mi"
-
-#~ msgid "5km"
-#~ msgstr "5km"
-
-#~ msgid "10km"
-#~ msgstr "10km"
-
-#~ msgid "25km"
-#~ msgstr "25km"
-
-#~ msgid "50km"
-#~ msgstr "50km"
-
-#~ msgid "75km"
-#~ msgstr "75km"
-
-#~ msgid "100km"
-#~ msgstr "100km"
-
-#~ msgid "150km"
-#~ msgstr "150km"
-
-#~ msgid "200km"
-#~ msgstr "200km"
-
-#~ msgid "300km"
-#~ msgstr "300km"
-
-#~ msgid ""
-#~ "Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
-#~ "target='_BLANK' title='Great Google Map Markers'>here</a>"
-#~ msgstr ""
-#~ "Obtenez des magnifiques marqueurs  <a href='http://mapicons.nicolasmollet."
-#~ "com/' target='_BLANK' title='Great Google Map Markers'>ici</a>"
-
-#~ msgid "<em><small>No categories found</small></em>"
-#~ msgstr "<em><small>Aucune catégorie trouvée</small></em>"
-
-#~ msgid "DOMDocument is not enabled"
-#~ msgstr "DOMDocument non actif"
-
-#~ msgid "Could not save XML file"
-#~ msgstr "Impossible d'enregistrer le fichier XML"
-
-#~ msgid "Thank you for your feedback!"
-#~ msgstr "Merci de votre remarque !"
-
-#~ msgid "There was a problem deleting the map."
-#~ msgstr "Problème en tentant de supprimer la carte"
-
-#~ msgid ""
-#~ "Enable Marker Listing with the <a href=\"http://www.wpgmaps.com/purchase-"
-#~ "professional-version/?"
-#~ "utm_source=plugin&utm_medium=link&utm_campaign=marker_listing\">Pro "
-#~ "version for only $39.99 once off</a>. Support and updates included "
-#~ "forever."
-#~ msgstr ""
-#~ "Obtenir le Listing Marqueur <a href=\"http://www.wpgmaps.com/purchase-"
-#~ "professional-version/?"
-#~ "utm_source=plugin&utm_medium=link&utm_campaign=advanced\">avec la version "
-#~ "Pro pour seulement $39.99 à payer une seule fois</a>. Support et mises à "
-#~ "jour à vie inclus."
-
-#, fuzzy
-#~ msgid ""
-#~ "There are too many markers to make use of the live edit function. The "
-#~ "maximum amount for this functionality is 5000 markers. Anything more than "
-#~ "that could crash your browser. In order to edit your markers, you would "
-#~ "need to download the table in CSV format, edit it and re-upload it."
-#~ msgstr ""
-#~ "Il y a trop de marqueurs pour utiliser la fonction d'édition en direct. "
-#~ "Le nombre maximum est de 2000 marqueurs. Quelques uns de plus et vous "
-#~ "pourriez faire planter votre navigateur. Pour modifier vos marqueurs, "
-#~ "vous devriez télécharger le tableau au format CSV, l'éditer et le ré-"
-#~ "envoyer."
-
-#~ msgid ""
-#~ "Use the <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/"
-#~ "styledmaps/wizard/index.html' target='_BLANK'>Google Maps API Styled Map "
-#~ "Wizard</a> to get your style settings"
-#~ msgstr ""
-#~ "Utilisez le <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/"
-#~ "styledmaps/wizard/index.html' target='_BLANK'>Google Maps API Styled Map "
-#~ "Wizard</a> pour créer votre propre style"
-
-#~ msgid "Weather Layer"
-#~ msgstr "Couche Météo"
-
-#~ msgid "Show in Degrees Celsius"
-#~ msgstr "Indiquer en degré Celsius"
-
-#~ msgid "Show in Degrees Fahrenheit"
-#~ msgstr "Indiquer en degré Fahrenheit"
-
-#~ msgid "Cloud Layer"
-#~ msgstr "Couche Nuage"
-
-#~ msgid "(Tick this if you are having problems viewing your thumbnail images)"
-#~ msgstr ""
-#~ "(Cochez si vous avez des problèmes pour voir les miniatures des images)"
-
-#~ msgid "Enable Weather Layer?"
-#~ msgstr "Activer la couche météo ?"
-
-#~ msgid ""
-#~ "Please note: <strong>WP Google Maps will not function correctly while "
-#~ "using APC Object Cache.</strong> We have found that GoDaddy hosting "
-#~ "packages automatically include this with their WordPress hosting "
-#~ "packages. Please email GoDaddy and ask them to remove the object-cache."
-#~ "php from your wp-content/ directory."
-#~ msgstr ""
-#~ "Notez que : <strong>WP Google Maps ne fonctionnera pas correctement si "
-#~ "vous utilisez APC Object Cache.</strong> Nous avons constaté que les "
-#~ "solutions d'hébergement GoDaddy incluaient automatiquement ceci avec leur "
-#~ "solution WordPress. Ecrivez à GoDaddy et demandez leur de supprimer "
-#~ "l'objet-cache.php de votre répertoire 'wp-content /'."
-
-#~ msgid ""
-#~ "We suggest that you change the two fields below ONLY if you are "
-#~ "experiencing issues when trying to save the marker XML files. Please note "
-#~ "that both the URL and the directory should point to the same place, but "
-#~ "in different methods. <br /><br />For example: <br /> <strong>directory</"
-#~ "strong>: <span style='font-weight:bold; color:green;'>/usr/path/"
-#~ "public_html</span>/wp-content/uploads/wp-google-maps/<br /> <strong>URL</"
-#~ "strong>: <span style='font-weight:bold; color:green;'>http://www.your-"
-#~ "site.com</span>/wp-content/uploads/wp-google-maps/"
-#~ msgstr ""
-#~ "Nous vous suggérons de changer deux champs ci-dessous SEULEMENT si vous "
-#~ "rencontrez des problèmes lors de l'enregistrement du fichier KML du "
-#~ "marqueur. Notez bien que l'URL et le répertoire doivent tous les deux "
-#~ "pointer vers la même place, mais avec des méthodes différents.<br /><br /"
-#~ ">Par exemple : <br /> <strong>répertoire</strong>: <span style='font-"
-#~ "weight:bold; color:green;'>/usr/path/public_html</span>/wp-content/"
-#~ "uploads/wp-google-maps/<br /> <strong>URL</strong>: <span style='font-"
-#~ "weight:bold; color:green;'>http://www.votre-site.com</span>/wp-content/"
-#~ "uploads/wp-google-maps/"
-
-#~ msgid "List all markers below the map"
-#~ msgstr "Lister les marqueurs sous la carte"
-
-#~ msgid "Select this for the advanced listing functionality"
-#~ msgstr "Sélectionnez cette option pour les fonctionnalités de liste avancé"
-
-#~ msgid "Or paste image URL"
-#~ msgstr "Ou collez l'URL de l'image"

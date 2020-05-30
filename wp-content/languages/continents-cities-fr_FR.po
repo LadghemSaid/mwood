@@ -2,14 +2,19 @@
 # This file is distributed under the same license as the WordPress - 5.3.x - Development - Continents & Cities package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-05-03 20:41:50+0000\n"
+"PO-Revision-Date: 2020-05-13 07:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: fr\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: fr_FR\n"
 "Project-Id-Version: WordPress - 5.3.x - Development - Continents & Cities\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-13 07:32+0000\n"
+"Last-Translator: admin <said.ladghem@gmail.com>\n"
+"Language-Team: Français\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
 
 #: wp-admin/includes/continents-cities.php:478
 msgid "Saratov"
@@ -957,7 +962,7 @@ msgstr "Tachkent"
 
 #: wp-admin/includes/continents-cities.php:336
 msgid "Taipei"
-msgstr ""
+msgstr "Taipei"
 
 #: wp-admin/includes/continents-cities.php:334
 msgid "Singapore"
@@ -965,7 +970,7 @@ msgstr "Singapour"
 
 #: wp-admin/includes/continents-cities.php:333
 msgid "Shanghai"
-msgstr ""
+msgstr "Shanghai"
 
 #: wp-admin/includes/continents-cities.php:332
 msgid "Seoul"
@@ -997,7 +1002,7 @@ msgstr "Kyzylorda"
 
 #: wp-admin/includes/continents-cities.php:325
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 #: wp-admin/includes/continents-cities.php:324
 msgid "Pyongyang"
