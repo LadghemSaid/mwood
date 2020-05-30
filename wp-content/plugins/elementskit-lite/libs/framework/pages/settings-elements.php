@@ -2,6 +2,8 @@
 $widgets_all = \ElementsKit::default_widgets('pro');
 $widgets_active = $this->utils->get_option('widget_list', $widgets_all);
 $widgets_free = \ElementsKit::default_widgets('free');
+
+$widget_dir = class_exists('\ElementsKit_Widget_Config') ? \ElementsKit_Widget_Config::instance()->get_dir() . 'widgets/' : \ElementsKit::widget_dir();
 ?>
 <div class="ekit-admin-header">
     <h2 class="ekit-admin-header-title"><?php esc_html_e('Active Widget List', 'elementskit'); ?></h2>
@@ -13,7 +15,7 @@ $widgets_free = \ElementsKit::default_widgets('free');
             <?php foreach($widgets_all as $widget): ?>
             <div class="attr-col-md-6 attr-col-lg-4">
                 <?php
-                    include_once \ElementsKit::widget_dir() . $widget .'/'. $widget . '-handler.php';
+                    include_once $widget_dir . $widget .'/'. $widget . '-handler.php';
                     $widget_handler = '\ElementsKit\Elementskit_Widget_' . \ElementsKit\Utils::make_classname($widget) . '_Handler';
                     $widget_handler = new $widget_handler();
                     $pro = (in_array($widget, $widgets_free) && \ElementsKit::PACKAGE_TYPE == 'free') ? false : true;

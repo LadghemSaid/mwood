@@ -3,7 +3,7 @@ Contributors: Ataurr, wpmet, emrnco, pobonpaul1994, easin55474, khalidjubair
 Tags: elementor addons, mega menu, header footer builder, elements, elementor extensions, elementor modules, page builder addons, elementor addon, elementor widget, addons
 Requires at least: 4.6
 Tested up to: 5.4
-Stable tag: 1.5.0
+Stable tag: 1.5.4
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -147,7 +147,7 @@ We have developed Awesome exclusive modules which saved tons of time when you ar
 - Header and footer builder
 -<a href="https://products.wpmet.com/megamenu/">Megamenu builder (PRO Layout)</a> - Develop user experience with your sites and cover all the necessary categories by using mega menu. It’s the best way to navigate the deepest section of your sites with just one click with this drop-down menu. You can build your own mega menu beyond your expectation with our mega menu builder. Our most unique feature is you will have two options  for mobile view to show your submenu, one is  “Builder Content” and another one is “Wp Sub Menu List”. Other pro features are drag and drop menu builder panel, auto add pages, social links menu, display location, pages, content, menu, badge, post, custom links, categories, and many more. Check out our video screencast:
 
-
+ - Onepage scroll:  One page scroll is a module of elementsKit. Add any page with one page full screen scroll.
 
 == Exclusive PRO Addons widgets ==
 1. [ **https://products.wpmet.com/elementskit/gallery/** ](Gallery & portfolio) - Showcase your recent photos,company environment, events etc for your visitors with elementor image gallery portfolio widget. Our elementor image gallery widget comes with an easy solution to create your beautiful gallery with content, layouts, thumbnails, overlay, filter,captions and sequence animations and many more.
@@ -180,6 +180,12 @@ We have developed Awesome exclusive modules which saved tons of time when you ar
 15. [ **Woocommerce Mini Cart (PRO)** ](https://products.wpmet.com/elementskit/woo-mini-cart/) - People often get irritated by adding multiple items to their cart because it makes the user navigate back to the cart page again and again. To solve this problem we have designed a simple and powerful woocommerce mini cart widget which will help users to add their desired product from any page. This elementor widget comes with multiple options like icon, cart visibility, alignment etc. There are many other customizable styles in cart button, body, header, item, subtotal, button with many more advanced pro features.
 
 
+16. [advanced toggle](https://products.wpmet.com/elementskit/advanced-toggle/)
+16. [Vertical mega menu](https://products.wpmet.com/megamenu/)
+
+
+
+
 
 
 
@@ -196,6 +202,36 @@ We have developed Awesome exclusive modules which saved tons of time when you ar
 
 
 == Changelog ==
+version 1.5.4
+New: added Lottie Widget
+New: added onepage-scroll module
+Tweak: Some widgets control modified
+Fix: CSS Improved
+Fix: JS Improved
+
+version 1.5.3
+Fix: mobile sub-menu issues fixed
+Fix: CSS Improved
+Fix: JS Improved
+
+version 1.5.2
+Fix: menu broken fix
+Fix: CSS Improved
+Fix: JS Improved
+
+version 1.5.1
+Fix: megamenu popup issues
+Fix: Url attribute added correctly in all widgets
+Fix: Advanced tab, accordion, offcanvas etc popup issues fixed
+Fix: Conflict fixed with the latest elementor
+New: Onepage scroll module added
+New: Nav menu custom breakpoint control added
+New: Nav menu custom humburger icon control added
+New: Widget advanced toggle added
+New: Widget vertical menu added
+New: Widget hotspot new style added
+Removed: elementskit.ttf file
+
 version 1.5.0
 Fix: Responsiveness fixed on woo-product-carousel widgets
 Fix: css bug fix on popup

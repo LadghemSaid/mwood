@@ -2314,14 +2314,15 @@ class Elementskit_Widget_Team extends Widget_Base {
                 <?php if(isset($ekit_team_socail_enable) AND $ekit_team_socail_enable == 'yes'){?>
                     <div class="profile-footer">
                         <ul class="ekit-team-social-list ">
-                        <?php foreach ($ekit_team_social_icons as $icon): ?>
+                        <?php foreach ($ekit_team_social_icons as $key => $icon): 
+                            if ( ! empty( $icon['ekit_team_link']['url'] ) ) {
+                                $this->add_link_attributes( 'button-' . $key, $icon['ekit_team_link'] );
+                            }
+                        ?>
                                 <li class="elementor-repeater-item-<?php echo esc_attr( $icon[ '_id' ] ); ?>"><a
-                                    <?php if ( 'on' == $icon['ekit_team_link']['is_external'] ): ?>
-                                        target="_blank"
-                                    <?php endif; ?>
-                                    <?php if ( 'on' == $icon['ekit_team_link']['nofollow'] ): ?>
-                                        rel="nofollow"
-                                    <?php endif;
+                                    <?php
+
+                                    echo $this->get_render_attribute_string( 'button-' . $key );
 
                                     // new icon
                                     $migrated = isset( $icon['__fa4_migrated']['ekit_team_icons'] );

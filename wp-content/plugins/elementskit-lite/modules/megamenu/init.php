@@ -48,8 +48,8 @@ class Init{
 	public function enqueue_scripts(){
 		$screen = get_current_screen();
 		if($screen->base == 'nav-menus'){
-			wp_enqueue_script( 'fonticonpicker', $this->url . 'assets/js/jquery.fonticonpicker.min.js', array( 'jquery'), false, true );
-			wp_enqueue_script( 'elementskit-menu-admin-script', $this->url . 'assets/js/admin-script.js', array( 'jquery', 'wp-color-picker' ), false, true );
+			wp_enqueue_script( 'fonticonpicker', $this->url . 'assets/js/jquery.fonticonpicker.min.js', array( 'jquery'), \ElementsKit::VERSION, true );
+			wp_enqueue_script( 'elementskit-menu-admin-script', $this->url . 'assets/js/admin-script.js', array( 'jquery', 'wp-color-picker' ), \ElementsKit::VERSION, true );
 		}
 	}
 }

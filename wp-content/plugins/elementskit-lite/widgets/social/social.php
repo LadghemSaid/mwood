@@ -648,16 +648,17 @@ class Elementskit_Widget_Social extends Widget_Base {
 
 		 ?>
 			 <ul class="ekit_social_media">
-				<?php foreach ($ekit_socialmedia_add_icons as $icon): ?>
-                    <?php if($icon['ekit_socialmedia_icons'] != ''): ?>
+				<?php foreach ($ekit_socialmedia_add_icons as $key => $icon): ?>
+					<?php if($icon['ekit_socialmedia_icons'] != ''):
+
+						if ( ! empty( $icon['ekit_socialmedia_link']['url'] ) ) {
+							$this->add_link_attributes( 'button-' . $key, $icon['ekit_socialmedia_link'] );
+						}
+						
+					?>
 					<li class="elementor-repeater-item-<?php echo esc_attr( $icon[ '_id' ] ); ?>">
 					    <a
-						<?php if ( 'on' == (isset($icon['ekit_socialmedia_link']['is_external']) ? $icon['ekit_socialmedia_link']['is_external'] : '') ): ?>
-							target="_blank"
-						<?php endif; ?>
-						<?php if ( 'on' == (isset($icon['ekit_socialmedia_link']['nofollow']) ? $icon['ekit_socialmedia_link']['nofollow'] : '') ): ?>
-							rel="nofollow"
-						<?php endif;
+						<?php echo $this->get_render_attribute_string(  'button-' . $key );
 
 						// new icon
 						$migrated = isset( $icon['__fa4_migrated']['ekit_socialmedia_icons'] );

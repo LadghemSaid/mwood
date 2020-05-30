@@ -10,7 +10,7 @@ if(!class_exists('ElementsKit')):
 		 * @since 1.0.0
 		 * @var string The plugin version.
 		 */
-		const VERSION = '1.5.0';
+		const VERSION = '1.5.4';
 
 		/**
 		 * Package type
@@ -309,6 +309,7 @@ if(!class_exists('ElementsKit')):
 				'faq',
 				'funfact',
 				'image-comparison',
+				'lottie',
 				'testimonial',
 				'pricing',
 				'team',
@@ -355,10 +356,15 @@ if(!class_exists('ElementsKit')):
 				'table',
 				'timeline',
 				'creative-button',
+				'vertical-menu',
+				'advanced-toggle'
 			];
 
 			if(class_exists('\ElementsKit_Widget_Config')){
-				return (array_merge($default_list, \ElementsKit_Widget_Config::instance()->get_widgets()));
+				$default_list = \ElementsKit_Widget_Config::instance()->get_default_widgets();
+				$optional_list = \ElementsKit_Widget_Config::instance()->get_widgets();
+
+				return (array_merge($default_list, $optional_list));
 			}else{
 				return ($package == 'pro') ? array_merge($default_list, $optional_list) : $default_list;
 			}
@@ -369,6 +375,7 @@ if(!class_exists('ElementsKit')):
 			$default_list = [
 				'header-footer',
 				'megamenu',
+				'onepage-scroll',
 			];
 			
 			$optional_list =[

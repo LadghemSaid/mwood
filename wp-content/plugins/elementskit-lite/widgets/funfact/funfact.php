@@ -269,12 +269,26 @@ class Elementskit_Widget_Funfact extends Widget_Base {
 		);
 
         $this->add_control(
-			'ekit_funfact_hover_border_bottom',
-			[
-				'label' => esc_html__( 'Enable Hover Border Bottom', 'elementskit' ),
-				'type' => Controls_Manager::SWITCHER,
-				'default' => 'no',
-			]
+            'ekit_funfact_hover_border_bottom',
+            [
+                'label' => esc_html__( 'Enable Hover Border Bottom', 'elementskit' ),
+                'type' => Controls_Manager::SWITCHER,
+                'default' => 'no',
+            ]
+        );
+
+        $this->add_control(
+            'ekit_funfact_hover_border_bottom_color',
+            [
+                'label'     => esc_html__( 'Hover Border Bottom Color', 'elementskit' ),
+                'type'      => Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .elementskit-funfact.style-border-bottom:before' => 'background-color: {{VALUE}}',
+                ],
+                'condition'  => [
+                    'ekit_funfact_hover_border_bottom' => 'yes'
+                ],
+            ]
         );
 
         $this->add_control(

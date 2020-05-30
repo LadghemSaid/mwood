@@ -208,7 +208,31 @@ class Utils{
         }
 
         return $options;
-    }
+	}
+
+	public static function tablepress_table_list() {
+		$table_options = array();
+
+		if (class_exists('TablePress')) {
+			$table_ids          = \TablePress::$model_table->load_all( false );
+			$table_options[0] = esc_html__( 'Select Table', 'elemenetskit' );
+
+			foreach ( $table_ids as $table_id ) {
+				// Load table, without table data, options, and visibility settings.
+				$table = \TablePress::$model_table->load( $table_id, false, false );
+	
+				if ( '' === trim( $table['name'] ) ) {
+					$table['name'] = __( '(no name)', 'tablepress' );
+				}
+				
+				$table_options[$table['id']] = $table['name'];
+			}
+		} else {
+            $table_options[0] = esc_html__('Create a Table First', 'elementskit');
+        }
+
+		return $table_options;
+	}
     
     public static function ekit_do_shortcode( $tag, array $atts = array(), $content = null ) {
 		global $shortcode_tags;
@@ -242,7 +266,7 @@ class Utils{
 	}
 	public static function render_elementor_content($content_id){
 		$elementor_instance = \Elementor\Plugin::instance();
-		return $elementor_instance->frontend->get_builder_content_for_display( $content_id );
+		return $elementor_instance->frontend->get_builder_content_for_display( $content_id , true);
 	}
 	public static function render_tab_content($content, $id){
 		return str_replace('.elementor-'.$id.' ', '#elementor .elementor-'.$id.' ', $content);

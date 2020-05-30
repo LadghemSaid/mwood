@@ -1499,18 +1499,8 @@ class Elementskit_Widget_Client_Logo extends Widget_Base {
                 $count = 1;
 
                 foreach ($logos as $logo) :
-
-
                 if ( ! empty( $logo['ekit_client_logo_website_link']['url'] ) ) {
-
-
-                    if ( $logo['ekit_client_logo_website_link']['is_external'] ) {
-                        $this->add_render_attribute( 'link_'.$count, 'target', '_blank' );
-                    }
-
-                    if ( ! empty( $logo['ekit_client_logo_website_link']['nofollow'] ) ) {
-                        $this->add_render_attribute( 'link_'.$count, 'rel', 'nofollow' );
-                    }
+                    $this->add_link_attributes( 'button-' . $count, $logo['ekit_client_logo_website_link'] );
                 }
                 ?>
                 <div class="elementskit-client-slider-item <?php echo esc_attr($seperotor_enable);?>">
@@ -1518,7 +1508,7 @@ class Elementskit_Widget_Client_Logo extends Widget_Base {
                         <?php if($logo['ekit_client_logo_enable_link'] == 'yes') :  ?>
 
 
-                            <a href="<?php echo esc_url($logo['ekit_client_logo_website_link']['url']); ?>" <?php echo \ElementsKit\Utils::render($this->get_render_attribute_string( 'link_'.$count )); ?>>
+                            <a <?php echo $this->get_render_attribute_string( 'button-' . $count ); ?> <?php echo \ElementsKit\Utils::render($this->get_render_attribute_string( 'link_'.$count )); ?>>
                                 <span class="content-image">
 
                                     <img src="<?php echo esc_url($logo['ekit_client_logo_image_normal']['url']); ?>" alt="<?php echo esc_attr(Control_Media::get_image_alt($logo['ekit_client_logo_image_normal'])); ?>" class="<?php echo esc_attr(($logo['ekit_client_logo_enable_hover_logo'] == 'yes') ? 'main-image' :  ''); ?>">

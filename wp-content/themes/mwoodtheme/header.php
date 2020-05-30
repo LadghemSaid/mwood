@@ -25,7 +25,6 @@
     <?php do_action('storefront_before_header'); ?>
 
     <header id="masthead" class="site-header pt-10" role="banner" style="<?php storefront_header_styles(); ?>">
-        <div class="overlay_black"></div>
         <?php
         /**
          * Functions hooked into storefront_header action
@@ -35,7 +34,6 @@
          * @hooked storefront_social_icons                     - 10
          * @hooked storefront_site_branding                    - 20
          * @hooked storefront_secondary_navigation             - 30
-         * @hooked storefront_product_search                   - 40
          * @hooked storefront_header_container_close           - 41
          * @hooked storefront_primary_navigation_wrapper       - 42
          * @hooked storefront_primary_navigation               - 50

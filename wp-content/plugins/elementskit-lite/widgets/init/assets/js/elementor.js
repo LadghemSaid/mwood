@@ -17,7 +17,6 @@
 				'elementskit-motion-text.default': Elementskit.MotionText,
 				'elementskit-timeline.default': Elementskit.TimeLine,
 				'elementskit-post-tab.default': Elementskit.PostTab,
-				'elementskit-elementskit-hotspot.default': Elementskit.Hotspot,
 				'elementskit-header-search.default': Elementskit.Header_Search,
 				'elementskit-header-offcanvas.default': Elementskit.Header_Off_Canvas,
 				'elementskit-table.default': Elementskit.Table,
@@ -27,6 +26,9 @@
 				'elementskit-team.default': Elementskit.Team,
 				'elementskit-image-accordion.default': Elementskit.Image_Accordion,
 				'elementskit-woo-product-carousel.default': Elementskit.Woo_Product_slider,
+				'elementskit-hotspot.default': Elementskit.Hotspot,
+				'ekit-vertical-menu.default': Elementskit.Vertical_Menu,
+				'elementskit-advanced-toggle.default': Elementskit.Advanced_Toggle,
 			};
 			$.each(widgets, function (widget, callback) {
 				elementor.hooks.addAction('frontend/element_ready/' + widget, callback);
@@ -79,20 +81,34 @@
 		},
 
 		Nav_Menu: function ($scope) {
-			var menu_container = $scope.find('.elementskit-menu-container');
-			if (menu_container.attr('ekit-dom-added') == 'yes') {
-				return;
+			if ($scope.find('.elementskit-menu-container').length > 0) {
+				let icon_container = $scope.find('.ekit-wid-con'),
+					icon = icon_container.data('hamburger-icon'),
+					hamburger_type = icon_container.data('hamburger-icon-type');
+				
+				$scope.find('.elementskit-menu-container').each(function () {
+					let menu_container = $(this);
+					if (menu_container.attr('ekit-dom-added') == 'yes') {
+						return;
+					}
+					let iconmarkup = [];
+					if (icon === '' || icon === undefined) {
+						iconmarkup += '<span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>';
+					} else {
+						if (hamburger_type === 'url') {
+							iconmarkup += '<img src="'+icon+'" alt="hamburger icon" />'
+						} else {
+							iconmarkup += '<div class="ekit-menu-icon '+icon+'"></div>'
+						}
+					}
+					menu_container
+						.before(
+							'<button class="elementskit-menu-hamburger elementskit-menu-toggler">'+iconmarkup+'</button>'
+						)
+						.after('<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler"></div>')
+						.attr('ekit-dom-added', 'yes');
+				});
 			}
-			menu_container
-				.before(
-					'<button class="elementskit-menu-hamburger elementskit-menu-toggler">' +
-					'<span class="elementskit-menu-hamburger-icon"></span>' +
-					'<span class="elementskit-menu-hamburger-icon"></span>' +
-					'<span class="elementskit-menu-hamburger-icon"></span>' +
-					'</button>'
-				)
-				.after('<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler"></div>')
-				.attr('ekit-dom-added', 'yes');
 		},
 
 		Mini_Cart: function ($scope) {
@@ -705,9 +721,10 @@
 			});
 		},
 		Hotspot: function ($scope) {
-			if ($scope.find('[data-toggle="tooltip"]').length > 0) {
-				var event_type = $scope.find('[data-toggle="tooltip"]');
-				event_type.tooltip();
+			if ($scope.find('.ekit-location-on-click').length > 0) {
+				$scope.find('.ekit-location-on-click .ekit-location_indicator').on('click', function () {
+					$(this).parents('.ekit-location-on-click').toggleClass('active')
+				})
 			}
 		},
 		Header_Search: function ($scope) {
@@ -878,6 +895,122 @@
 					},
 				}
 			});
+		},
+
+		Vertical_Menu: function ($scope) {
+			if ($scope.find('.ekit-vertical-main-menu-on-click').length > 0) {
+				let	menu_container = $scope.find('.ekit-vertical-main-menu-on-click'),
+					target = $scope.find('.ekit-vertical-menu-tigger');
+				
+				target.on('click', function (e) {
+					e.preventDefault();
+					menu_container.toggleClass('vertical-menu-active');
+				})
+			}
+			
+			if ($scope.find('.elementskit-megamenu-has').length > 0) {
+				let target = $scope.find('.elementskit-megamenu-has'),
+					parents_container = $scope.parents('.elementor-container'),
+					vertical_menu_wraper = $scope.find('.ekit-vertical-main-menu-wraper'),
+					final_width = Math.floor((parents_container.width() - vertical_menu_wraper.width())) + 'px';
+
+				target.each(function () {
+					let data_width = $(this).data('vertical-menu'),
+						megamenu_panel = $(this).children('.elementskit-megamenu-panel');
+					
+					if (data_width && data_width !== undefined && !(final_width <= data_width)) {
+						if (typeof data_width === 'string') {
+							if (/^[0-9]/.test(data_width)) {
+								megamenu_panel.css({
+									width: data_width
+								})
+							} else {
+								$(window).bind('resize', function () {
+									if ($(document).width() > 1024) {
+										megamenu_panel.css({
+											width: Math.floor((parents_container.width() - vertical_menu_wraper.width()) - 10) + 'px'
+										})
+									} else {
+										megamenu_panel.removeAttr('style');
+									}
+								}).trigger('resize');
+							}
+						} else {
+							megamenu_panel.css({
+								width: data_width + 'px'
+							})
+						}
+					} else {
+						$(window).bind('resize', function () {
+							if ($(document).width() > 1024) {
+								megamenu_panel.css({
+									width: Math.floor((parents_container.width() - vertical_menu_wraper.width()) - 10) + 'px'
+								})
+							} else {
+								megamenu_panel.removeAttr('style');
+							}
+						}).trigger('resize');
+					}
+				})
+			}
+		},
+		Advanced_Toggle: function ($scope) {
+			if ($scope.find('.elemenetskit-toggle-indicator').length > 0) {
+				let target = $scope.find('.elemenetskit-toggle-indicator'),
+					active_item = $scope.find('.elementskit-toggle-nav-link.active');
+				
+				function toggle_indicator(type, current) {
+					let item_width = type === 'click' ? current.outerWidth() : active_item.outerWidth(),
+						item_height = type === 'click' ? current.outerHeight() : active_item.outerHeight(),
+						item_left = type === 'click' ? current.position().left : active_item.position().left,
+						item_top = type === 'click' ? current.position().top : active_item.position().top,
+						background_color = type === 'click' ? current.data('indicator-color') : active_item.data('indicator-color');
+					
+					target.css({
+						width: item_width,
+						height: item_height,
+						left: item_left,
+						top: item_top,
+						backgroundColor: background_color
+					})
+				}
+
+				toggle_indicator();
+
+				$scope.find('.elementkit-tab-nav > li > a').on('click', function (event) {
+					toggle_indicator(event.type, $(this));
+				})
+			}
+			
+			function toggleSwitch(type, current, checked) {
+				if (type === 'click') {
+					current.parents('.ekit-slide-toggle').find('input[type="checkbox"]').prop("checked", checked);
+				}
+				if (type === 'change') {
+					let target_link = current.parents('.ekit-slide-toggle').find('.elementskit-switch-nav-link')
+					$scope.find('.ekit-toggle-switch-content').removeClass('active show');
+					$scope.find('.elementskit-switch-nav-link').removeClass('active');
+					if (current.context.checked) {
+						$(target_link[1].hash).addClass('active show')
+						target_link.eq(1).addClass('active');
+					} else {
+						$(target_link[0].hash).addClass('active show')
+						target_link.eq(0).addClass('active');
+					}
+				}
+			}
+			if ($scope.find('.ekit-slide-toggle-wraper').length > 0) {
+				$scope.find('.elementskit-switch-nav-link').eq(0).on('click', function (e) {
+					toggleSwitch(e.type, $(this), false);
+				})
+				$scope.find('.elementskit-switch-nav-link').eq(1).on('click', function (e) {
+					toggleSwitch(e.type, $(this), true);
+				})
+				$scope.find('input[type="checkbox"]').on('change', function (e) {
+					toggleSwitch(e.type, $(this))
+				});
+				$scope.find('.ekit-cehckbox-forcefully-checked').parents('.ekit-slide-toggle').find('input[type="checkbox"]').prop("checked", true);
+			}
 		}
 	};
 	$(window).on('elementor/frontend/init', Elementskit.init);

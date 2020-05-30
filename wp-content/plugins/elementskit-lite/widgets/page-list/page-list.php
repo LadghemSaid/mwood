@@ -892,12 +892,12 @@ class Elementskit_Widget_Page_List extends Widget_Base {
 					$href = $post;
 				}
 
-				$target = '';
+				$target = ' target="_self"';
 				if ($item['ekit_page_list_select_page_or_custom_link'] == 'yes') {
-					$target = '_blank' === $settings['ekit_href_target'] ? ' target=_blank' : '';
+					$target = '_blank' === $settings['ekit_href_target'] ? ' target=_blank' : ' target=_self';
 					
 				} else {
-					$target = (isset($item['ekit_page_list_website_link']['is_external']) && $item['ekit_page_list_website_link']['is_external'] !='') ? ' target=_blank' : '';
+					$target = (isset($item['ekit_page_list_website_link']['is_external']) && $item['ekit_page_list_website_link']['is_external'] !='') ? ' target=_blank' : ' target=_self';
 				}
 				
 				$rel = '';

@@ -806,7 +806,7 @@ class Elementskit_Widget_Image_Accordion extends Widget_Base {
         extract($settings); ?>
 
         <div class="elementskit-image-accordion-wraper">
-            <?php foreach ( $ekit_img_accordion_items as $item ) : ?>
+            <?php foreach ( $ekit_img_accordion_items as $key => $item ) : ?>
             <div class="elementskit-single-image-accordion <?php echo \ElementsKit\Utils::render(($item['ekit_img_accordion_active'] == 'yes') ? 'active' : '') ; ?>" style="background-image: url(<?php echo esc_url($item['ekit_img_accordion_bg']['url']); ?>)">
                 <div class="elementskit-accordion-content">
                    <?php if($item['ekit_img_accordion_enable_pupup'] == 'yes' || $item['ekit_img_accordion_enable_project_link'] == 'yes') {
@@ -846,8 +846,13 @@ class Elementskit_Widget_Image_Accordion extends Widget_Base {
                             ?>
                             </a>
                        <?php } ?>
-                       <?php if($item['ekit_img_accordion_enable_project_link'] == 'yes') {?>
-                            <a href="<?php echo esc_url( $item['ekit_img_accordion_project_link']['url'] ) ?>" class="icon-outline circle">
+                       <?php if($item['ekit_img_accordion_enable_project_link'] == 'yes') {
+
+                            if ( ! empty( $item['ekit_img_accordion_project_link']['url'] ) ) {
+                                $this->add_link_attributes( 'button-2' . $key, $item['ekit_img_accordion_project_link'] );
+                            }
+                           ?>
+                            <a <?php echo $this->get_render_attribute_string( 'button-2' . $key ); ?> class="icon-outline circle">
                             <?php
                                 $migrated = isset( $item['__fa4_migrated']['ekit_img_accordion_project_link_icons'] );
                                 // Check if its a new widget without previously selected icon using the old Icon control
@@ -913,9 +918,14 @@ class Elementskit_Widget_Image_Accordion extends Widget_Base {
                         <?php endif; ?>
                         </h2>
                     </div>
-                    <?php if($item['ekit_img_accordion_enable_button'] == 'yes'): ?>
+                    <?php if($item['ekit_img_accordion_enable_button'] == 'yes'):
+                    
+                        if ( ! empty( $item['ekit_img_accordion_button_url']['url'] ) ) {
+                            $this->add_link_attributes( 'button-' . $key, $item['ekit_img_accordion_button_url'] );
+                        }    
+                    ?>
                         <div class="elementskit-btn-wraper">
-                            <a class="elementskit-btn" href="<?php echo esc_url($item['ekit_img_accordion_button_url']['url']);?>">
+                            <a class="elementskit-btn" <?php echo $this->get_render_attribute_string( 'button-' . $key ); ?>>
                                 <?php echo esc_html($item['ekit_img_accordion_button_label']);?>
                             </a>
                         </div>

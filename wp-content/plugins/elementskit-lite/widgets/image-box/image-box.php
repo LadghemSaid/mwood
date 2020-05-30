@@ -1493,19 +1493,20 @@ class Elementskit_Widget_Image_Box extends Widget_Base {
 
         // Button
         $btn_text = $settings['ekit_image_box_btn_text'];
-        $btn_url = (! empty( $settings['ekit_image_box_btn_url']['url'])) ? $settings['ekit_image_box_btn_url']['url'] : '';
 
+        
+        if ( ! empty( $settings['ekit_image_box_btn_url']['url'] ) ) {
+            $this->add_link_attributes( 'button-2', $settings['ekit_image_box_btn_url'] );
+        }
         $image_pos = 'image-box-img-'.$settings['ekit_image_box_content_text_align'];
 ?>
 
             <div <?php echo \ElementsKit\Utils::render($this->get_render_attribute_string('wrapper')); ?> >
 
                 <?php if($settings['ekit_image_box_enable_link'] == 'yes' && isset($settings['ekit_image_box_website_link']['url'])) {
-                    $img_nofollow = (( $settings['ekit_image_box_website_link']['nofollow'] == 'on') ? 'nofollow' : '');    
-                    $img_target = (($settings['ekit_image_box_website_link']['is_external'] == 'on') ? '_blank' : '');
-                    $img_url = $settings['ekit_image_box_website_link']['url'];
+                    $this->add_link_attributes( 'button', $settings['ekit_image_box_website_link'] );
 
-                    echo "<a href='".esc_url($img_url)."' rel='". esc_attr($img_nofollow) ."' target='".esc_attr($img_target)."'>";
+                    echo "<a ". $this->get_render_attribute_string( 'button' ) .">";
                 }
                 ?>
 
@@ -1584,7 +1585,7 @@ class Elementskit_Widget_Image_Box extends Widget_Base {
                     <div class="box-footer">
                         <div class="btn-wraper">
                             <?php if($settings['ekit_image_box_icon_align'] == 'right'): ?>
-                                <a href="<?php echo esc_url( $btn_url ); ?>" target="<?php echo $settings['ekit_image_box_btn_url']['is_external'] == 'on' ? '_blank' : '_self' ?>" rel="<?php echo $settings['ekit_image_box_btn_url']['nofollow'] == 'on' ? 'nofollow' : '' ?>" class="elementskit-btn">
+                                <a <?php echo $this->get_render_attribute_string( 'button-2' ); ?> class="elementskit-btn">
                                     <?php echo esc_html( $btn_text ); ?>
 
                                     <?php
@@ -1604,7 +1605,7 @@ class Elementskit_Widget_Image_Box extends Widget_Base {
 
                                 </a>
                                 <?php elseif ($settings['ekit_image_box_icon_align'] == 'left') : ?>
-                                <a href="<?php echo esc_url( $btn_url ); ?>" target="<?php echo $settings['ekit_image_box_btn_url']['is_external'] == 'on' ? '_blank' : '_self' ?>" rel="<?php echo $settings['ekit_image_box_btn_url']['nofollow'] == 'on' ? 'nofollow' : '' ?>" class="elementskit-btn">
+                                <a <?php echo $this->get_render_attribute_string( 'button-2' ); ?> class="elementskit-btn">
                                     
                                     <?php
                                         // new icon
@@ -1624,7 +1625,7 @@ class Elementskit_Widget_Image_Box extends Widget_Base {
                                     <?php echo esc_html( $btn_text ); ?>
                                 </a>
                                 <?php else : ?>
-                                <a href="<?php echo esc_url( $btn_url ); ?>" target="<?php echo $settings['ekit_image_box_btn_url']['is_external'] == 'on' ? '_blank' : '_self' ?>" rel="<?php echo $settings['ekit_image_box_btn_url']['nofollow'] == 'on' ? 'nofollow' : '' ?>" class="elementskit-btn">
+                                <a <?php echo $this->get_render_attribute_string( 'button-2' ); ?> class="elementskit-btn">
                                     <?php echo esc_html( $btn_text ); ?>
                                 </a>
                             <?php endif; ?>

@@ -2096,7 +2096,7 @@ class Elementskit_Widget_Tab extends Widget_Base {
                 ?>
                     <div class="tab-pane elementkit-tab-pane elementor-repeater-item-<?php echo esc_attr( $tab[ '_id' ] ); ?> <?php echo esc_attr($is_active);?>" id="content-<?php echo esc_attr($tab['_id'].$tab_id); ?>" role="tabpanel"
                          aria-labelledby="content-<?php echo esc_attr($tab['_id'].$tab_id); ?>-tab">
-                        <div class="animated fadeInUp">
+                        <div class="animated fadeIn">
                             <?php echo do_shortcode($tab['ekit_tab_content']);?>
                         </div>
                     </div>

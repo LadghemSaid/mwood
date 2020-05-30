@@ -81,25 +81,6 @@ if ( ! function_exists( 'storefront_cart_link' ) ) {
 	}
 }
 
-if ( ! function_exists( 'storefront_product_search' ) ) {
-	/**
-	 * Display Product Search
-	 *
-	 * @since  1.0.0
-	 * @uses  storefront_is_woocommerce_activated() check if WooCommerce is activated
-	 * @return void
-	 */
-	function storefront_product_search() {
-		if ( storefront_is_woocommerce_activated() ) {
-			?>
-			<div class="site-search">
-				<?php the_widget( 'WC_Widget_Product_Search', 'title=' ); ?>
-			</div>
-			<?php
-		}
-	}
-}
-
 if ( ! function_exists( 'storefront_header_cart' ) ) {
 	/**
 	 * Display Header Cart
@@ -124,16 +105,6 @@ if ( ! function_exists( 'storefront_header_cart' ) ) {
 				<?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
 			</li>
 		</ul>
-            <div  class="wrapper-cart-fixed">
-                <ul id="site-header-cart-fixed" class="site-header-cart menu --fixed">
-                    <li class="<?php echo esc_attr( $class ); ?>">
-                        <?php storefront_cart_link(); ?>
-                    </li>
-                    <li>
-                        <?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
-                    </li>
-                </ul>
-            </div>
 
 			<?php
 		}
@@ -668,18 +639,6 @@ if ( ! function_exists( 'storefront_handheld_footer_bar' ) ) {
 			</ul>
 		</div>
 		<?php
-	}
-}
-
-if ( ! function_exists( 'storefront_handheld_footer_bar_search' ) ) {
-	/**
-	 * The search callback function for the handheld footer bar
-	 *
-	 * @since 2.0.0
-	 */
-	function storefront_handheld_footer_bar_search() {
-		echo '<a href="">' . esc_attr__( 'Search', 'storefront' ) . '</a>';
-		storefront_product_search();
 	}
 }
 

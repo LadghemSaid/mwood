@@ -518,13 +518,15 @@ class Elementskit_Widget_Button extends Widget_Base {
         $btn_class = ($settings['ekit_btn_class'] != '') ? $settings['ekit_btn_class'] : '';
         $btn_id = ($settings['ekit_btn_id'] != '') ? 'id='.$settings['ekit_btn_id'] : '';
         $icon_align = $settings['ekit_btn_icon_align'];
-		$btn_url = (! empty( $settings['ekit_btn_url']['url'])) ? $settings['ekit_btn_url']['url'] : '';
-		$btn_target = ( $settings['ekit_btn_url']['is_external']) ? '_blank' : '_self';
-		$btn_nofollow = ( $settings['ekit_btn_url']['nofollow']) ? 'nofollow' : '';
+
+		if ( ! empty( $settings['ekit_btn_url']['url'] ) ) {
+			$this->add_link_attributes( 'button', $settings['ekit_btn_url'] );
+		}
+
 		?>
 		<div class="ekit-btn-wraper">
 			<?php if($icon_align == 'right'): ?>
-				<a href="<?php echo esc_url( $btn_url ); ?>" target="<?php echo esc_attr( $btn_target ); ?>" rel="<?php echo esc_attr ( $btn_nofollow ); ?>" class="elementskit-btn <?php echo esc_attr( $btn_class ); ?>" <?php echo esc_attr($btn_id); ?>>
+				<a <?php echo $this->get_render_attribute_string( 'button' ); ?> class="elementskit-btn <?php echo esc_attr( $btn_class ); ?>" <?php echo esc_attr($btn_id); ?>>
 					<?php echo esc_html( $btn_text ); ?>
 
 					<?php
@@ -544,7 +546,7 @@ class Elementskit_Widget_Button extends Widget_Base {
 
 				</a>
 				<?php elseif ($icon_align == 'left') : ?>
-				<a href="<?php echo esc_url( $btn_url ); ?>" target="<?php echo esc_attr( $btn_target ); ?>" rel="<?php echo esc_attr ( $btn_nofollow ); ?>" class="elementskit-btn <?php echo esc_attr( $btn_class); ?>" <?php echo esc_attr($btn_id); ?>>
+				<a <?php echo $this->get_render_attribute_string( 'button' ); ?> class="elementskit-btn <?php echo esc_attr( $btn_class); ?>" <?php echo esc_attr($btn_id); ?>>
 					
 					<?php
 						// new icon
@@ -564,7 +566,7 @@ class Elementskit_Widget_Button extends Widget_Base {
 					<?php echo esc_html( $btn_text ); ?>
 				</a>
 				<?php else : ?>
-				<a href="<?php echo esc_url( $btn_url ); ?>" target="<?php echo esc_attr( $btn_target ); ?>" rel="<?php echo esc_attr ( $btn_nofollow ); ?>" class="elementskit-btn <?php echo esc_attr( $btn_class); ?>" <?php echo esc_attr($btn_id); ?>>
+				<a <?php echo $this->get_render_attribute_string( 'button' ); ?> class="elementskit-btn <?php echo esc_attr( $btn_class); ?>" <?php echo esc_attr($btn_id); ?>>
 					<?php echo esc_html( $btn_text ); ?>
 				</a>
 			<?php endif; ?>

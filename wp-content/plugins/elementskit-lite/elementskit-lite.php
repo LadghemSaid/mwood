@@ -6,7 +6,7 @@ defined( 'ABSPATH' ) || exit;
  * Description: The most advanced addons for Elementor with tons of widgets, Header builder, Footer builder, Mega menu builder, layout pack and powerful custom controls.
  * Plugin URI: https://wpmet.com/
  * Author: Wpmet
- * Version: 1.5.0
+ * Version: 1.5.4
  * Author URI: https://products.wpmet.com/elementskit
  *
  * Text Domain: elementskit

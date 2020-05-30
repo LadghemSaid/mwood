@@ -84,7 +84,7 @@ class Handler{
      * @access public
      */
     public function enqueue_frontend(){
-        wp_enqueue_style( 'elementskit-framework-css-frontend', \ElementsKit::lib_url() . 'framework/assets/css/frontend-style.css', \ElementsKit::VERSION );
+        wp_enqueue_style( 'elementskit-framework-css-frontend', \ElementsKit::lib_url() . 'framework/assets/css/frontend-style.min.css', [], \ElementsKit::VERSION );
         wp_enqueue_script( 'elementskit-framework-js-frontend', \ElementsKit::lib_url() . 'framework/assets/js/frontend-script.js', ['jquery'], \ElementsKit::VERSION, true );
     }
     public function enqueue_frontend_inline(){

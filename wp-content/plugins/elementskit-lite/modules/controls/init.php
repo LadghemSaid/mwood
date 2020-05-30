@@ -72,7 +72,7 @@ class Init{
     }
     
 	public function widgetarea_enqueue_scripts_editor() {
-		wp_enqueue_script( 'elementskit-js-widgetarea-control-editor',  self::get_url() . 'assets/js/widgetarea-editor.js' );
+		wp_enqueue_script( 'elementskit-js-widgetarea-control-editor',  self::get_url() . 'assets/js/widgetarea-editor.js', [], \ElementsKit::VERSION );
     }
     
 	public function widgetarea_enqueue_styles_editor() {

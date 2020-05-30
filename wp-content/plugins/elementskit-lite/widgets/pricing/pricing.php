@@ -2477,7 +2477,6 @@ class Elementskit_Widget_Pricing extends Widget_Base {
                 <?php } ?>
             </div>
             <div class="elementskit-pricing-btn-wraper <?php echo esc_attr($button_order ? 'order-'. $button_order : ''); ?>">
-				<?php if ( $btn_text ): ?>
 				<a href="<?php echo esc_url( $btn_link ); ?>" class="elementskit-pricing-btn <?php echo esc_attr( $btn_class ); ?> ekit-pricing-btn-icon-pos-<?php echo esc_attr($icon_align); ?>" <?php if($settings['ekit_pricing_button_id'] != '') { ?> id="<?php echo esc_attr( $btn_id ); ?>" <?php } ?>>
 					<?php
 					if ( $settings['ekit_pricing_btn_icons'] != '' && $icon_align == 'left' ):
@@ -2513,7 +2512,6 @@ class Elementskit_Widget_Pricing extends Widget_Base {
 					endif;
 					?>
 				</a>
-				<?php endif; ?>
             </div>
         </div>
 

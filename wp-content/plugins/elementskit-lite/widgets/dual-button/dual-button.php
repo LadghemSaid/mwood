@@ -337,7 +337,7 @@ class Elementskit_Widget_Dual_Button extends Widget_Base {
             $this->add_control(
                 'ekit_double_button_two_icon_position',
                 [
-                    'label' => esc_html__( 'Border Style', 'elementskit' ),
+                    'label' => esc_html__( 'Icon Position', 'elementskit' ),
                     'type' => Controls_Manager::SELECT,
                     'default' => 'before',
                     'options' => [
@@ -1009,16 +1009,13 @@ class Elementskit_Widget_Dual_Button extends Widget_Base {
             // Check if its a new widget without previously selected icon using the old Icon control
             $is_new = empty( $settings['ekit_button_one_icon'] );
 
-            $button_one_target = '_self';
-            if ($settings['ekit_button_one_link']['is_external'] != '') {
-                $button_one_target = '_blank';
+
+            if ( ! empty( $settings['ekit_button_one_link']['url'] ) ) {
+                $this->add_link_attributes( 'button-1', $settings['ekit_button_one_link'] );
             }
-            $button_one_nofollow = 'nofollow';
-            if ($settings['ekit_button_one_link']['nofollow'] == '') {
-                $button_one_nofollow = '';
-            }
+
             ?>
-                <a class="ekit-double-btn ekit-double-btn-one" rel="<?php echo esc_attr($button_one_nofollow); ?>" target="<?php echo esc_attr($button_one_target); ?>" href="<?php echo esc_url($settings['ekit_button_one_link']['url']); ?>">
+                <a class="ekit-double-btn ekit-double-btn-one" <?php echo $this->get_render_attribute_string( 'button-1' ); ?>>
                     <?php 
                         if ($settings['ekit_double_button_one_icon_position'] == 'before') {
                             if ($is_new || $migrated) {
@@ -1053,17 +1050,12 @@ class Elementskit_Widget_Dual_Button extends Widget_Base {
 
         if ( ! empty( $settings['ekit_button_two_link']['url'] ) ) {
 
-            $button_two_target = '_self';
-            if ($settings['ekit_button_two_link']['is_external'] != '') {
-                $button_two_target = '_blank';
-            }
-            $button_two_nofollow = 'nofollow';
-            if ($settings['ekit_button_two_link']['nofollow'] == '') {
-                $button_two_nofollow = '';
+            if ( ! empty( $settings['ekit_button_two_link']['url'] ) ) {
+                $this->add_link_attributes( 'button-2', $settings['ekit_button_two_link'] );
             }
             ?>
 
-            <a class="ekit-double-btn ekit-double-btn-two" rel="<?php echo esc_attr($button_two_nofollow); ?>" target="<?php echo esc_attr($button_two_target); ?>" href="<?php echo esc_url($settings['ekit_button_two_link']['url']); ?>">
+            <a class="ekit-double-btn ekit-double-btn-two" <?php echo $this->get_render_attribute_string( 'button-2' ); ?>>
                     <?php 
                         if ($settings['ekit_double_button_two_icon_position'] == 'before') {
                             if ($is_new || $migrated) {

@@ -126,6 +126,27 @@ class Elementskit_Widget_Nav_Menu extends Widget_Base {
 			]
 		);
 
+		$this->add_control(
+			'elementskit_hamburger_icon',
+			[
+				'label' => __( 'Hamburger Icon', 'elementskit' ),
+				'type' => Controls_Manager::ICONS,
+			]
+		);
+
+		$this->add_control(
+			'elementskit_responsive_breakpoint',
+			[
+				'label' => __( 'Responsive Breakpoint', 'elementskit' ),
+				'type' => Controls_Manager::SELECT,
+				'default' => 'ekit_menu_responsive_tablet',
+				'options' => [
+					'ekit_menu_responsive_tablet'  => __( 'Tablet', 'elementskit' ),
+					'ekit_menu_responsive_mobile' => __( 'Mobile', 'elementskit' ),
+				],
+			]
+		);
+
         $this->add_responsive_control(
 			'elementskit_menubar_height',
 			[
@@ -237,7 +258,7 @@ class Elementskit_Widget_Nav_Menu extends Widget_Base {
 				'label' => esc_html__( 'Width', 'elementskit' ),
 				'type' => Controls_Manager::SLIDER,
                 'size_units' => [ 'px', '%' ],
-                'devices' => ['tablet'],
+                'devices' => ['tablet', 'mobile'],
 				'range' => [
 					'px' => [
 						'min' => 350,
@@ -881,7 +902,36 @@ class Elementskit_Widget_Nav_Menu extends Widget_Base {
 					'{{WRAPPER}} .elementskit-menu-hamburger' => 'border-radius: {{SIZE}}{{UNIT}};',
 				],
 			]
-        );
+		);
+		
+		$this->add_group_control(
+			Group_Control_Typography::get_type(),
+			[
+				'name' => 'elementskit_menu_open_typography',
+				'label' => esc_html__( 'Typography', 'elementskit' ),
+				'scheme' => Scheme_Typography::TYPOGRAPHY_1,
+				'selector' => '{{WRAPPER}} .elementskit-menu-hamburger > span',
+			]
+		);
+
+		$this->add_responsive_control(
+			'elementskit_menu_open_typography',
+			[
+				'label' => esc_html__( 'Font Size', 'elementskit' ),
+				'type' => Controls_Manager::SLIDER,
+				'size_units' => [ 'px' ],
+				'range' => [
+					'px' => [
+						'min' => 15,
+						'max' => 100,
+						'step' => 1,
+					],
+                ],
+				'selectors' => [
+					'{{WRAPPER}} .elementskit-menu-hamburger > .ekit-menu-icon' => 'font-size: {{SIZE}}{{UNIT}};',
+				],
+			]
+		);
 
         $this->start_controls_tabs(
             'elementskit_menu_toggle_normal_and_hover_tabs'
@@ -922,6 +972,7 @@ class Elementskit_Widget_Nav_Menu extends Widget_Base {
                 'default' => 'rgba(0, 0, 0, 0.5)',
 				'selectors' => [
 					'{{WRAPPER}} .elementskit-menu-hamburger .elementskit-menu-hamburger-icon' => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .elementskit-menu-hamburger > .ekit-menu-icon' => 'color: {{VALUE}}',
 				],
 			]
 		);
@@ -967,6 +1018,7 @@ class Elementskit_Widget_Nav_Menu extends Widget_Base {
                 'default' => 'rgba(0, 0, 0, 0.5)',
 				'selectors' => [
 					'{{WRAPPER}} .elementskit-menu-hamburger:hover .elementskit-menu-hamburger-icon' => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .elementskit-menu-hamburger:hover > .ekit-menu-icon' => 'color: {{VALUE}}',
 				],
 			]
 		);
@@ -1293,7 +1345,19 @@ class Elementskit_Widget_Nav_Menu extends Widget_Base {
     }
 
 	protected function render( ) {
-        echo '<div class="ekit-wid-con" >';
+		$settings = $this->get_settings_for_display();
+		$hamburger_icon_value = '';
+		$hamburger_icon_type = '';
+		if ($settings['elementskit_hamburger_icon'] != '' && $settings['elementskit_hamburger_icon']) {
+			if ($settings['elementskit_hamburger_icon']['library'] !== 'svg') {
+				$hamburger_icon_value = esc_attr($settings['elementskit_hamburger_icon']['value']);
+				$hamburger_icon_type = esc_attr('icon');
+			} else {
+				$hamburger_icon_value = esc_url($settings['elementskit_hamburger_icon']['value']['url']);
+				$hamburger_icon_type = esc_attr('url');
+			}
+		}
+        echo '<div class="ekit-wid-con '.$settings['elementskit_responsive_breakpoint'].'" data-hamburger-icon="'.$hamburger_icon_value.'" data-hamburger-icon-type="'.$hamburger_icon_type.'">';
             $this->render_raw();
         echo '</div>';
     }
@@ -1320,11 +1384,12 @@ class Elementskit_Widget_Nav_Menu extends Widget_Base {
 			} else {
 				$nofollow = "";
 			}
+			$metadata = \ElementsKit\Utils::img_meta($settings['elementskit_nav_menu_logo']['id']);
 			$markup = '
 				<div class="elementskit-nav-identity-panel">
 					<div class="elementskit-site-title">
 						<a class="elementskit-nav-logo" href="'.$link.'" target="'.$target.'" rel="'.$nofollow.'">
-							<img src="'.$settings['elementskit_nav_menu_logo']['url'].'" alt="" >
+							<img src="'.$settings['elementskit_nav_menu_logo']['url'].'" alt="'.$metadata['alt'].'" >
 						</a>
 					</div>
 					<button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>

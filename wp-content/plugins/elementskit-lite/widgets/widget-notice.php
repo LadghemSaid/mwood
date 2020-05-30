@@ -25,11 +25,12 @@ trait Widget_Notice{
                     'type' => \Elementor\Controls_Manager::CHOOSE,
                     'options' => [
                         '1' => [
-                            'title' => __('', 'elementskit'),
+                            'title' => '',
                             'icon' => 'fa fa-unlock-alt',
                         ],
                     ],
                     'default' => '1',
+                    'toggle'    => false,
                     'description' => '<span class="ekit-widget-pro-feature"> Get the  <a href="http://go.wpmet.com/ekit-pro-widget-message" target="_blank">Pro version</a> for more awesome elements and powerful modules.</span>',
                 ]
             );

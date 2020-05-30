@@ -2,21 +2,36 @@ jQuery(document).ready(function ($) {
 	"use strict";
 
 	function togglerAppend(el) {
+		let icon_container = $(el).parents('.ekit-wid-con'),
+			icon = icon_container.data('hamburger-icon'),
+			hamburger_type = icon_container.data('hamburger-icon-type');
 		$(el).each(function () {
 			var menu_container = $(this);
 			if(menu_container.attr('ekit-dom-added') == 'yes'){
 				return;
 			}
+			
+			let parents = menu_container.parents('.elementor-widget-ekit-nav-menu');
+			if (parents.length === 0) {
+				menu_container.parents('.ekit-wid-con').addClass('ekit_menu_responsive_tablet')
+			}
+
+			let iconmarkup = [];
+			if (icon === '' || icon === undefined) {
+				iconmarkup += '<span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>';
+			} else {
+				if (hamburger_type === 'url') {
+					iconmarkup += '<img src="'+icon+'" alt="hamburger icon" />'
+				} else {
+					iconmarkup += '<div class="ekit-menu-icon '+icon+'"></div>'
+				}
+			}
 			menu_container
-			.before(
-				'<button class="elementskit-menu-hamburger elementskit-menu-toggler">'
-				+ '<span class="elementskit-menu-hamburger-icon"></span>'
-				+ '<span class="elementskit-menu-hamburger-icon"></span>'
-				+ '<span class="elementskit-menu-hamburger-icon"></span>'
-				+ '</button>'
-			)
-			.after('<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler"></div>')
-			.attr('ekit-dom-added', 'yes');
+				.before(
+					'<button class="elementskit-menu-hamburger elementskit-menu-toggler">'+iconmarkup+'</button>'
+				)
+				.after('<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler"></div>')
+				.attr('ekit-dom-added', 'yes');
 		})
 	}
 

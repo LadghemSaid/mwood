@@ -452,7 +452,6 @@ class Elementskit_Widget_Mail_Chimp extends Widget_Base {
                 'label' => esc_html__( 'Submit Button Text', 'elementskit' ),
                 'type' => Controls_Manager::TEXT,
                 'default' => esc_html__( 'Sign Up', 'elementskit' ),
-				'placeholder' => esc_html__( '', 'elementskit' ),
 				'label_block'	 => false,
             ]
         );

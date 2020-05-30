@@ -139,11 +139,45 @@ a {
     background-color: #969696 !important;
 }
 
+// ------ NAVBAR -------
+header#masthead {
+    background-color: #26525a;
+    color: #f9f9f9;
+}
+
+.main-navigation ul.menu ul a:hover, .main-navigation ul.menu ul li:hover > a, .main-navigation ul.menu ul li.focus, .main-navigation ul.nav-menu ul a:hover, .main-navigation ul.nav-menu ul li:hover > a, .main-navigation ul.nav-menu ul li.focus {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 // ------ WOOCOMMERCE ------
 .comment-form-comment {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
 }
+
+.woocommerce form {
+    max-width: none !important;
+}
+
+div#customer_details {
+    width: 100%;
+    float: none;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    #order_review_heading, #order_review {
+        width: auto !important;
+        float: none !important;
+        margin-right: 0 !important;
+        clear: right !important;
+    }
+}
+
+.yith-ywraq-add-to-quote.add-to-quote-256 {
+    margin-top: 15px;
+}
+
 /*
 DOCUMENTATION
 

@@ -226,7 +226,7 @@ class Activator {
                 if ( defined( 'ICL_LANGUAGE_CODE' ) ):
                     $current_lang = apply_filters( 'wpml_post_language_details', NULL, $template['ID'] );
 
-                    if ( !$current_lang['different_language'] && ($current_lang['language_code'] == ICL_LANGUAGE_CODE) ):
+                    if ( !empty($current_lang) && !$current_lang['different_language'] && ($current_lang['language_code'] == ICL_LANGUAGE_CODE) ):
                         $template_id[ $template['type'] ] = $template['ID'];
                     endif;
                 endif;

@@ -689,7 +689,6 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			.secondary-navigation ul.menu ul,
 			.storefront-handheld-footer-bar,
 			.storefront-handheld-footer-bar ul li > a,
-			.storefront-handheld-footer-bar ul li.search .site-search,
 			button.menu-toggle,
 			button.menu-toggle:hover {
 				background-color: ' . $storefront_theme_mods['header_background_color'] . ';

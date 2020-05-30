@@ -3,7 +3,7 @@
 */
 @font-face {
   font-family: 'elementskit';
-  src: url("../fonts/elementskit.ttf?y24e1e") format("truetype"), url("../fonts/elementskit.woff?y24e1e") format("woff"), url("../fonts/elementskit.svg?y24e1e#elementskit") format("svg");
+  src: url("../fonts/elementskit.woff?y24e1e") format("woff");
   font-weight: normal;
   font-style: normal;
 }

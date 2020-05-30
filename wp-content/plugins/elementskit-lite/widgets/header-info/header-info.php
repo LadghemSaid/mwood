@@ -231,13 +231,13 @@ class Elementskit_Widget_Header_Info extends Widget_Base
         <ul class="ekit-header-info">
             <?php
         if ( $settings['ekit_headerinfo_group'] ){
-            foreach (  $settings['ekit_headerinfo_group'] as $item ){
-
-                $target = $item['ekit_headerinfo_link']['is_external'] ? ' target="_blank"' : '';
-                $nofollow = $item['ekit_headerinfo_link']['nofollow'] ? ' rel="nofollow"' : '';
+            foreach (  $settings['ekit_headerinfo_group'] as $key => $item ){
+                if ( ! empty( $item['ekit_headerinfo_link']['url'] ) ) {
+                    $this->add_link_attributes( 'button-' . $key, $item['ekit_headerinfo_link'] );
+                }
                 ?>
                     <li>
-                        <a href="<?php echo esc_url($item['ekit_headerinfo_link']['url']);?>">
+                        <a <?php echo $this->get_render_attribute_string( 'button-' . $key ); ?>>
 
                             <?php
                                 // new icon

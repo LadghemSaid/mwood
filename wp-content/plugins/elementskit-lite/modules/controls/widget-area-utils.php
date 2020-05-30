@@ -40,7 +40,7 @@ class Widget_Area_Utils{
 				$elementor = \Elementor\Plugin::instance();
 
 				if(isset($builder_post->ID)){
-					echo \ElementsKit\Utils::render_tab_content($elementor->frontend->get_builder_content_for_display( $builder_post->ID ), $builder_post->ID); 
+					echo str_replace('#elementor', '', \ElementsKit\Utils::render_tab_content($elementor->frontend->get_builder_content_for_display( $builder_post->ID ), $builder_post->ID)); 
 				}else{
 					echo esc_html__('no content added yet', 'elementskit');
 				}
