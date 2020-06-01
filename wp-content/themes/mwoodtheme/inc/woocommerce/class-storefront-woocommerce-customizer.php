@@ -125,12 +125,6 @@ if ( ! class_exists( 'Storefront_WooCommerce_Customizer' ) ) :
 				border-top-color: ' . $storefront_theme_mods['background_color'] . ';
 			}
 
-			.storefront-handheld-footer-bar ul li.cart .count {
-				background-color: ' . $storefront_theme_mods['header_link_color'] . ';
-				color: ' . $storefront_theme_mods['header_background_color'] . ';
-				border-color: ' . $storefront_theme_mods['header_background_color'] . ';
-			}
-
 			.woocommerce-tabs ul.tabs li.active a,
 			ul.products li.product .price,
 			.onsale,

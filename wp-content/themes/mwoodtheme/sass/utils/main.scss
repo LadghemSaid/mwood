@@ -178,6 +178,99 @@ div#customer_details {
     margin-top: 15px;
 }
 
+.ol-info-window-plain {
+    color: black;
+}
+.caldera-grid .btn-default {
+    color: #fff;
+    background-color: #26525A;
+    border: none;
+	padding: 8px 22px;
+}
+
+/* menu en une 1 ligne (Lucas) */
+#site-header-cart > .current-menu-item > .cart-contents, #site-header-cart > li:nth-of-type(1) > .cart-contents {
+	display:none;
+}
+
+.woocommerce form {
+	max-width:512px;
+	width:100%;
+	margin:0px auto;
+	display:flex;
+	flex-direction:column;
+}
+.woocommerce label {
+
+	margin:25px 0px 5px 0px;
+}
+.woocommerce h2 {
+	text-align:center;
+}
+.woocommerce-form-login__submit {
+	margin:25px auto !important;
+	display:block;
+	padding: 12px 35px;
+}
+p.woocommerce-LostPassword.lost_password {
+    text-align: center;
+}
+.woocommerce-Button {
+	margin-top:15px;
+} 
+.woocommerce-button {
+	margin:15px;
+}
+
+.is-menu path {
+fill: #F9F9F9;
+}
+
+header#masthead {
+    padding-top: 0 !important;
+	  margin-bottom: 0;
+    border-bottom: 0;
+		padding-bottom: 0;
+}
+
+div#header-fixed {
+    margin-left: 0;
+}
+
+.woocommerce-active .site-header .site-branding {
+    align-self: center;
+}
+
+.main-navigation ul li, .secondary-navigation ul li {
+    position: relative;
+    display: inline-block;
+    top: -3px;
+    bottom: 0;
+}
+
+li.astm-search-menu.is-menu.popup {
+    top: 0;
+}
+
+input.is-search-input {
+	    width: 100%;
+}
+
+button.menu-toggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+button.menu-toggle:after, button.menu-toggle:before, button.menu-toggle span:before {
+    background-color: white !important;
+}
+
+button.menu-toggle {
+    background-color: transparent !important;
+    color: white !important;
+}
+
 /*
 DOCUMENTATION
 
