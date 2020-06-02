@@ -59,3 +59,11 @@ function my_scripts_method() {
     wp_enqueue_script('custom_script');
 }
 add_action('wp_enqueue_scripts', 'my_scripts_method');
+
+
+add_filter( 'loop_shop_per_page', 'bbloomer_redefine_products_per_page', 9999 );
+ 
+function bbloomer_redefine_products_per_page( $per_page ) {
+  $per_page = 6;
+  return $per_page;
+}
