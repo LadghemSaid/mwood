@@ -1,0 +1,1274 @@
+2020-05-30T12:20:25+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T12:26:47+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T12:33:21+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T12:35:24+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T12:37:26+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T12:39:24+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T12:41:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T12:43:34+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:01:43+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:02:45+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:04:48+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:06:49+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:08:49+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:10:51+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:33:42+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:35:21+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:41:33+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:42:47+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:44:52+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:46:46+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:47:55+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:48:54+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:50:19+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:51:20+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:53:46+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:56:23+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T13:58:26+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:00:27+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:02:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:04:26+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:06:28+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:08:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:24:07+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:26:07+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:28:01+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:30:05+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:32:09+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:34:09+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:36:11+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:38:12+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:40:17+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:42:07+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:44:09+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:46:09+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:48:09+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:50:12+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:52:11+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:54:11+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:56:01+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:58:16+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T14:59:33+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:02:20+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:04:20+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:06:24+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:08:25+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:10:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:12:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:14:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:16:32+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:17:56+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:19:01+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:20:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:21:32+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:22:45+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:25:05+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:27:09+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:29:08+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:31:11+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:33:13+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:35:16+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:37:16+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:39:25+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:41:26+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:43:24+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:45:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:47:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:49:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:51:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:53:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:55:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:57:33+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T15:59:36+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:01:39+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:03:39+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:05:40+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:07:41+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:09:48+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:11:47+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:13:50+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:15:50+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:17:51+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:19:55+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:22:03+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:35:24+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T16:35:24+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T19:25:20+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T19:25:22+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
+2020-05-30T19:26:23+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php:1921
+Stack trace:
+#0 /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php(1964): YITH_YWRAQ_Order_Request->get_current_order_id()
+#1 /var/www/mwood/wp-includes/class-wp-hook.php(288): YITH_YWRAQ_Order_Request->check_quote_in_cart('')
+#2 /var/www/mwood/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/mwood/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/mwood/wp-settings.php(545): do_action('wp_loaded')
+#5 /var/www/mwood/wp-config.php(114): require_once('/var/www/mwood/...')
+#6 /var/www/mwood/wp-load.php(37): require_once('/var/www/mwood/...')
+#7 /var/www/mwood/wp-cron.php(44): require_once('/var/www/mwood/...')
+#8 {main}
+  thrown dans /var/www/mwood/wp-content/plugins/yith-woocommerce-request-a-quote-premium-master/includes/class.yith-ywraq-order-request.php à la ligne 1921
+
